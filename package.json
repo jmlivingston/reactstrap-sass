@@ -12,7 +12,8 @@
     "start-documentation": "npx http-server storybook-static",
     "lint": "node node_modules/eslint/bin/eslint.js --max-warnings=0 src",
     "precommit": "lint-staged",
-    "generate": "node --experimental-modules node_modules/.bin/plop --plopfile scripts/templates/index.js"
+    "generate": "node --experimental-modules node_modules/.bin/plop --plopfile scripts/templates/index.js",
+    "react-strap-build-schema": "node --experimental-modules scripts/reactstrap/build-schema.mjs"
   },
   "dependencies": {
     "react": "16.8.6",

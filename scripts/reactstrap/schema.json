@@ -1,0 +1,812 @@
+{
+  "Alert": {
+    "sassFiles": [
+      "_functions",
+      "_variables",
+      "_mixins",
+      "_alert"
+    ],
+    "reactstrapDocsPath": "alert"
+  },
+  "Badge": {
+    "sassFiles": [
+      "_functions",
+      "_variables",
+      "_mixins",
+      "_badge"
+    ],
+    "reactstrapDocsPath": "badge"
+  },
+  "Breadcrumb": {
+    "sassFiles": [
+      "_functions",
+      "_variables",
+      "_mixins",
+      "_breadcrumb"
+    ],
+    "reactstrapDocsPath": "breadcrumb"
+  },
+  "BreadcrumbItem": {
+    "sassFiles": [
+      "_functions",
+      "_variables",
+      "_mixins",
+      "_breadcrumbitem"
+    ],
+    "reactstrapDocsPath": "breadcrumbitem"
+  },
+  "Button": {
+    "sassFiles": [
+      "_functions",
+      "_variables",
+      "_mixins",
+      "_button"
+    ],
+    "reactstrapDocsPath": "button"
+  },
+  "ButtonDropdown": {
+    "sassFiles": [
+      "_functions",
+      "_variables",
+      "_mixins",
+      "_buttondropdown"
+    ],
+    "reactstrapDocsPath": "buttondropdown"
+  },
+  "ButtonGroup": {
+    "sassFiles": [
+      "_functions",
+      "_variables",
+      "_mixins",
+      "_buttongroup"
+    ],
+    "reactstrapDocsPath": "buttongroup"
+  },
+  "ButtonToolbar": {
+    "sassFiles": [
+      "_functions",
+      "_variables",
+      "_mixins",
+      "_buttontoolbar"
+    ],
+    "reactstrapDocsPath": "buttontoolbar"
+  },
+  "Card": {
+    "sassFiles": [
+      "_functions",
+      "_variables",
+      "_mixins",
+      "_card"
+    ],
+    "reactstrapDocsPath": "card"
+  },
+  "CardBody": {
+    "sassFiles": [
+      "_functions",
+      "_variables",
+      "_mixins",
+      "_cardbody"
+    ],
+    "reactstrapDocsPath": "cardbody"
+  },
+  "CardColumns": {
+    "sassFiles": [
+      "_functions",
+      "_variables",
+      "_mixins",
+      "_cardcolumns"
+    ],
+    "reactstrapDocsPath": "cardcolumns"
+  },
+  "CardDeck": {
+    "sassFiles": [
+      "_functions",
+      "_variables",
+      "_mixins",
+      "_carddeck"
+    ],
+    "reactstrapDocsPath": "carddeck"
+  },
+  "CardFooter": {
+    "sassFiles": [
+      "_functions",
+      "_variables",
+      "_mixins",
+      "_cardfooter"
+    ],
+    "reactstrapDocsPath": "cardfooter"
+  },
+  "CardGroup": {
+    "sassFiles": [
+      "_functions",
+      "_variables",
+      "_mixins",
+      "_cardgroup"
+    ],
+    "reactstrapDocsPath": "cardgroup"
+  },
+  "CardHeader": {
+    "sassFiles": [
+      "_functions",
+      "_variables",
+      "_mixins",
+      "_cardheader"
+    ],
+    "reactstrapDocsPath": "cardheader"
+  },
+  "CardImg": {
+    "sassFiles": [
+      "_functions",
+      "_variables",
+      "_mixins",
+      "_cardimg"
+    ],
+    "reactstrapDocsPath": "cardimg"
+  },
+  "CardImgOverlay": {
+    "sassFiles": [
+      "_functions",
+      "_variables",
+      "_mixins",
+      "_cardimgoverlay"
+    ],
+    "reactstrapDocsPath": "cardimgoverlay"
+  },
+  "CardLink": {
+    "sassFiles": [
+      "_functions",
+      "_variables",
+      "_mixins",
+      "_cardlink"
+    ],
+    "reactstrapDocsPath": "cardlink"
+  },
+  "CardSubtitle": {
+    "sassFiles": [
+      "_functions",
+      "_variables",
+      "_mixins",
+      "_cardsubtitle"
+    ],
+    "reactstrapDocsPath": "cardsubtitle"
+  },
+  "CardText": {
+    "sassFiles": [
+      "_functions",
+      "_variables",
+      "_mixins",
+      "_cardtext"
+    ],
+    "reactstrapDocsPath": "cardtext"
+  },
+  "CardTitle": {
+    "sassFiles": [
+      "_functions",
+      "_variables",
+      "_mixins",
+      "_cardtitle"
+    ],
+    "reactstrapDocsPath": "cardtitle"
+  },
+  "Carousel": {
+    "sassFiles": [
+      "_functions",
+      "_variables",
+      "_mixins",
+      "_carousel"
+    ],
+    "reactstrapDocsPath": "carousel"
+  },
+  "CarouselCaption": {
+    "sassFiles": [
+      "_functions",
+      "_variables",
+      "_mixins",
+      "_carouselcaption"
+    ],
+    "reactstrapDocsPath": "carouselcaption"
+  },
+  "CarouselControl": {
+    "sassFiles": [
+      "_functions",
+      "_variables",
+      "_mixins",
+      "_carouselcontrol"
+    ],
+    "reactstrapDocsPath": "carouselcontrol"
+  },
+  "CarouselIndicators": {
+    "sassFiles": [
+      "_functions",
+      "_variables",
+      "_mixins",
+      "_carouselindicators"
+    ],
+    "reactstrapDocsPath": "carouselindicators"
+  },
+  "CarouselItem": {
+    "sassFiles": [
+      "_functions",
+      "_variables",
+      "_mixins",
+      "_carouselitem"
+    ],
+    "reactstrapDocsPath": "carouselitem"
+  },
+  "Col": {
+    "sassFiles": [
+      "_functions",
+      "_variables",
+      "_mixins",
+      "_col"
+    ],
+    "reactstrapDocsPath": "col"
+  },
+  "Collapse": {
+    "sassFiles": [
+      "_functions",
+      "_variables",
+      "_mixins",
+      "_collapse"
+    ],
+    "reactstrapDocsPath": "collapse"
+  },
+  "Container": {
+    "sassFiles": [
+      "_functions",
+      "_variables",
+      "_mixins",
+      "_container"
+    ],
+    "reactstrapDocsPath": "container"
+  },
+  "CustomInput": {
+    "sassFiles": [
+      "_functions",
+      "_variables",
+      "_mixins",
+      "_custominput"
+    ],
+    "reactstrapDocsPath": "custominput"
+  },
+  "Dropdown": {
+    "sassFiles": [
+      "_functions",
+      "_variables",
+      "_mixins",
+      "_dropdown"
+    ],
+    "reactstrapDocsPath": "dropdown"
+  },
+  "DropdownContext": {
+    "sassFiles": [
+      "_functions",
+      "_variables",
+      "_mixins",
+      "_dropdowncontext"
+    ],
+    "reactstrapDocsPath": "dropdowncontext"
+  },
+  "DropdownItem": {
+    "sassFiles": [
+      "_functions",
+      "_variables",
+      "_mixins",
+      "_dropdownitem"
+    ],
+    "reactstrapDocsPath": "dropdownitem"
+  },
+  "DropdownMenu": {
+    "sassFiles": [
+      "_functions",
+      "_variables",
+      "_mixins",
+      "_dropdownmenu"
+    ],
+    "reactstrapDocsPath": "dropdownmenu"
+  },
+  "DropdownToggle": {
+    "sassFiles": [
+      "_functions",
+      "_variables",
+      "_mixins",
+      "_dropdowntoggle"
+    ],
+    "reactstrapDocsPath": "dropdowntoggle"
+  },
+  "Fade": {
+    "sassFiles": [
+      "_functions",
+      "_variables",
+      "_mixins",
+      "_fade"
+    ],
+    "reactstrapDocsPath": "fade"
+  },
+  "Form": {
+    "sassFiles": [
+      "_functions",
+      "_variables",
+      "_mixins",
+      "_form"
+    ],
+    "reactstrapDocsPath": "form"
+  },
+  "FormFeedback": {
+    "sassFiles": [
+      "_functions",
+      "_variables",
+      "_mixins",
+      "_formfeedback"
+    ],
+    "reactstrapDocsPath": "formfeedback"
+  },
+  "FormGroup": {
+    "sassFiles": [
+      "_functions",
+      "_variables",
+      "_mixins",
+      "_formgroup"
+    ],
+    "reactstrapDocsPath": "formgroup"
+  },
+  "FormText": {
+    "sassFiles": [
+      "_functions",
+      "_variables",
+      "_mixins",
+      "_formtext"
+    ],
+    "reactstrapDocsPath": "formtext"
+  },
+  "Input": {
+    "sassFiles": [
+      "_functions",
+      "_variables",
+      "_mixins",
+      "_input"
+    ],
+    "reactstrapDocsPath": "input"
+  },
+  "InputGroup": {
+    "sassFiles": [
+      "_functions",
+      "_variables",
+      "_mixins",
+      "_inputgroup"
+    ],
+    "reactstrapDocsPath": "inputgroup"
+  },
+  "InputGroupAddon": {
+    "sassFiles": [
+      "_functions",
+      "_variables",
+      "_mixins",
+      "_inputgroupaddon"
+    ],
+    "reactstrapDocsPath": "inputgroupaddon"
+  },
+  "InputGroupButtonDropdown": {
+    "sassFiles": [
+      "_functions",
+      "_variables",
+      "_mixins",
+      "_inputgroupbuttondropdown"
+    ],
+    "reactstrapDocsPath": "inputgroupbuttondropdown"
+  },
+  "InputGroupText": {
+    "sassFiles": [
+      "_functions",
+      "_variables",
+      "_mixins",
+      "_inputgrouptext"
+    ],
+    "reactstrapDocsPath": "inputgrouptext"
+  },
+  "Jumbotron": {
+    "sassFiles": [
+      "_functions",
+      "_variables",
+      "_mixins",
+      "_jumbotron"
+    ],
+    "reactstrapDocsPath": "jumbotron"
+  },
+  "Label": {
+    "sassFiles": [
+      "_functions",
+      "_variables",
+      "_mixins",
+      "_label"
+    ],
+    "reactstrapDocsPath": "label"
+  },
+  "ListGroup": {
+    "sassFiles": [
+      "_functions",
+      "_variables",
+      "_mixins",
+      "_listgroup"
+    ],
+    "reactstrapDocsPath": "listgroup"
+  },
+  "ListGroupItem": {
+    "sassFiles": [
+      "_functions",
+      "_variables",
+      "_mixins",
+      "_listgroupitem"
+    ],
+    "reactstrapDocsPath": "listgroupitem"
+  },
+  "ListGroupItemHeading": {
+    "sassFiles": [
+      "_functions",
+      "_variables",
+      "_mixins",
+      "_listgroupitemheading"
+    ],
+    "reactstrapDocsPath": "listgroupitemheading"
+  },
+  "ListGroupItemText": {
+    "sassFiles": [
+      "_functions",
+      "_variables",
+      "_mixins",
+      "_listgroupitemtext"
+    ],
+    "reactstrapDocsPath": "listgroupitemtext"
+  },
+  "Media": {
+    "sassFiles": [
+      "_functions",
+      "_variables",
+      "_mixins",
+      "_media"
+    ],
+    "reactstrapDocsPath": "media"
+  },
+  "Modal": {
+    "sassFiles": [
+      "_functions",
+      "_variables",
+      "_mixins",
+      "_modal"
+    ],
+    "reactstrapDocsPath": "modal"
+  },
+  "ModalBody": {
+    "sassFiles": [
+      "_functions",
+      "_variables",
+      "_mixins",
+      "_modalbody"
+    ],
+    "reactstrapDocsPath": "modalbody"
+  },
+  "ModalFooter": {
+    "sassFiles": [
+      "_functions",
+      "_variables",
+      "_mixins",
+      "_modalfooter"
+    ],
+    "reactstrapDocsPath": "modalfooter"
+  },
+  "ModalHeader": {
+    "sassFiles": [
+      "_functions",
+      "_variables",
+      "_mixins",
+      "_modalheader"
+    ],
+    "reactstrapDocsPath": "modalheader"
+  },
+  "Nav": {
+    "sassFiles": [
+      "_functions",
+      "_variables",
+      "_mixins",
+      "_nav"
+    ],
+    "reactstrapDocsPath": "nav"
+  },
+  "NavItem": {
+    "sassFiles": [
+      "_functions",
+      "_variables",
+      "_mixins",
+      "_navitem"
+    ],
+    "reactstrapDocsPath": "navitem"
+  },
+  "NavLink": {
+    "sassFiles": [
+      "_functions",
+      "_variables",
+      "_mixins",
+      "_navlink"
+    ],
+    "reactstrapDocsPath": "navlink"
+  },
+  "Navbar": {
+    "sassFiles": [
+      "_functions",
+      "_variables",
+      "_mixins",
+      "_navbar"
+    ],
+    "reactstrapDocsPath": "navbar"
+  },
+  "NavbarBrand": {
+    "sassFiles": [
+      "_functions",
+      "_variables",
+      "_mixins",
+      "_navbarbrand"
+    ],
+    "reactstrapDocsPath": "navbarbrand"
+  },
+  "NavbarToggler": {
+    "sassFiles": [
+      "_functions",
+      "_variables",
+      "_mixins",
+      "_navbartoggler"
+    ],
+    "reactstrapDocsPath": "navbartoggler"
+  },
+  "Pagination": {
+    "sassFiles": [
+      "_functions",
+      "_variables",
+      "_mixins",
+      "_pagination"
+    ],
+    "reactstrapDocsPath": "pagination"
+  },
+  "PaginationItem": {
+    "sassFiles": [
+      "_functions",
+      "_variables",
+      "_mixins",
+      "_paginationitem"
+    ],
+    "reactstrapDocsPath": "paginationitem"
+  },
+  "PaginationLink": {
+    "sassFiles": [
+      "_functions",
+      "_variables",
+      "_mixins",
+      "_paginationlink"
+    ],
+    "reactstrapDocsPath": "paginationlink"
+  },
+  "Popover": {
+    "sassFiles": [
+      "_functions",
+      "_variables",
+      "_mixins",
+      "_popover"
+    ],
+    "reactstrapDocsPath": "popover"
+  },
+  "PopoverBody": {
+    "sassFiles": [
+      "_functions",
+      "_variables",
+      "_mixins",
+      "_popoverbody"
+    ],
+    "reactstrapDocsPath": "popoverbody"
+  },
+  "PopoverHeader": {
+    "sassFiles": [
+      "_functions",
+      "_variables",
+      "_mixins",
+      "_popoverheader"
+    ],
+    "reactstrapDocsPath": "popoverheader"
+  },
+  "PopperContent": {
+    "sassFiles": [
+      "_functions",
+      "_variables",
+      "_mixins",
+      "_poppercontent"
+    ],
+    "reactstrapDocsPath": "poppercontent"
+  },
+  "PopperTargetHelper": {
+    "sassFiles": [
+      "_functions",
+      "_variables",
+      "_mixins",
+      "_poppertargethelper"
+    ],
+    "reactstrapDocsPath": "poppertargethelper"
+  },
+  "Portal": {
+    "sassFiles": [
+      "_functions",
+      "_variables",
+      "_mixins",
+      "_portal"
+    ],
+    "reactstrapDocsPath": "portal"
+  },
+  "Progress": {
+    "sassFiles": [
+      "_functions",
+      "_variables",
+      "_mixins",
+      "_progress"
+    ],
+    "reactstrapDocsPath": "progress"
+  },
+  "Row": {
+    "sassFiles": [
+      "_functions",
+      "_variables",
+      "_mixins",
+      "_row"
+    ],
+    "reactstrapDocsPath": "row"
+  },
+  "Spinner": {
+    "sassFiles": [
+      "_functions",
+      "_variables",
+      "_mixins",
+      "_spinner"
+    ],
+    "reactstrapDocsPath": "spinner"
+  },
+  "TabContent": {
+    "sassFiles": [
+      "_functions",
+      "_variables",
+      "_mixins",
+      "_tabcontent"
+    ],
+    "reactstrapDocsPath": "tabcontent"
+  },
+  "TabContext": {
+    "sassFiles": [
+      "_functions",
+      "_variables",
+      "_mixins",
+      "_tabcontext"
+    ],
+    "reactstrapDocsPath": "tabcontext"
+  },
+  "TabPane": {
+    "sassFiles": [
+      "_functions",
+      "_variables",
+      "_mixins",
+      "_tabpane"
+    ],
+    "reactstrapDocsPath": "tabpane"
+  },
+  "Table": {
+    "sassFiles": [
+      "_functions",
+      "_variables",
+      "_mixins",
+      "_table"
+    ],
+    "reactstrapDocsPath": "table"
+  },
+  "Toast": {
+    "sassFiles": [
+      "_functions",
+      "_variables",
+      "_mixins",
+      "_toast"
+    ],
+    "reactstrapDocsPath": "toast"
+  },
+  "ToastBody": {
+    "sassFiles": [
+      "_functions",
+      "_variables",
+      "_mixins",
+      "_toastbody"
+    ],
+    "reactstrapDocsPath": "toastbody"
+  },
+  "ToastHeader": {
+    "sassFiles": [
+      "_functions",
+      "_variables",
+      "_mixins",
+      "_toastheader"
+    ],
+    "reactstrapDocsPath": "toastheader"
+  },
+  "Tooltip": {
+    "sassFiles": [
+      "_functions",
+      "_variables",
+      "_mixins",
+      "_tooltip"
+    ],
+    "reactstrapDocsPath": "tooltip"
+  },
+  "TooltipPopoverWrapper": {
+    "sassFiles": [
+      "_functions",
+      "_variables",
+      "_mixins",
+      "_tooltippopoverwrapper"
+    ],
+    "reactstrapDocsPath": "tooltippopoverwrapper"
+  },
+  "UncontrolledAlert": {
+    "sassFiles": [
+      "_functions",
+      "_variables",
+      "_mixins",
+      "_uncontrolledalert"
+    ],
+    "reactstrapDocsPath": "uncontrolledalert"
+  },
+  "UncontrolledButtonDropdown": {
+    "sassFiles": [
+      "_functions",
+      "_variables",
+      "_mixins",
+      "_uncontrolledbuttondropdown"
+    ],
+    "reactstrapDocsPath": "uncontrolledbuttondropdown"
+  },
+  "UncontrolledCarousel": {
+    "sassFiles": [
+      "_functions",
+      "_variables",
+      "_mixins",
+      "_uncontrolledcarousel"
+    ],
+    "reactstrapDocsPath": "uncontrolledcarousel"
+  },
+  "UncontrolledCollapse": {
+    "sassFiles": [
+      "_functions",
+      "_variables",
+      "_mixins",
+      "_uncontrolledcollapse"
+    ],
+    "reactstrapDocsPath": "uncontrolledcollapse"
+  },
+  "UncontrolledDropdown": {
+    "sassFiles": [
+      "_functions",
+      "_variables",
+      "_mixins",
+      "_uncontrolleddropdown"
+    ],
+    "reactstrapDocsPath": "uncontrolleddropdown"
+  },
+  "UncontrolledPopover": {
+    "sassFiles": [
+      "_functions",
+      "_variables",
+      "_mixins",
+      "_uncontrolledpopover"
+    ],
+    "reactstrapDocsPath": "uncontrolledpopover"
+  },
+  "UncontrolledTooltip": {
+    "sassFiles": [
+      "_functions",
+      "_variables",
+      "_mixins",
+      "_uncontrolledtooltip"
+    ],
+    "reactstrapDocsPath": "uncontrolledtooltip"
+  }
+}
