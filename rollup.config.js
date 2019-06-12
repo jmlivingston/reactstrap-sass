@@ -3,6 +3,7 @@ import path from 'path'
 import rimraf from 'rimraf'
 import babel from 'rollup-plugin-babel'
 import commonjs from 'rollup-plugin-commonjs'
+import filesize from 'rollup-plugin-filesize'
 import resolve from 'rollup-plugin-node-resolve'
 import postcss from 'rollup-plugin-postcss'
 import { terser } from 'rollup-plugin-terser'
@@ -59,7 +60,7 @@ const getOutputs = ({ file }) => {
     return dirFiles.length === 0
   }
 
-  return ['cjs', 'es'].map(format => ({
+  return ['cjs'].map(format => ({
     file: shouldUseIndex()
       ? dirName.replace('src/', `dist/${format}/`) + '/index.js'
       : file.replace('src/', `dist/${format}/`),
@@ -78,9 +79,14 @@ export default files.map(file => ({
     }),
     commonjs(),
     postcss({
-      modules: true
+      autoModules: true,
+      extract: false,
+      minimize: true
     }),
     resolve(),
-    terser()
+    terser(),
+    filesize({
+      showMinifiedSize: false
+    })
   ]
 }))

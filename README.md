@@ -1,5 +1,13 @@
 # reactstrap-sass
 
+Use reactstrap with per component SASS instead of the entire Bootstrap CSS.
+
+---
+
+---
+
+## This app was bootstrapped with react-components-library
+
 ## Summary
 
 This is a starting point for developing a reusable React component library using [Storybook](https://storybook.js.org) and [Rollup](https://rollupjs.org).
