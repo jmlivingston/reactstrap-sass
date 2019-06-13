@@ -23,7 +23,8 @@
     "precommit": "lint-staged",
     "generate": "node --experimental-modules node_modules/.bin/plop --plopfile scripts/templates/index.js",
     "react-strap-build-schema": "node --experimental-modules scripts/reactstrap/build-schema.mjs",
-    "react-strap-build-components": "nodemon --experimental-modules scripts/reactstrap/build-components.mjs --watch scripts/reactstrap/build-components.mjs"
+    "react-strap-build-components": "node --experimental-modules scripts/reactstrap/build-components.mjs",
+    "react-strap-build-examples": "nodemon --experimental-modules scripts/reactstrap/build-examples.mjs --watch scripts/reactstrap/build-examples.mjs"
   },
   "dependencies": {
     "react": "16.8.6",
