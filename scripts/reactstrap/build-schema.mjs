@@ -1,20 +1,60 @@
 import fs from 'fs'
+import { EOL } from 'os'
 import path from 'path'
 import { getFilesFolders } from '../utils.mjs'
 
-const reactStrapPath = './node_modules/reactstrap/es'
+// Before running clone reactstrap as sibling to this project TODO: Add error handling
+const reactstrapPath = '../reactstrap'
+const reactstrapDocsPath = reactstrapPath + '/docs/lib/Components/'
+
 const fileFilter = ['index', 'setupTests', 'utils']
 
-const reactStrapFiles = getFilesFolders(reactStrapPath)
+function getPage(componentName) {
+  const singular = `${componentName}Page.js`
+  const plural = `${componentName}sPage.js`
+  if (fs.existsSync(`${reactstrapDocsPath}${singular}`)) {
+    return singular.replace(path.extname(singular), '')
+  } else if (fs.existsSync(`${reactstrapDocsPath}${plural}`)) {
+    return plural.replace(path.extname(singular), '')
+  }
+}
+
+function getExamples(pageName, componentName) {
+  if (pageName) {
+    const page = fs.readFileSync(`${reactstrapDocsPath}${pageName}.js`).toString()
+    const sections = page.split(EOL).filter(line => line.includes('<SectionTitle>'))
+    const pageLines = page.split(EOL)
+    return pageLines
+      .filter(line => line.includes('import') && line.includes('examples'))
+      .map((line, index) => {
+        let title = sections[index]
+          ? sections[index]
+              .trim()
+              .match(/>(.*)</)[1]
+              .trim()
+          : undefined
+        title = title === 'Properties' ? componentName : title
+        const fileName = line.replace(/"/g, "'").slice(line.lastIndexOf('/') + 1, line.lastIndexOf("'"))
+        return {
+          fileName,
+          title: title || `TODO: ${fileName}`
+        }
+      })
+  }
+}
+
+const reactStrapFiles = getFilesFolders(reactstrapPath + '/src', false)
   .filter(file => !/index|setupTests|utils/.test(file))
   .reduce((acc, file) => {
-    const baseName = path.basename(file).split('.')[0]
+    const componentName = path.basename(file).replace(path.extname(file), '')
+    const pageFileName = getPage(componentName)
     return {
       ...acc,
-      [baseName]: {
-        sassPaths: ['_functions', '_mixins', '_variables', `_${baseName.toLowerCase()}`],
-        sassValided: false,
-        reactstrapDocsPath: baseName.toLowerCase()
+      [componentName]: {
+        sassPaths: ['_functions', '_mixins', '_variables', `_${componentName.toLowerCase()}`],
+        validated: false,
+        pageFileName,
+        examples: getExamples(pageFileName, componentName)
       }
     }
   }, {})

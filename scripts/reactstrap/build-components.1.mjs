@@ -15,7 +15,7 @@ function getFilePath({ name }) {
 }
 
 function createComponent({ name }) {
-  const code = `import ${name} from 'reactstrap/es/${name}'
+  const code = `import ${name} from 'reactstrap-sass/es/${name}'
 import './${name}.scss'
 export default ${name}`
   const filePath = path.join(`${getFilePath({ name })}${name}.js`)

@@ -1,452 +1,1394 @@
 {
   "Alert": {
-    "sassPaths": ["_functions", "_mixins", "_variables", "_alert"],
-    "sassValided": false,
-    "reactstrapDocsPath": "alert"
+    "sassPaths": [
+      "_functions",
+      "_mixins",
+      "_variables",
+      "_alert"
+    ],
+    "validated": false,
+    "pageFileName": "AlertsPage",
+    "examples": [
+      {
+        "fileName": "Alert",
+        "title": "Alert"
+      },
+      {
+        "fileName": "AlertLink",
+        "title": "Link color"
+      },
+      {
+        "fileName": "AlertContent",
+        "title": "Additional content"
+      },
+      {
+        "fileName": "AlertDismiss",
+        "title": "Dismissing"
+      },
+      {
+        "fileName": "AlertUncontrolledDismiss",
+        "title": "Uncontrolled [disable] Alerts"
+      },
+      {
+        "fileName": "AlertFadeless",
+        "title": "Alerts without fade"
+      }
+    ]
   },
   "Badge": {
-    "sassPaths": ["_functions", "_mixins", "_variables", "_badge"],
-    "sassValided": false,
-    "reactstrapDocsPath": "badge"
+    "sassPaths": [
+      "_functions",
+      "_mixins",
+      "_variables",
+      "_badge"
+    ],
+    "validated": false,
+    "pageFileName": "BadgePage",
+    "examples": [
+      {
+        "fileName": "Badge",
+        "title": "Contextual variations"
+      },
+      {
+        "fileName": "BadgeButton",
+        "title": "Pills"
+      },
+      {
+        "fileName": "BadgePills",
+        "title": "Links"
+      },
+      {
+        "fileName": "BadgeVariations",
+        "title": "TODO: BadgeVariations"
+      },
+      {
+        "fileName": "BadgeLinks",
+        "title": "TODO: BadgeLinks"
+      }
+    ]
   },
   "Breadcrumb": {
-    "sassPaths": ["_functions", "_mixins", "_variables", "_breadcrumb"],
-    "sassValided": false,
-    "reactstrapDocsPath": "breadcrumb"
+    "sassPaths": [
+      "_functions",
+      "_mixins",
+      "_variables",
+      "_breadcrumb"
+    ],
+    "validated": false,
+    "pageFileName": "BreadcrumbsPage",
+    "examples": [
+      {
+        "fileName": "Breadcrumb",
+        "title": "No list"
+      },
+      {
+        "fileName": "BreadcrumbNoList",
+        "title": "TODO: BreadcrumbNoList"
+      }
+    ]
   },
   "BreadcrumbItem": {
-    "sassPaths": ["_functions", "_mixins", "_variables", "_breadcrumbitem"],
-    "sassValided": false,
-    "reactstrapDocsPath": "breadcrumbitem"
+    "sassPaths": [
+      "_functions",
+      "_mixins",
+      "_variables",
+      "_breadcrumbitem"
+    ],
+    "validated": false
   },
   "Button": {
-    "sassPaths": ["_functions", "_mixins", "_variables", "_buttons"],
-    "sassValided": false,
-    "reactstrapDocsPath": "buttons"
+    "sassPaths": [
+      "_functions",
+      "_mixins",
+      "_variables",
+      "_button"
+    ],
+    "validated": false,
+    "pageFileName": "ButtonsPage",
+    "examples": [
+      {
+        "fileName": "Button",
+        "title": "Outline Buttons"
+      },
+      {
+        "fileName": "ButtonOutline",
+        "title": "Sizes"
+      },
+      {
+        "fileName": "ButtonStateful",
+        "title": "Active State"
+      },
+      {
+        "fileName": "ButtonCloseIcon",
+        "title": "Disabled State"
+      }
+    ]
   },
   "ButtonDropdown": {
-    "sassPaths": ["_functions", "_mixins", "_variables", "_buttondropdown"],
-    "sassValided": false,
-    "reactstrapDocsPath": "buttondropdown"
+    "sassPaths": [
+      "_functions",
+      "_mixins",
+      "_variables",
+      "_buttondropdown"
+    ],
+    "validated": false,
+    "pageFileName": "ButtonDropdownPage",
+    "examples": [
+      {
+        "fileName": "ButtonDropdownMulti",
+        "title": "Single button dropdowns"
+      },
+      {
+        "fileName": "ButtonDropdownMultiSplit",
+        "title": "Split button dropdowns"
+      },
+      {
+        "fileName": "ButtonDropdown",
+        "title": "Sizing"
+      },
+      {
+        "fileName": "ButtonDropdownUncontrolled",
+        "title": "Uncontrolled Dropdown"
+      }
+    ]
   },
   "ButtonGroup": {
-    "sassPaths": ["_functions", "_mixins", "_variables", "_buttongroup"],
-    "sassValided": false,
-    "reactstrapDocsPath": "buttongroup"
+    "sassPaths": [
+      "_functions",
+      "_mixins",
+      "_variables",
+      "_buttongroup"
+    ],
+    "validated": false,
+    "pageFileName": "ButtonGroupPage",
+    "examples": [
+      {
+        "fileName": "ButtonGroup",
+        "title": "Button Toolbar"
+      },
+      {
+        "fileName": "ButtonToolbar",
+        "title": "Sizing"
+      }
+    ]
   },
   "ButtonToolbar": {
-    "sassPaths": ["_functions", "_mixins", "_variables", "_buttontoolbar"],
-    "sassValided": false,
-    "reactstrapDocsPath": "buttontoolbar"
+    "sassPaths": [
+      "_functions",
+      "_mixins",
+      "_variables",
+      "_buttontoolbar"
+    ],
+    "validated": false
   },
   "Card": {
-    "sassPaths": ["_functions", "_mixins", "_variables", "_card"],
-    "sassValided": false,
-    "reactstrapDocsPath": "card"
+    "sassPaths": [
+      "_functions",
+      "_mixins",
+      "_variables",
+      "_card"
+    ],
+    "validated": false,
+    "pageFileName": "CardPage",
+    "examples": [
+      {
+        "fileName": "Card",
+        "title": "Content Types"
+      },
+      {
+        "fileName": "CardContentTypes",
+        "title": "Sizing"
+      },
+      {
+        "fileName": "CardSizing",
+        "title": "Text alignment"
+      },
+      {
+        "fileName": "CardAlignment",
+        "title": "Header and Footer"
+      },
+      {
+        "fileName": "CardHeaderFooter",
+        "title": "Image caps"
+      },
+      {
+        "fileName": "CardImageCaps",
+        "title": "Image overlays"
+      },
+      {
+        "fileName": "CardImageOverlay",
+        "title": "Background variants"
+      },
+      {
+        "fileName": "CardBackgrounds",
+        "title": "Outline variants"
+      },
+      {
+        "fileName": "CardOutline",
+        "title": "Groups"
+      },
+      {
+        "fileName": "CardGroups",
+        "title": "Decks"
+      },
+      {
+        "fileName": "CardDecks",
+        "title": "Columns"
+      },
+      {
+        "fileName": "CardColumns",
+        "title": "TODO: CardColumns"
+      }
+    ]
   },
   "CardBody": {
-    "sassPaths": ["_functions", "_mixins", "_variables", "_cardbody"],
-    "sassValided": false,
-    "reactstrapDocsPath": "cardbody"
+    "sassPaths": [
+      "_functions",
+      "_mixins",
+      "_variables",
+      "_cardbody"
+    ],
+    "validated": false
   },
   "CardColumns": {
-    "sassPaths": ["_functions", "_mixins", "_variables", "_cardcolumns"],
-    "sassValided": false,
-    "reactstrapDocsPath": "cardcolumns"
+    "sassPaths": [
+      "_functions",
+      "_mixins",
+      "_variables",
+      "_cardcolumns"
+    ],
+    "validated": false
   },
   "CardDeck": {
-    "sassPaths": ["_functions", "_mixins", "_variables", "_carddeck"],
-    "sassValided": false,
-    "reactstrapDocsPath": "carddeck"
+    "sassPaths": [
+      "_functions",
+      "_mixins",
+      "_variables",
+      "_carddeck"
+    ],
+    "validated": false
   },
   "CardFooter": {
-    "sassPaths": ["_functions", "_mixins", "_variables", "_cardfooter"],
-    "sassValided": false,
-    "reactstrapDocsPath": "cardfooter"
+    "sassPaths": [
+      "_functions",
+      "_mixins",
+      "_variables",
+      "_cardfooter"
+    ],
+    "validated": false
   },
   "CardGroup": {
-    "sassPaths": ["_functions", "_mixins", "_variables", "_cardgroup"],
-    "sassValided": false,
-    "reactstrapDocsPath": "cardgroup"
+    "sassPaths": [
+      "_functions",
+      "_mixins",
+      "_variables",
+      "_cardgroup"
+    ],
+    "validated": false
   },
   "CardHeader": {
-    "sassPaths": ["_functions", "_mixins", "_variables", "_cardheader"],
-    "sassValided": false,
-    "reactstrapDocsPath": "cardheader"
+    "sassPaths": [
+      "_functions",
+      "_mixins",
+      "_variables",
+      "_cardheader"
+    ],
+    "validated": false
   },
   "CardImg": {
-    "sassPaths": ["_functions", "_mixins", "_variables", "_cardimg"],
-    "sassValided": false,
-    "reactstrapDocsPath": "cardimg"
+    "sassPaths": [
+      "_functions",
+      "_mixins",
+      "_variables",
+      "_cardimg"
+    ],
+    "validated": false
   },
   "CardImgOverlay": {
-    "sassPaths": ["_functions", "_mixins", "_variables", "_cardimgoverlay"],
-    "sassValided": false,
-    "reactstrapDocsPath": "cardimgoverlay"
+    "sassPaths": [
+      "_functions",
+      "_mixins",
+      "_variables",
+      "_cardimgoverlay"
+    ],
+    "validated": false
   },
   "CardLink": {
-    "sassPaths": ["_functions", "_mixins", "_variables", "_cardlink"],
-    "sassValided": false,
-    "reactstrapDocsPath": "cardlink"
+    "sassPaths": [
+      "_functions",
+      "_mixins",
+      "_variables",
+      "_cardlink"
+    ],
+    "validated": false
   },
   "CardSubtitle": {
-    "sassPaths": ["_functions", "_mixins", "_variables", "_cardsubtitle"],
-    "sassValided": false,
-    "reactstrapDocsPath": "cardsubtitle"
+    "sassPaths": [
+      "_functions",
+      "_mixins",
+      "_variables",
+      "_cardsubtitle"
+    ],
+    "validated": false
   },
   "CardText": {
-    "sassPaths": ["_functions", "_mixins", "_variables", "_cardtext"],
-    "sassValided": false,
-    "reactstrapDocsPath": "cardtext"
+    "sassPaths": [
+      "_functions",
+      "_mixins",
+      "_variables",
+      "_cardtext"
+    ],
+    "validated": false
   },
   "CardTitle": {
-    "sassPaths": ["_functions", "_mixins", "_variables", "_cardtitle"],
-    "sassValided": false,
-    "reactstrapDocsPath": "cardtitle"
+    "sassPaths": [
+      "_functions",
+      "_mixins",
+      "_variables",
+      "_cardtitle"
+    ],
+    "validated": false
   },
   "Carousel": {
-    "sassPaths": ["_functions", "_mixins", "_variables", "_carousel"],
-    "sassValided": false,
-    "reactstrapDocsPath": "carousel"
+    "sassPaths": [
+      "_functions",
+      "_mixins",
+      "_variables",
+      "_carousel"
+    ],
+    "validated": false,
+    "pageFileName": "CarouselPage",
+    "examples": [
+      {
+        "fileName": "Carousel",
+        "title": "Carousel Properties"
+      },
+      {
+        "fileName": "CarouselUncontrolled",
+        "title": "CarouselItem Properties"
+      },
+      {
+        "fileName": "CarouselCustomTag",
+        "title": "CarouselControl Properties"
+      }
+    ]
   },
   "CarouselCaption": {
-    "sassPaths": ["_functions", "_mixins", "_variables", "_carouselcaption"],
-    "sassValided": false,
-    "reactstrapDocsPath": "carouselcaption"
+    "sassPaths": [
+      "_functions",
+      "_mixins",
+      "_variables",
+      "_carouselcaption"
+    ],
+    "validated": false
   },
   "CarouselControl": {
-    "sassPaths": ["_functions", "_mixins", "_variables", "_carouselcontrol"],
-    "sassValided": false,
-    "reactstrapDocsPath": "carouselcontrol"
+    "sassPaths": [
+      "_functions",
+      "_mixins",
+      "_variables",
+      "_carouselcontrol"
+    ],
+    "validated": false
   },
   "CarouselIndicators": {
-    "sassPaths": ["_functions", "_mixins", "_variables", "_carouselindicators"],
-    "sassValided": false,
-    "reactstrapDocsPath": "carouselindicators"
+    "sassPaths": [
+      "_functions",
+      "_mixins",
+      "_variables",
+      "_carouselindicators"
+    ],
+    "validated": false
   },
   "CarouselItem": {
-    "sassPaths": ["_functions", "_mixins", "_variables", "_carouselitem"],
-    "sassValided": false,
-    "reactstrapDocsPath": "carouselitem"
+    "sassPaths": [
+      "_functions",
+      "_mixins",
+      "_variables",
+      "_carouselitem"
+    ],
+    "validated": false
   },
   "Col": {
-    "sassPaths": ["_functions", "_mixins", "_variables", "_col"],
-    "sassValided": false,
-    "reactstrapDocsPath": "col"
+    "sassPaths": [
+      "_functions",
+      "_mixins",
+      "_variables",
+      "_col"
+    ],
+    "validated": false
   },
   "Collapse": {
-    "sassPaths": ["_functions", "_mixins", "_variables", "_collapse"],
-    "sassValided": false,
-    "reactstrapDocsPath": "collapse"
+    "sassPaths": [
+      "_functions",
+      "_mixins",
+      "_variables",
+      "_collapse"
+    ],
+    "validated": false,
+    "pageFileName": "CollapsePage",
+    "examples": [
+      {
+        "fileName": "Collapse",
+        "title": "Collapse"
+      },
+      {
+        "fileName": "CollapseUncontrolled",
+        "title": "Events"
+      },
+      {
+        "fileName": "CollapseEvents",
+        "title": "Uncontrolled Collapse"
+      }
+    ]
   },
   "Container": {
-    "sassPaths": ["_functions", "_mixins", "_variables", "_container"],
-    "sassValided": false,
-    "reactstrapDocsPath": "container"
+    "sassPaths": [
+      "_functions",
+      "_mixins",
+      "_variables",
+      "_container"
+    ],
+    "validated": false
   },
   "CustomInput": {
-    "sassPaths": ["_functions", "_mixins", "_variables", "_custominput"],
-    "sassValided": false,
-    "reactstrapDocsPath": "custominput"
+    "sassPaths": [
+      "_functions",
+      "_mixins",
+      "_variables",
+      "_custominput"
+    ],
+    "validated": false
   },
   "Dropdown": {
-    "sassPaths": ["_functions", "_mixins", "_variables", "_dropdown"],
-    "sassValided": false,
-    "reactstrapDocsPath": "dropdown"
+    "sassPaths": [
+      "_functions",
+      "_mixins",
+      "_variables",
+      "_dropdown"
+    ],
+    "validated": false,
+    "pageFileName": "DropdownsPage",
+    "examples": [
+      {
+        "fileName": "Dropdown",
+        "title": "Alignment"
+      },
+      {
+        "fileName": "DropdownSizing",
+        "title": "Menu Headers"
+      },
+      {
+        "fileName": "CustomDropdown",
+        "title": "Menu Dividers"
+      },
+      {
+        "fileName": "DropdownUncontrolled",
+        "title": "Menu Items"
+      },
+      {
+        "fileName": "DropdownSetActiveFromChild",
+        "title": "Disabled Menu Items"
+      }
+    ]
   },
   "DropdownContext": {
-    "sassPaths": ["_functions", "_mixins", "_variables", "_dropdowncontext"],
-    "sassValided": false,
-    "reactstrapDocsPath": "dropdowncontext"
+    "sassPaths": [
+      "_functions",
+      "_mixins",
+      "_variables",
+      "_dropdowncontext"
+    ],
+    "validated": false
   },
   "DropdownItem": {
-    "sassPaths": ["_functions", "_mixins", "_variables", "_dropdownitem"],
-    "sassValided": false,
-    "reactstrapDocsPath": "dropdownitem"
+    "sassPaths": [
+      "_functions",
+      "_mixins",
+      "_variables",
+      "_dropdownitem"
+    ],
+    "validated": false
   },
   "DropdownMenu": {
-    "sassPaths": ["_functions", "_mixins", "_variables", "_dropdownmenu"],
-    "sassValided": false,
-    "reactstrapDocsPath": "dropdownmenu"
+    "sassPaths": [
+      "_functions",
+      "_mixins",
+      "_variables",
+      "_dropdownmenu"
+    ],
+    "validated": false
   },
   "DropdownToggle": {
-    "sassPaths": ["_functions", "_mixins", "_variables", "_dropdowntoggle"],
-    "sassValided": false,
-    "reactstrapDocsPath": "dropdowntoggle"
+    "sassPaths": [
+      "_functions",
+      "_mixins",
+      "_variables",
+      "_dropdowntoggle"
+    ],
+    "validated": false
   },
   "Fade": {
-    "sassPaths": ["_functions", "_mixins", "_variables", "_fade"],
-    "sassValided": false,
-    "reactstrapDocsPath": "fade"
+    "sassPaths": [
+      "_functions",
+      "_mixins",
+      "_variables",
+      "_fade"
+    ],
+    "validated": false,
+    "pageFileName": "FadePage",
+    "examples": [
+      {
+        "fileName": "Fade",
+        "title": "Fade"
+      }
+    ]
   },
   "Form": {
-    "sassPaths": ["_functions", "_mixins", "_variables", "_form"],
-    "sassValided": false,
-    "reactstrapDocsPath": "form"
+    "sassPaths": [
+      "_functions",
+      "_mixins",
+      "_variables",
+      "_form"
+    ],
+    "validated": false,
+    "pageFileName": "FormPage",
+    "examples": [
+      {
+        "fileName": "Form",
+        "title": "Form"
+      },
+      {
+        "fileName": "FormGrid",
+        "title": "Form Grid"
+      },
+      {
+        "fileName": "FormGridFormRow",
+        "title": "Form Grid with Form Row"
+      },
+      {
+        "fileName": "FormInline",
+        "title": "Inline Form"
+      },
+      {
+        "fileName": "FormFeedback",
+        "title": "Form Validation"
+      },
+      {
+        "fileName": "InputType",
+        "title": "Input Types"
+      },
+      {
+        "fileName": "InlineCheckboxes",
+        "title": "Inline checkboxes"
+      },
+      {
+        "fileName": "InputSizing",
+        "title": "Input Sizing"
+      },
+      {
+        "fileName": "InputGridSizing",
+        "title": "Input Grid Sizing"
+      },
+      {
+        "fileName": "LabelHidden",
+        "title": "Hidden Labels"
+      },
+      {
+        "fileName": "CustomControls",
+        "title": "Custom Inputs"
+      }
+    ]
   },
   "FormFeedback": {
-    "sassPaths": ["_functions", "_mixins", "_variables", "_formfeedback"],
-    "sassValided": false,
-    "reactstrapDocsPath": "formfeedback"
+    "sassPaths": [
+      "_functions",
+      "_mixins",
+      "_variables",
+      "_formfeedback"
+    ],
+    "validated": false
   },
   "FormGroup": {
-    "sassPaths": ["_functions", "_mixins", "_variables", "_formgroup"],
-    "sassValided": false,
-    "reactstrapDocsPath": "formgroup"
+    "sassPaths": [
+      "_functions",
+      "_mixins",
+      "_variables",
+      "_formgroup"
+    ],
+    "validated": false
   },
   "FormText": {
-    "sassPaths": ["_functions", "_mixins", "_variables", "_formtext"],
-    "sassValided": false,
-    "reactstrapDocsPath": "formtext"
+    "sassPaths": [
+      "_functions",
+      "_mixins",
+      "_variables",
+      "_formtext"
+    ],
+    "validated": false
   },
   "Input": {
-    "sassPaths": ["_functions", "_mixins", "_variables", "_input"],
-    "sassValided": false,
-    "reactstrapDocsPath": "input"
+    "sassPaths": [
+      "_functions",
+      "_mixins",
+      "_variables",
+      "_input"
+    ],
+    "validated": false
   },
   "InputGroup": {
-    "sassPaths": ["_functions", "_mixins", "_variables", "_inputgroup"],
-    "sassValided": false,
-    "reactstrapDocsPath": "inputgroup"
+    "sassPaths": [
+      "_functions",
+      "_mixins",
+      "_variables",
+      "_inputgroup"
+    ],
+    "validated": false,
+    "pageFileName": "InputGroupPage",
+    "examples": [
+      {
+        "fileName": "InputGroupOverview",
+        "title": "Addons"
+      },
+      {
+        "fileName": "InputGroupAddon",
+        "title": "Addon Sizing"
+      },
+      {
+        "fileName": "InputGroupSizing",
+        "title": "Buttons / Dropdowns"
+      },
+      {
+        "fileName": "InputGroupButton",
+        "title": "Button Shorthand (DEPRECATED)"
+      },
+      {
+        "fileName": "InputGroupButtonShorthand",
+        "title": "TODO: InputGroupButtonShorthand"
+      }
+    ]
   },
   "InputGroupAddon": {
-    "sassPaths": ["_functions", "_mixins", "_variables", "_inputgroupaddon"],
-    "sassValided": false,
-    "reactstrapDocsPath": "inputgroupaddon"
+    "sassPaths": [
+      "_functions",
+      "_mixins",
+      "_variables",
+      "_inputgroupaddon"
+    ],
+    "validated": false
   },
   "InputGroupButtonDropdown": {
-    "sassPaths": ["_functions", "_mixins", "_variables", "_inputgroupbuttondropdown"],
-    "sassValided": false,
-    "reactstrapDocsPath": "inputgroupbuttondropdown"
+    "sassPaths": [
+      "_functions",
+      "_mixins",
+      "_variables",
+      "_inputgroupbuttondropdown"
+    ],
+    "validated": false
   },
   "InputGroupText": {
-    "sassPaths": ["_functions", "_mixins", "_variables", "_inputgrouptext"],
-    "sassValided": false,
-    "reactstrapDocsPath": "inputgrouptext"
+    "sassPaths": [
+      "_functions",
+      "_mixins",
+      "_variables",
+      "_inputgrouptext"
+    ],
+    "validated": false
   },
   "Jumbotron": {
-    "sassPaths": ["_functions", "_mixins", "_variables", "_jumbotron"],
-    "sassValided": false,
-    "reactstrapDocsPath": "jumbotron"
+    "sassPaths": [
+      "_functions",
+      "_mixins",
+      "_variables",
+      "_jumbotron"
+    ],
+    "validated": false,
+    "pageFileName": "JumbotronPage",
+    "examples": [
+      {
+        "fileName": "Jumbotron",
+        "title": "Fluid Jumbotron"
+      },
+      {
+        "fileName": "JumbotronFluid'",
+        "title": "TODO: JumbotronFluid'"
+      }
+    ]
   },
   "Label": {
-    "sassPaths": ["_functions", "_mixins", "_variables", "_label"],
-    "sassValided": false,
-    "reactstrapDocsPath": "label"
+    "sassPaths": [
+      "_functions",
+      "_mixins",
+      "_variables",
+      "_label"
+    ],
+    "validated": false
   },
   "ListGroup": {
-    "sassPaths": ["_functions", "_mixins", "_variables", "_listgroup"],
-    "sassValided": false,
-    "reactstrapDocsPath": "listgroup"
+    "sassPaths": [
+      "_functions",
+      "_mixins",
+      "_variables",
+      "_listgroup"
+    ],
+    "validated": false,
+    "pageFileName": "ListGroupPage",
+    "examples": [
+      {
+        "fileName": "ListGroup",
+        "title": "TODO: ListGroup"
+      },
+      {
+        "fileName": "ListGroupBadge",
+        "title": "TODO: ListGroupBadge"
+      },
+      {
+        "fileName": "ListGroupDisabledItems",
+        "title": "TODO: ListGroupDisabledItems"
+      },
+      {
+        "fileName": "ListGroupAnchorsAndButtons",
+        "title": "TODO: ListGroupAnchorsAndButtons"
+      },
+      {
+        "fileName": "ListGroupContextualClasses",
+        "title": "TODO: ListGroupContextualClasses"
+      },
+      {
+        "fileName": "ListGroupCustomContent",
+        "title": "TODO: ListGroupCustomContent"
+      },
+      {
+        "fileName": "ListGroupFlush",
+        "title": "TODO: ListGroupFlush"
+      }
+    ]
   },
   "ListGroupItem": {
-    "sassPaths": ["_functions", "_mixins", "_variables", "_listgroupitem"],
-    "sassValided": false,
-    "reactstrapDocsPath": "listgroupitem"
+    "sassPaths": [
+      "_functions",
+      "_mixins",
+      "_variables",
+      "_listgroupitem"
+    ],
+    "validated": false
   },
   "ListGroupItemHeading": {
-    "sassPaths": ["_functions", "_mixins", "_variables", "_listgroupitemheading"],
-    "sassValided": false,
-    "reactstrapDocsPath": "listgroupitemheading"
+    "sassPaths": [
+      "_functions",
+      "_mixins",
+      "_variables",
+      "_listgroupitemheading"
+    ],
+    "validated": false
   },
   "ListGroupItemText": {
-    "sassPaths": ["_functions", "_mixins", "_variables", "_listgroupitemtext"],
-    "sassValided": false,
-    "reactstrapDocsPath": "listgroupitemtext"
+    "sassPaths": [
+      "_functions",
+      "_mixins",
+      "_variables",
+      "_listgroupitemtext"
+    ],
+    "validated": false
   },
   "Media": {
-    "sassPaths": ["_functions", "_mixins", "_variables", "_media"],
-    "sassValided": false,
-    "reactstrapDocsPath": "media"
+    "sassPaths": [
+      "_functions",
+      "_mixins",
+      "_variables",
+      "_media"
+    ],
+    "validated": false,
+    "pageFileName": "MediaPage",
+    "examples": [
+      {
+        "fileName": "Media",
+        "title": "TODO: Media"
+      },
+      {
+        "fileName": "MediaNested",
+        "title": "TODO: MediaNested"
+      },
+      {
+        "fileName": "MediaAlignment",
+        "title": "TODO: MediaAlignment"
+      },
+      {
+        "fileName": "MediaList",
+        "title": "TODO: MediaList"
+      }
+    ]
   },
   "Modal": {
-    "sassPaths": ["_functions", "_mixins", "_variables", "_modal"],
-    "sassValided": false,
-    "reactstrapDocsPath": "modal"
+    "sassPaths": [
+      "_functions",
+      "_mixins",
+      "_variables",
+      "_modal"
+    ],
+    "validated": false,
+    "pageFileName": "ModalsPage",
+    "examples": [
+      {
+        "fileName": "Modal",
+        "title": "TODO: Modal"
+      },
+      {
+        "fileName": "ModalBackdrop",
+        "title": "TODO: ModalBackdrop"
+      },
+      {
+        "fileName": "ModalNested",
+        "title": "TODO: ModalNested"
+      },
+      {
+        "fileName": "ModalCustomTimeout",
+        "title": "TODO: ModalCustomTimeout"
+      },
+      {
+        "fileName": "ModalFadeless",
+        "title": "TODO: ModalFadeless"
+      },
+      {
+        "fileName": "ModalExternal",
+        "title": "TODO: ModalExternal"
+      },
+      {
+        "fileName": "ModalCustomCloseIcon",
+        "title": "TODO: ModalCustomCloseIcon"
+      },
+      {
+        "fileName": "ModalCustomCloseButton",
+        "title": "TODO: ModalCustomCloseButton"
+      },
+      {
+        "fileName": "ModalDestructuring",
+        "title": "TODO: ModalDestructuring"
+      },
+      {
+        "fileName": "ModalFocusAfterClose",
+        "title": "TODO: ModalFocusAfterClose"
+      }
+    ]
   },
   "ModalBody": {
-    "sassPaths": ["_functions", "_mixins", "_variables", "_modalbody"],
-    "sassValided": false,
-    "reactstrapDocsPath": "modalbody"
+    "sassPaths": [
+      "_functions",
+      "_mixins",
+      "_variables",
+      "_modalbody"
+    ],
+    "validated": false
   },
   "ModalFooter": {
-    "sassPaths": ["_functions", "_mixins", "_variables", "_modalfooter"],
-    "sassValided": false,
-    "reactstrapDocsPath": "modalfooter"
+    "sassPaths": [
+      "_functions",
+      "_mixins",
+      "_variables",
+      "_modalfooter"
+    ],
+    "validated": false
   },
   "ModalHeader": {
-    "sassPaths": ["_functions", "_mixins", "_variables", "_modalheader"],
-    "sassValided": false,
-    "reactstrapDocsPath": "modalheader"
+    "sassPaths": [
+      "_functions",
+      "_mixins",
+      "_variables",
+      "_modalheader"
+    ],
+    "validated": false
   },
   "Nav": {
-    "sassPaths": ["_functions", "_mixins", "_variables", "_nav"],
-    "sassValided": false,
-    "reactstrapDocsPath": "nav"
+    "sassPaths": [
+      "_functions",
+      "_mixins",
+      "_variables",
+      "_nav"
+    ],
+    "validated": false,
+    "pageFileName": "NavsPage",
+    "examples": [
+      {
+        "fileName": "Navs",
+        "title": "Vertical"
+      },
+      {
+        "fileName": "NavVertical",
+        "title": "Tabs"
+      },
+      {
+        "fileName": "NavTabs",
+        "title": "Pills"
+      },
+      {
+        "fileName": "NavPills",
+        "title": "TODO: NavPills"
+      }
+    ]
   },
   "NavItem": {
-    "sassPaths": ["_functions", "_mixins", "_variables", "_navitem"],
-    "sassValided": false,
-    "reactstrapDocsPath": "navitem"
+    "sassPaths": [
+      "_functions",
+      "_mixins",
+      "_variables",
+      "_navitem"
+    ],
+    "validated": false
   },
   "NavLink": {
-    "sassPaths": ["_functions", "_mixins", "_variables", "_navlink"],
-    "sassValided": false,
-    "reactstrapDocsPath": "navlink"
+    "sassPaths": [
+      "_functions",
+      "_mixins",
+      "_variables",
+      "_navlink"
+    ],
+    "validated": false
   },
   "Navbar": {
-    "sassPaths": ["_functions", "_mixins", "_variables", "_navbar"],
-    "sassValided": false,
-    "reactstrapDocsPath": "navbar"
+    "sassPaths": [
+      "_functions",
+      "_mixins",
+      "_variables",
+      "_navbar"
+    ],
+    "validated": false,
+    "pageFileName": "NavbarPage",
+    "examples": [
+      {
+        "fileName": "Navbar",
+        "title": "NavbarToggler"
+      },
+      {
+        "fileName": "NavbarToggler",
+        "title": "TODO: NavbarToggler"
+      }
+    ]
   },
   "NavbarBrand": {
-    "sassPaths": ["_functions", "_mixins", "_variables", "_navbarbrand"],
-    "sassValided": false,
-    "reactstrapDocsPath": "navbarbrand"
+    "sassPaths": [
+      "_functions",
+      "_mixins",
+      "_variables",
+      "_navbarbrand"
+    ],
+    "validated": false
   },
   "NavbarToggler": {
-    "sassPaths": ["_functions", "_mixins", "_variables", "_navbartoggler"],
-    "sassValided": false,
-    "reactstrapDocsPath": "navbartoggler"
+    "sassPaths": [
+      "_functions",
+      "_mixins",
+      "_variables",
+      "_navbartoggler"
+    ],
+    "validated": false
   },
   "Pagination": {
-    "sassPaths": ["_functions", "_mixins", "_variables", "_pagination"],
-    "sassValided": false,
-    "reactstrapDocsPath": "pagination"
+    "sassPaths": [
+      "_functions",
+      "_mixins",
+      "_variables",
+      "_pagination"
+    ],
+    "validated": false,
+    "pageFileName": "PaginationPage",
+    "examples": [
+      {
+        "fileName": "Pagination",
+        "title": "Disabled and active states"
+      },
+      {
+        "fileName": "PaginationState",
+        "title": "Sizing"
+      },
+      {
+        "fileName": "PaginationSizingLarge",
+        "title": "TODO: PaginationSizingLarge"
+      },
+      {
+        "fileName": "PaginationSizingSmall",
+        "title": "TODO: PaginationSizingSmall"
+      }
+    ]
   },
   "PaginationItem": {
-    "sassPaths": ["_functions", "_mixins", "_variables", "_paginationitem"],
-    "sassValided": false,
-    "reactstrapDocsPath": "paginationitem"
+    "sassPaths": [
+      "_functions",
+      "_mixins",
+      "_variables",
+      "_paginationitem"
+    ],
+    "validated": false
   },
   "PaginationLink": {
-    "sassPaths": ["_functions", "_mixins", "_variables", "_paginationlink"],
-    "sassValided": false,
-    "reactstrapDocsPath": "paginationlink"
+    "sassPaths": [
+      "_functions",
+      "_mixins",
+      "_variables",
+      "_paginationlink"
+    ],
+    "validated": false
   },
   "Popover": {
-    "sassPaths": ["_functions", "_mixins", "_variables", "_popover"],
-    "sassValided": false,
-    "reactstrapDocsPath": "popover"
+    "sassPaths": [
+      "_functions",
+      "_mixins",
+      "_variables",
+      "_popover"
+    ],
+    "validated": false,
+    "pageFileName": "PopoversPage",
+    "examples": [
+      {
+        "fileName": "Popover",
+        "title": "Popovers Trigger"
+      },
+      {
+        "fileName": "PopoverMulti",
+        "title": "Popovers Placements"
+      },
+      {
+        "fileName": "PopoverFocus",
+        "title": "UncontrolledPopovers"
+      },
+      {
+        "fileName": "PopoverUncontrolled",
+        "title": "TODO: PopoverUncontrolled"
+      }
+    ]
   },
   "PopoverBody": {
-    "sassPaths": ["_functions", "_mixins", "_variables", "_popoverbody"],
-    "sassValided": false,
-    "reactstrapDocsPath": "popoverbody"
+    "sassPaths": [
+      "_functions",
+      "_mixins",
+      "_variables",
+      "_popoverbody"
+    ],
+    "validated": false
   },
   "PopoverHeader": {
-    "sassPaths": ["_functions", "_mixins", "_variables", "_popoverheader"],
-    "sassValided": false,
-    "reactstrapDocsPath": "popoverheader"
+    "sassPaths": [
+      "_functions",
+      "_mixins",
+      "_variables",
+      "_popoverheader"
+    ],
+    "validated": false
   },
   "PopperContent": {
-    "sassPaths": ["_functions", "_mixins", "_variables", "_poppercontent"],
-    "sassValided": false,
-    "reactstrapDocsPath": "poppercontent"
+    "sassPaths": [
+      "_functions",
+      "_mixins",
+      "_variables",
+      "_poppercontent"
+    ],
+    "validated": false
   },
   "PopperTargetHelper": {
-    "sassPaths": ["_functions", "_mixins", "_variables", "_poppertargethelper"],
-    "sassValided": false,
-    "reactstrapDocsPath": "poppertargethelper"
+    "sassPaths": [
+      "_functions",
+      "_mixins",
+      "_variables",
+      "_poppertargethelper"
+    ],
+    "validated": false
   },
   "Portal": {
-    "sassPaths": ["_functions", "_mixins", "_variables", "_portal"],
-    "sassValided": false,
-    "reactstrapDocsPath": "portal"
+    "sassPaths": [
+      "_functions",
+      "_mixins",
+      "_variables",
+      "_portal"
+    ],
+    "validated": false
   },
   "Progress": {
-    "sassPaths": ["_functions", "_mixins", "_variables", "_progress"],
-    "sassValided": false,
-    "reactstrapDocsPath": "progress"
+    "sassPaths": [
+      "_functions",
+      "_mixins",
+      "_variables",
+      "_progress"
+    ],
+    "validated": false,
+    "pageFileName": "ProgressPage",
+    "examples": [
+      {
+        "fileName": "Progress",
+        "title": "Color Variants"
+      },
+      {
+        "fileName": "ProgressColor",
+        "title": "Labels"
+      },
+      {
+        "fileName": "ProgressLabels",
+        "title": "Striped"
+      },
+      {
+        "fileName": "ProgressAnimated",
+        "title": "Animated"
+      },
+      {
+        "fileName": "ProgressStriped",
+        "title": "Multiple bars / Stacked"
+      },
+      {
+        "fileName": "ProgressMulti",
+        "title": "Max value"
+      },
+      {
+        "fileName": "ProgressMax",
+        "title": "TODO: ProgressMax"
+      }
+    ]
   },
   "Row": {
-    "sassPaths": ["_functions", "_mixins", "_variables", "_row"],
-    "sassValided": false,
-    "reactstrapDocsPath": "row"
+    "sassPaths": [
+      "_functions",
+      "_mixins",
+      "_variables",
+      "_row"
+    ],
+    "validated": false
   },
   "Spinner": {
-    "sassPaths": ["_functions", "_mixins", "_variables", "_spinner"],
-    "sassValided": false,
-    "reactstrapDocsPath": "spinner"
+    "sassPaths": [
+      "_functions",
+      "_mixins",
+      "_variables",
+      "_spinner"
+    ],
+    "validated": false,
+    "pageFileName": "SpinnersPage",
+    "examples": [
+      {
+        "fileName": "Spinner",
+        "title": "Growing Spinner"
+      },
+      {
+        "fileName": "SpinnerGrower",
+        "title": "Sizes"
+      }
+    ]
   },
   "TabContent": {
-    "sassPaths": ["_functions", "_mixins", "_variables", "_tabcontent"],
-    "sassValided": false,
-    "reactstrapDocsPath": "tabcontent"
+    "sassPaths": [
+      "_functions",
+      "_mixins",
+      "_variables",
+      "_tabcontent"
+    ],
+    "validated": false
   },
   "TabContext": {
-    "sassPaths": ["_functions", "_mixins", "_variables", "_tabcontext"],
-    "sassValided": false,
-    "reactstrapDocsPath": "tabcontext"
+    "sassPaths": [
+      "_functions",
+      "_mixins",
+      "_variables",
+      "_tabcontext"
+    ],
+    "validated": false
   },
   "TabPane": {
-    "sassPaths": ["_functions", "_mixins", "_variables", "_tabpane"],
-    "sassValided": false,
-    "reactstrapDocsPath": "tabpane"
+    "sassPaths": [
+      "_functions",
+      "_mixins",
+      "_variables",
+      "_tabpane"
+    ],
+    "validated": false
   },
   "Table": {
-    "sassPaths": ["_functions", "_mixins", "_variables", "_table"],
-    "sassValided": false,
-    "reactstrapDocsPath": "table"
+    "sassPaths": [
+      "_functions",
+      "_mixins",
+      "_variables",
+      "_table"
+    ],
+    "validated": false,
+    "pageFileName": "TablesPage",
+    "examples": [
+      {
+        "fileName": "Table",
+        "title": "Dark table"
+      },
+      {
+        "fileName": "TableBordered",
+        "title": "Striped rows"
+      },
+      {
+        "fileName": "TableBorderless",
+        "title": "Bordered table"
+      },
+      {
+        "fileName": "TableHover",
+        "title": "Borderless table"
+      },
+      {
+        "fileName": "TableDark",
+        "title": "Hoverable rows"
+      },
+      {
+        "fileName": "TableResponsive",
+        "title": "Small table"
+      },
+      {
+        "fileName": "TableSizing",
+        "title": "Responsive table"
+      },
+      {
+        "fileName": "TableStriped",
+        "title": "TODO: TableStriped"
+      }
+    ]
   },
   "Toast": {
-    "sassPaths": ["_functions", "_mixins", "_variables", "_toast"],
-    "sassValided": false,
-    "reactstrapDocsPath": "toast"
+    "sassPaths": [
+      "_functions",
+      "_mixins",
+      "_variables",
+      "_toast"
+    ],
+    "validated": false,
+    "pageFileName": "ToastsPage",
+    "examples": [
+      {
+        "fileName": "Toast",
+        "title": "Toast"
+      },
+      {
+        "fileName": "ToastHeaderIcon",
+        "title": "Header icons"
+      },
+      {
+        "fileName": "ToastDismiss",
+        "title": "Dismissing"
+      },
+      {
+        "fileName": "AlertUncontrolledDismiss",
+        "title": "TODO: AlertUncontrolledDismiss"
+      },
+      {
+        "fileName": "AlertFadeless",
+        "title": "TODO: AlertFadeless"
+      }
+    ]
   },
   "ToastBody": {
-    "sassPaths": ["_functions", "_mixins", "_variables", "_toastbody"],
-    "sassValided": false,
-    "reactstrapDocsPath": "toastbody"
+    "sassPaths": [
+      "_functions",
+      "_mixins",
+      "_variables",
+      "_toastbody"
+    ],
+    "validated": false
   },
   "ToastHeader": {
-    "sassPaths": ["_functions", "_mixins", "_variables", "_toastheader"],
-    "sassValided": false,
-    "reactstrapDocsPath": "toastheader"
+    "sassPaths": [
+      "_functions",
+      "_mixins",
+      "_variables",
+      "_toastheader"
+    ],
+    "validated": false
   },
   "Tooltip": {
-    "sassPaths": ["_functions", "_mixins", "_variables", "_tooltip"],
-    "sassValided": false,
-    "reactstrapDocsPath": "tooltip"
+    "sassPaths": [
+      "_functions",
+      "_mixins",
+      "_variables",
+      "_tooltip"
+    ],
+    "validated": false,
+    "pageFileName": "TooltipsPage",
+    "examples": [
+      {
+        "fileName": "Tooltip",
+        "title": "Tooltip Disable Autohide"
+      },
+      {
+        "fileName": "TooltipAutoHide",
+        "title": "Tooltips List"
+      },
+      {
+        "fileName": "TooltipMulti",
+        "title": "Uncontrolled Tooltip"
+      },
+      {
+        "fileName": "TooltipUncontrolled",
+        "title": "TODO: TooltipUncontrolled"
+      }
+    ]
   },
   "TooltipPopoverWrapper": {
-    "sassPaths": ["_functions", "_mixins", "_variables", "_tooltippopoverwrapper"],
-    "sassValided": false,
-    "reactstrapDocsPath": "tooltippopoverwrapper"
+    "sassPaths": [
+      "_functions",
+      "_mixins",
+      "_variables",
+      "_tooltippopoverwrapper"
+    ],
+    "validated": false
   },
   "UncontrolledAlert": {
-    "sassPaths": ["_functions", "_mixins", "_variables", "_uncontrolledalert"],
-    "sassValided": false,
-    "reactstrapDocsPath": "uncontrolledalert"
+    "sassPaths": [
+      "_functions",
+      "_mixins",
+      "_variables",
+      "_uncontrolledalert"
+    ],
+    "validated": false
   },
   "UncontrolledButtonDropdown": {
-    "sassPaths": ["_functions", "_mixins", "_variables", "_uncontrolledbuttondropdown"],
-    "sassValided": false,
-    "reactstrapDocsPath": "uncontrolledbuttondropdown"
+    "sassPaths": [
+      "_functions",
+      "_mixins",
+      "_variables",
+      "_uncontrolledbuttondropdown"
+    ],
+    "validated": false
   },
   "UncontrolledCarousel": {
-    "sassPaths": ["_functions", "_mixins", "_variables", "_uncontrolledcarousel"],
-    "sassValided": false,
-    "reactstrapDocsPath": "uncontrolledcarousel"
+    "sassPaths": [
+      "_functions",
+      "_mixins",
+      "_variables",
+      "_uncontrolledcarousel"
+    ],
+    "validated": false
   },
   "UncontrolledCollapse": {
-    "sassPaths": ["_functions", "_mixins", "_variables", "_uncontrolledcollapse"],
-    "sassValided": false,
-    "reactstrapDocsPath": "uncontrolledcollapse"
+    "sassPaths": [
+      "_functions",
+      "_mixins",
+      "_variables",
+      "_uncontrolledcollapse"
+    ],
+    "validated": false
   },
   "UncontrolledDropdown": {
-    "sassPaths": ["_functions", "_mixins", "_variables", "_uncontrolleddropdown"],
-    "sassValided": false,
-    "reactstrapDocsPath": "uncontrolleddropdown"
+    "sassPaths": [
+      "_functions",
+      "_mixins",
+      "_variables",
+      "_uncontrolleddropdown"
+    ],
+    "validated": false
   },
   "UncontrolledPopover": {
-    "sassPaths": ["_functions", "_mixins", "_variables", "_uncontrolledpopover"],
-    "sassValided": false,
-    "reactstrapDocsPath": "uncontrolledpopover"
+    "sassPaths": [
+      "_functions",
+      "_mixins",
+      "_variables",
+      "_uncontrolledpopover"
+    ],
+    "validated": false
   },
   "UncontrolledTooltip": {
-    "sassPaths": ["_functions", "_mixins", "_variables", "_uncontrolledtooltip"],
-    "sassValided": false,
-    "reactstrapDocsPath": "uncontrolledtooltip"
+    "sassPaths": [
+      "_functions",
+      "_mixins",
+      "_variables",
+      "_uncontrolledtooltip"
+    ],
+    "validated": false
   }
 }
