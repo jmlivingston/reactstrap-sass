@@ -1,14 +1,10 @@
-import cheerio from 'cheerio'
 import fs from 'fs'
-import fetch from 'node-fetch'
 import { EOL } from 'os'
 import path from 'path'
-import unescape from 'unescape'
 import { __dirname } from '../utils.mjs'
 import schema from './schema.json'
 
 const bootstrapBasePath = '~bootstrap/scss/' // TOOD: Should be prompt
-const reactstrapBaseUrl = 'https://raw.githubusercontent.com/reactstrap/reactstrap.github.io/master/components/'
 
 function getFilePath({ name }) {
   return path.join(__dirname, `../src/ui/${name}/`)
@@ -62,55 +58,7 @@ function ${exampleName}() {
 
 async function createExamples({ name }) {
   try {
-    // uncomment once ready
-    const response = await fetch(`${reactstrapBaseUrl}${schema[name].reactstrapDocsPath}/index.html`)
-    const html = await response.text()
-    // fs.writeFileSync('test.html', html)
-
-    // remove once ready
-    // const html = fs.readFileSync(path.join(__dirname, '../scripts/reactstrap/test.html')).toString()
-    const $ = cheerio.load(html)
     let componentSchema = {}
-    $('aside.docSearch-content code.language-jsx').each(function(index) {
-      const title =
-        index === 0
-          ? `${name} - Basic`
-          : $(this)
-              .parent()
-              .prevAll('h3')
-              .eq(0)
-              .text()
-              .trim()
-      const description = $(this)
-        .parent()
-        .prev()
-        .prev()
-        .is('p')
-        ? $(this)
-            .parent()
-            .prev()
-            .prev()
-            .html()
-        : ''
-      const isProperties =
-        $(this)
-          .parent()
-          .prev()
-          .text()
-          .trim()
-          .toLowerCase() === 'properties'
-      if (!isProperties) {
-        const code = unescape($(this).html())
-        if (componentSchema[title]) {
-          componentSchema[title].code += '<br />' + code
-        } else {
-          componentSchema[title] = {
-            code,
-            description
-          }
-        }
-      }
-    })
     console.log('=======================================================')
     console.log(componentSchema)
     console.log('=======================================================')
@@ -144,5 +92,5 @@ Object.keys(schema)
   .forEach(key => {
     createComponent({ name: key })
     createSass({ name: key })
-    createExamples({ name: key })
+    // createExamples({ name: key })
   })
