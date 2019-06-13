@@ -1,6 +1,15 @@
 {
   "name": "reactstrap-sass",
-  "version": "0.0.26",
+  "version": "0.0.1",
+  "description": "Use reactstrap with per component SASS instead of the entire Bootstrap CSS.",
+  "keywords": [
+    "react",
+    "Bootstrap",
+    "reactstrap"
+  ],
+  "author": "jmlivingston@gmail.com",
+  "license": "ISC",
+  "repository": "https://github.com/jmlivingston/reactstrap-sass",
   "scripts": {
     "build": "rollup -c",
     "start": "cross-env STORYBOOK_DEBUG=true start-storybook -p 4000 --quiet --ci",
@@ -139,15 +148,5 @@
     "hooks": {
       "pre-commit": "lint-staged"
     }
-  },
-  "description": "Boilerplate for creating React component libraries.",
-  "keywords": [
-    "react",
-    "storybook",
-    "rollup",
-    "webpack"
-  ],
-  "author": "jmlivingston@gmail.com",
-  "license": "ISC",
-  "repository": "https://github.com/jmlivingston/react-components-library"
+  }
 }
