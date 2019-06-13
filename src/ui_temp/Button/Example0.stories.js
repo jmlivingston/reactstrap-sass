@@ -1,7 +1,7 @@
 import { storiesOf } from '@storybook/react'
 import React from 'react'
 import baseConfig from '../../../.storybook/baseConfig'
-import Button from '../Button/Button'
+import Button from './Button'
 
 class Example0 extends React.Component {
   render() {
