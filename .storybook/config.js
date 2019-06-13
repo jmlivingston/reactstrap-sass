@@ -11,7 +11,10 @@ require('../src/documentation/documentation.stories')
 
 const req = require.context('../src/ui', true, /\.stories\.js$/)
 function loadStories() {
-  req.keys().forEach(filename => req(filename))
+  req
+    .keys()
+    .sort()
+    .forEach(filename => req(filename))
 }
 
 configure(loadStories, module)

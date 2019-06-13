@@ -8,7 +8,7 @@ function ButtonDemo() {
   return <Button color="primary">TODO: Button</Button>
 }
 
-storiesOf('Button', module).add('Button', ButtonDemo, {
+storiesOf('Example', module).add('Button', ButtonDemo, {
   ...baseConfig.options,
   info: {
     ...baseConfig.options.info,

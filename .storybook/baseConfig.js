@@ -12,7 +12,8 @@ const baseConfig = {
     info: {
       disable: process.env.STORYBOOK_DEBUG === 'true',
       header: false,
-      inline: true
+      inline: true,
+      textRender: ({ name }) => `import ${name} from 'reactstrap-sass/cjs/ui/${name}'`
     }
   }
 }

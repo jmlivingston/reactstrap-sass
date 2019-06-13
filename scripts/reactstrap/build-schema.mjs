@@ -12,7 +12,8 @@ const reactStrapFiles = getFilesFolders(reactStrapPath)
     return {
       ...acc,
       [baseName]: {
-        sassFiles: ['_functions', '_variables', '_mixins', `_${baseName.toLowerCase()}`],
+        sassPaths: ['_functions', '_mixins', '_variables', `_${baseName.toLowerCase()}`],
+        sassValided: false,
         reactstrapDocsPath: baseName.toLowerCase()
       }
     }
