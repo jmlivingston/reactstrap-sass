@@ -13,9 +13,8 @@
     "lint": "node node_modules/eslint/bin/eslint.js --max-warnings=0 src",
     "precommit": "lint-staged",
     "generate": "node --experimental-modules node_modules/.bin/plop --plopfile scripts/templates/index.js",
-    "react-strap-build-schema": "nodemon --experimental-modules scripts/reactstrap/build-schema.mjs --watch scripts/reactstrap/build-schema.mjs",
-    "react-strap-build-components-watch": "nodemon --experimental-modules scripts/reactstrap/build-components.mjs --watch scripts/reactstrap/build-components.mjs",
-    "react-strap-build-components": "node --experimental-modules scripts/reactstrap/build-components.mjs"
+    "react-strap-build-schema": "node --experimental-modules scripts/reactstrap/build-schema.mjs",
+    "react-strap-build-components": "nodemon --experimental-modules scripts/reactstrap/build-components.mjs --watch scripts/reactstrap/build-components.mjs"
   },
   "dependencies": {
     "react": "16.8.6",

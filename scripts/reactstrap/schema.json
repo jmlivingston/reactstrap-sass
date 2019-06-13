@@ -11,27 +11,33 @@
     "examples": [
       {
         "fileName": "Alert",
-        "title": "Alert"
+        "title": "Alert",
+        "description": ""
       },
       {
         "fileName": "AlertLink",
-        "title": "Link color"
+        "title": "Link color",
+        "description": ""
       },
       {
         "fileName": "AlertContent",
-        "title": "Additional content"
+        "title": "Additional content",
+        "description": ""
       },
       {
         "fileName": "AlertDismiss",
-        "title": "Dismissing"
+        "title": "Dismissing",
+        "description": ""
       },
       {
         "fileName": "AlertUncontrolledDismiss",
-        "title": "Uncontrolled [disable] Alerts"
+        "title": "Uncontrolled [disable] Alerts",
+        "description": ""
       },
       {
         "fileName": "AlertFadeless",
-        "title": "Alerts without fade"
+        "title": "Alerts without fade",
+        "description": ""
       }
     ]
   },
@@ -47,23 +53,28 @@
     "examples": [
       {
         "fileName": "Badge",
-        "title": "Contextual variations"
+        "title": "Contextual variations",
+        "description": ""
       },
       {
         "fileName": "BadgeButton",
-        "title": "Pills"
+        "title": "Pills",
+        "description": ""
       },
       {
         "fileName": "BadgePills",
-        "title": "Links"
+        "title": "Links",
+        "description": ""
       },
       {
         "fileName": "BadgeVariations",
-        "title": "TODO: BadgeVariations"
+        "title": "TODO: BadgeVariations",
+        "description": ""
       },
       {
         "fileName": "BadgeLinks",
-        "title": "TODO: BadgeLinks"
+        "title": "TODO: BadgeLinks",
+        "description": ""
       }
     ]
   },
@@ -79,11 +90,13 @@
     "examples": [
       {
         "fileName": "Breadcrumb",
-        "title": "No list"
+        "title": "No list",
+        "description": ""
       },
       {
         "fileName": "BreadcrumbNoList",
-        "title": "TODO: BreadcrumbNoList"
+        "title": "TODO: BreadcrumbNoList",
+        "description": ""
       }
     ]
   },
@@ -108,19 +121,23 @@
     "examples": [
       {
         "fileName": "Button",
-        "title": "Outline Buttons"
+        "title": "Outline Buttons",
+        "description": ""
       },
       {
         "fileName": "ButtonOutline",
-        "title": "Sizes"
+        "title": "Sizes",
+        "description": ""
       },
       {
         "fileName": "ButtonStateful",
-        "title": "Active State"
+        "title": "Active State",
+        "description": ""
       },
       {
         "fileName": "ButtonCloseIcon",
-        "title": "Disabled State"
+        "title": "Disabled State",
+        "description": ""
       }
     ]
   },
@@ -136,19 +153,23 @@
     "examples": [
       {
         "fileName": "ButtonDropdownMulti",
-        "title": "Single button dropdowns"
+        "title": "Single button dropdowns",
+        "description": ""
       },
       {
         "fileName": "ButtonDropdownMultiSplit",
-        "title": "Split button dropdowns"
+        "title": "Split button dropdowns",
+        "description": ""
       },
       {
         "fileName": "ButtonDropdown",
-        "title": "Sizing"
+        "title": "Sizing",
+        "description": ""
       },
       {
         "fileName": "ButtonDropdownUncontrolled",
-        "title": "Uncontrolled Dropdown"
+        "title": "Uncontrolled Dropdown",
+        "description": ""
       }
     ]
   },
@@ -164,11 +185,13 @@
     "examples": [
       {
         "fileName": "ButtonGroup",
-        "title": "Button Toolbar"
+        "title": "Button Toolbar",
+        "description": ""
       },
       {
         "fileName": "ButtonToolbar",
-        "title": "Sizing"
+        "title": "Sizing",
+        "description": ""
       }
     ]
   },
@@ -193,51 +216,63 @@
     "examples": [
       {
         "fileName": "Card",
-        "title": "Content Types"
+        "title": "Content Types",
+        "description": ""
       },
       {
         "fileName": "CardContentTypes",
-        "title": "Sizing"
+        "title": "Sizing",
+        "description": ""
       },
       {
         "fileName": "CardSizing",
-        "title": "Text alignment"
+        "title": "Text alignment",
+        "description": ""
       },
       {
         "fileName": "CardAlignment",
-        "title": "Header and Footer"
+        "title": "Header and Footer",
+        "description": ""
       },
       {
         "fileName": "CardHeaderFooter",
-        "title": "Image caps"
+        "title": "Image caps",
+        "description": ""
       },
       {
         "fileName": "CardImageCaps",
-        "title": "Image overlays"
+        "title": "Image overlays",
+        "description": ""
       },
       {
         "fileName": "CardImageOverlay",
-        "title": "Background variants"
+        "title": "Background variants",
+        "description": ""
       },
       {
         "fileName": "CardBackgrounds",
-        "title": "Outline variants"
+        "title": "Outline variants",
+        "description": ""
       },
       {
         "fileName": "CardOutline",
-        "title": "Groups"
+        "title": "Groups",
+        "description": ""
       },
       {
         "fileName": "CardGroups",
-        "title": "Decks"
+        "title": "Decks",
+        "description": ""
       },
       {
         "fileName": "CardDecks",
-        "title": "Columns"
+        "title": "Columns",
+        "description": ""
       },
       {
         "fileName": "CardColumns",
-        "title": "TODO: CardColumns"
+        "title": "TODO: CardColumns",
+        "description": ""
       }
     ]
   },
@@ -361,15 +396,18 @@
     "examples": [
       {
         "fileName": "Carousel",
-        "title": "Carousel Properties"
+        "title": "Carousel Properties",
+        "description": ""
       },
       {
         "fileName": "CarouselUncontrolled",
-        "title": "CarouselItem Properties"
+        "title": "CarouselItem Properties",
+        "description": ""
       },
       {
         "fileName": "CarouselCustomTag",
-        "title": "CarouselControl Properties"
+        "title": "CarouselControl Properties",
+        "description": ""
       }
     ]
   },
@@ -430,15 +468,18 @@
     "examples": [
       {
         "fileName": "Collapse",
-        "title": "Collapse"
+        "title": "Collapse",
+        "description": ""
       },
       {
         "fileName": "CollapseUncontrolled",
-        "title": "Events"
+        "title": "Events",
+        "description": ""
       },
       {
         "fileName": "CollapseEvents",
-        "title": "Uncontrolled Collapse"
+        "title": "Uncontrolled Collapse",
+        "description": ""
       }
     ]
   },
@@ -472,23 +513,28 @@
     "examples": [
       {
         "fileName": "Dropdown",
-        "title": "Alignment"
+        "title": "Alignment",
+        "description": ""
       },
       {
         "fileName": "DropdownSizing",
-        "title": "Menu Headers"
+        "title": "Menu Headers",
+        "description": ""
       },
       {
         "fileName": "CustomDropdown",
-        "title": "Menu Dividers"
+        "title": "Menu Dividers",
+        "description": ""
       },
       {
         "fileName": "DropdownUncontrolled",
-        "title": "Menu Items"
+        "title": "Menu Items",
+        "description": ""
       },
       {
         "fileName": "DropdownSetActiveFromChild",
-        "title": "Disabled Menu Items"
+        "title": "Disabled Menu Items",
+        "description": ""
       }
     ]
   },
@@ -540,7 +586,8 @@
     "examples": [
       {
         "fileName": "Fade",
-        "title": "Fade"
+        "title": "Fade",
+        "description": ""
       }
     ]
   },
@@ -556,47 +603,58 @@
     "examples": [
       {
         "fileName": "Form",
-        "title": "Form"
+        "title": "Form",
+        "description": ""
       },
       {
         "fileName": "FormGrid",
-        "title": "Form Grid"
+        "title": "Form Grid",
+        "description": ""
       },
       {
         "fileName": "FormGridFormRow",
-        "title": "Form Grid with Form Row"
+        "title": "Form Grid with Form Row",
+        "description": ""
       },
       {
         "fileName": "FormInline",
-        "title": "Inline Form"
+        "title": "Inline Form",
+        "description": ""
       },
       {
         "fileName": "FormFeedback",
-        "title": "Form Validation"
+        "title": "Form Validation",
+        "description": ""
       },
       {
         "fileName": "InputType",
-        "title": "Input Types"
+        "title": "Input Types",
+        "description": ""
       },
       {
         "fileName": "InlineCheckboxes",
-        "title": "Inline checkboxes"
+        "title": "Inline checkboxes",
+        "description": ""
       },
       {
         "fileName": "InputSizing",
-        "title": "Input Sizing"
+        "title": "Input Sizing",
+        "description": ""
       },
       {
         "fileName": "InputGridSizing",
-        "title": "Input Grid Sizing"
+        "title": "Input Grid Sizing",
+        "description": ""
       },
       {
         "fileName": "LabelHidden",
-        "title": "Hidden Labels"
+        "title": "Hidden Labels",
+        "description": ""
       },
       {
         "fileName": "CustomControls",
-        "title": "Custom Inputs"
+        "title": "Custom Inputs",
+        "description": ""
       }
     ]
   },
@@ -648,23 +706,28 @@
     "examples": [
       {
         "fileName": "InputGroupOverview",
-        "title": "Addons"
+        "title": "Addons",
+        "description": ""
       },
       {
         "fileName": "InputGroupAddon",
-        "title": "Addon Sizing"
+        "title": "Addon Sizing",
+        "description": ""
       },
       {
         "fileName": "InputGroupSizing",
-        "title": "Buttons / Dropdowns"
+        "title": "Buttons / Dropdowns",
+        "description": ""
       },
       {
         "fileName": "InputGroupButton",
-        "title": "Button Shorthand (DEPRECATED)"
+        "title": "Button Shorthand (DEPRECATED)",
+        "description": ""
       },
       {
         "fileName": "InputGroupButtonShorthand",
-        "title": "TODO: InputGroupButtonShorthand"
+        "title": "TODO: InputGroupButtonShorthand",
+        "description": ""
       }
     ]
   },
@@ -707,11 +770,13 @@
     "examples": [
       {
         "fileName": "Jumbotron",
-        "title": "Fluid Jumbotron"
+        "title": "Fluid Jumbotron",
+        "description": ""
       },
       {
         "fileName": "JumbotronFluid'",
-        "title": "TODO: JumbotronFluid'"
+        "title": "TODO: JumbotronFluid'",
+        "description": ""
       }
     ]
   },
@@ -736,31 +801,38 @@
     "examples": [
       {
         "fileName": "ListGroup",
-        "title": "TODO: ListGroup"
+        "title": "TODO: ListGroup",
+        "description": ""
       },
       {
         "fileName": "ListGroupBadge",
-        "title": "TODO: ListGroupBadge"
+        "title": "TODO: ListGroupBadge",
+        "description": ""
       },
       {
         "fileName": "ListGroupDisabledItems",
-        "title": "TODO: ListGroupDisabledItems"
+        "title": "TODO: ListGroupDisabledItems",
+        "description": ""
       },
       {
         "fileName": "ListGroupAnchorsAndButtons",
-        "title": "TODO: ListGroupAnchorsAndButtons"
+        "title": "TODO: ListGroupAnchorsAndButtons",
+        "description": ""
       },
       {
         "fileName": "ListGroupContextualClasses",
-        "title": "TODO: ListGroupContextualClasses"
+        "title": "TODO: ListGroupContextualClasses",
+        "description": ""
       },
       {
         "fileName": "ListGroupCustomContent",
-        "title": "TODO: ListGroupCustomContent"
+        "title": "TODO: ListGroupCustomContent",
+        "description": ""
       },
       {
         "fileName": "ListGroupFlush",
-        "title": "TODO: ListGroupFlush"
+        "title": "TODO: ListGroupFlush",
+        "description": ""
       }
     ]
   },
@@ -803,19 +875,23 @@
     "examples": [
       {
         "fileName": "Media",
-        "title": "TODO: Media"
+        "title": "TODO: Media",
+        "description": ""
       },
       {
         "fileName": "MediaNested",
-        "title": "TODO: MediaNested"
+        "title": "TODO: MediaNested",
+        "description": ""
       },
       {
         "fileName": "MediaAlignment",
-        "title": "TODO: MediaAlignment"
+        "title": "TODO: MediaAlignment",
+        "description": ""
       },
       {
         "fileName": "MediaList",
-        "title": "TODO: MediaList"
+        "title": "TODO: MediaList",
+        "description": ""
       }
     ]
   },
@@ -831,43 +907,53 @@
     "examples": [
       {
         "fileName": "Modal",
-        "title": "TODO: Modal"
+        "title": "TODO: Modal",
+        "description": ""
       },
       {
         "fileName": "ModalBackdrop",
-        "title": "TODO: ModalBackdrop"
+        "title": "TODO: ModalBackdrop",
+        "description": ""
       },
       {
         "fileName": "ModalNested",
-        "title": "TODO: ModalNested"
+        "title": "TODO: ModalNested",
+        "description": ""
       },
       {
         "fileName": "ModalCustomTimeout",
-        "title": "TODO: ModalCustomTimeout"
+        "title": "TODO: ModalCustomTimeout",
+        "description": ""
       },
       {
         "fileName": "ModalFadeless",
-        "title": "TODO: ModalFadeless"
+        "title": "TODO: ModalFadeless",
+        "description": ""
       },
       {
         "fileName": "ModalExternal",
-        "title": "TODO: ModalExternal"
+        "title": "TODO: ModalExternal",
+        "description": ""
       },
       {
         "fileName": "ModalCustomCloseIcon",
-        "title": "TODO: ModalCustomCloseIcon"
+        "title": "TODO: ModalCustomCloseIcon",
+        "description": ""
       },
       {
         "fileName": "ModalCustomCloseButton",
-        "title": "TODO: ModalCustomCloseButton"
+        "title": "TODO: ModalCustomCloseButton",
+        "description": ""
       },
       {
         "fileName": "ModalDestructuring",
-        "title": "TODO: ModalDestructuring"
+        "title": "TODO: ModalDestructuring",
+        "description": ""
       },
       {
         "fileName": "ModalFocusAfterClose",
-        "title": "TODO: ModalFocusAfterClose"
+        "title": "TODO: ModalFocusAfterClose",
+        "description": ""
       }
     ]
   },
@@ -910,19 +996,23 @@
     "examples": [
       {
         "fileName": "Navs",
-        "title": "Vertical"
+        "title": "Vertical",
+        "description": ""
       },
       {
         "fileName": "NavVertical",
-        "title": "Tabs"
+        "title": "Tabs",
+        "description": ""
       },
       {
         "fileName": "NavTabs",
-        "title": "Pills"
+        "title": "Pills",
+        "description": ""
       },
       {
         "fileName": "NavPills",
-        "title": "TODO: NavPills"
+        "title": "TODO: NavPills",
+        "description": ""
       }
     ]
   },
@@ -956,11 +1046,13 @@
     "examples": [
       {
         "fileName": "Navbar",
-        "title": "NavbarToggler"
+        "title": "NavbarToggler",
+        "description": ""
       },
       {
         "fileName": "NavbarToggler",
-        "title": "TODO: NavbarToggler"
+        "title": "TODO: NavbarToggler",
+        "description": ""
       }
     ]
   },
@@ -994,19 +1086,23 @@
     "examples": [
       {
         "fileName": "Pagination",
-        "title": "Disabled and active states"
+        "title": "Disabled and active states",
+        "description": ""
       },
       {
         "fileName": "PaginationState",
-        "title": "Sizing"
+        "title": "Sizing",
+        "description": ""
       },
       {
         "fileName": "PaginationSizingLarge",
-        "title": "TODO: PaginationSizingLarge"
+        "title": "TODO: PaginationSizingLarge",
+        "description": ""
       },
       {
         "fileName": "PaginationSizingSmall",
-        "title": "TODO: PaginationSizingSmall"
+        "title": "TODO: PaginationSizingSmall",
+        "description": ""
       }
     ]
   },
@@ -1040,19 +1136,23 @@
     "examples": [
       {
         "fileName": "Popover",
-        "title": "Popovers Trigger"
+        "title": "Popovers Trigger",
+        "description": ""
       },
       {
         "fileName": "PopoverMulti",
-        "title": "Popovers Placements"
+        "title": "Popovers Placements",
+        "description": ""
       },
       {
         "fileName": "PopoverFocus",
-        "title": "UncontrolledPopovers"
+        "title": "UncontrolledPopovers",
+        "description": ""
       },
       {
         "fileName": "PopoverUncontrolled",
-        "title": "TODO: PopoverUncontrolled"
+        "title": "TODO: PopoverUncontrolled",
+        "description": ""
       }
     ]
   },
@@ -1113,31 +1213,38 @@
     "examples": [
       {
         "fileName": "Progress",
-        "title": "Color Variants"
+        "title": "Color Variants",
+        "description": ""
       },
       {
         "fileName": "ProgressColor",
-        "title": "Labels"
+        "title": "Labels",
+        "description": ""
       },
       {
         "fileName": "ProgressLabels",
-        "title": "Striped"
+        "title": "Striped",
+        "description": ""
       },
       {
         "fileName": "ProgressAnimated",
-        "title": "Animated"
+        "title": "Animated",
+        "description": ""
       },
       {
         "fileName": "ProgressStriped",
-        "title": "Multiple bars / Stacked"
+        "title": "Multiple bars / Stacked",
+        "description": ""
       },
       {
         "fileName": "ProgressMulti",
-        "title": "Max value"
+        "title": "Max value",
+        "description": ""
       },
       {
         "fileName": "ProgressMax",
-        "title": "TODO: ProgressMax"
+        "title": "TODO: ProgressMax",
+        "description": ""
       }
     ]
   },
@@ -1162,11 +1269,13 @@
     "examples": [
       {
         "fileName": "Spinner",
-        "title": "Growing Spinner"
+        "title": "Growing Spinner",
+        "description": ""
       },
       {
         "fileName": "SpinnerGrower",
-        "title": "Sizes"
+        "title": "Sizes",
+        "description": ""
       }
     ]
   },
@@ -1209,35 +1318,43 @@
     "examples": [
       {
         "fileName": "Table",
-        "title": "Dark table"
+        "title": "Dark table",
+        "description": ""
       },
       {
         "fileName": "TableBordered",
-        "title": "Striped rows"
+        "title": "Striped rows",
+        "description": ""
       },
       {
         "fileName": "TableBorderless",
-        "title": "Bordered table"
+        "title": "Bordered table",
+        "description": ""
       },
       {
         "fileName": "TableHover",
-        "title": "Borderless table"
+        "title": "Borderless table",
+        "description": ""
       },
       {
         "fileName": "TableDark",
-        "title": "Hoverable rows"
+        "title": "Hoverable rows",
+        "description": ""
       },
       {
         "fileName": "TableResponsive",
-        "title": "Small table"
+        "title": "Small table",
+        "description": ""
       },
       {
         "fileName": "TableSizing",
-        "title": "Responsive table"
+        "title": "Responsive table",
+        "description": ""
       },
       {
         "fileName": "TableStriped",
-        "title": "TODO: TableStriped"
+        "title": "TODO: TableStriped",
+        "description": ""
       }
     ]
   },
@@ -1253,23 +1370,28 @@
     "examples": [
       {
         "fileName": "Toast",
-        "title": "Toast"
+        "title": "Toast",
+        "description": ""
       },
       {
         "fileName": "ToastHeaderIcon",
-        "title": "Header icons"
+        "title": "Header icons",
+        "description": ""
       },
       {
         "fileName": "ToastDismiss",
-        "title": "Dismissing"
+        "title": "Dismissing",
+        "description": ""
       },
       {
         "fileName": "AlertUncontrolledDismiss",
-        "title": "TODO: AlertUncontrolledDismiss"
+        "title": "TODO: AlertUncontrolledDismiss",
+        "description": ""
       },
       {
         "fileName": "AlertFadeless",
-        "title": "TODO: AlertFadeless"
+        "title": "TODO: AlertFadeless",
+        "description": ""
       }
     ]
   },
@@ -1303,19 +1425,23 @@
     "examples": [
       {
         "fileName": "Tooltip",
-        "title": "Tooltip Disable Autohide"
+        "title": "Tooltip Disable Autohide",
+        "description": ""
       },
       {
         "fileName": "TooltipAutoHide",
-        "title": "Tooltips List"
+        "title": "Tooltips List",
+        "description": ""
       },
       {
         "fileName": "TooltipMulti",
-        "title": "Uncontrolled Tooltip"
+        "title": "Uncontrolled Tooltip",
+        "description": ""
       },
       {
         "fileName": "TooltipUncontrolled",
-        "title": "TODO: TooltipUncontrolled"
+        "title": "TODO: TooltipUncontrolled",
+        "description": ""
       }
     ]
   },
