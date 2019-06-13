@@ -1,5 +1,11 @@
 import fs from 'fs'
 import path from 'path'
+import prettier from 'prettier'
+import packageJson from '../package.json'
+
+const prettierString = fileString => {
+  return prettier.format(fileString, { ...packageJson.prettier, parser: 'babel' })
+}
 
 // type - file, folder, both
 const getFilesFolders = (dir, isRecursive = true, type = 'file') =>
@@ -24,4 +30,4 @@ const getFilesFolders = (dir, isRecursive = true, type = 'file') =>
 
 const __dirname = path.dirname(new URL(import.meta.url).pathname)
 
-export { getFilesFolders, __dirname }
+export { getFilesFolders, prettierString, __dirname }

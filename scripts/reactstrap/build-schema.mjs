@@ -37,7 +37,10 @@ if (!fs.existsSync(reactstrapPath)) {
                 .trim()
             : undefined
           title = title === 'Properties' ? componentName : title
-          const fileName = line.replace(/"/g, "'").slice(line.lastIndexOf('/') + 1, line.lastIndexOf("'"))
+          const fileName = line
+            .replace(/"/g, "'")
+            .slice(line.lastIndexOf('/') + 1, line.lastIndexOf("'"))
+            .replace(/'/g, '')
           return {
             fileName,
             title: title || `TODO: ${fileName}`,

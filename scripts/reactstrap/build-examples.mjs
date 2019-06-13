@@ -1,29 +1,13 @@
 import fs from 'fs'
 import { EOL } from 'os'
 import path from 'path'
-import { __dirname } from '../utils.mjs'
+import { prettierString, __dirname } from '../utils.mjs'
 import schema from './schema.json'
 
-const bootstrapBasePath = '~bootstrap/scss/' // TOOD: Should be prompt
+const reactstrapPath = '../reactstrap'
 
 function getFilePath({ name }) {
   return path.join(__dirname, `../src/ui/${name}/`)
-}
-
-function createComponent({ name }) {
-  const code = `import ${name} from 'reactstrap/es/${name}'
-import './${name}.scss'
-export default ${name}`
-  const filePath = path.join(`${getFilePath({ name })}${name}.js`)
-  fs.mkdirSync(filePath.replace(path.basename(filePath), ''), { recursive: true })
-  fs.writeFileSync(filePath, code)
-}
-
-function createSass({ name }) {
-  const code = schema[name].sassPaths.map(sassPath => `@import '${bootstrapBasePath}${sassPath}';`).join('\r\n')
-  const filePath = path.join(`${getFilePath({ name })}${name}.scss`)
-  fs.mkdirSync(filePath.replace(path.basename(filePath), ''), { recursive: true })
-  fs.writeFileSync(filePath, code + '\r\n')
 }
 
 function parseCode({ exampleName, name, code }) {
@@ -32,14 +16,16 @@ function parseCode({ exampleName, name, code }) {
       .split(EOL)
       .map(line => {
         if (line.includes("from 'reactstrap'")) {
-          const components = line.match(/{(.*)}/)[1]
+          const components = line.match(/{(.*)}/)
           return components
-            .trim()
-            .split(',')
-            .map(component => `import ${component.trim()} from '../${component.trim()}/${component.trim()}'`)
-            .join('\n')
+            ? components[1]
+                .trim()
+                .split(',')
+                .map(component => `import ${component.trim()} from '../../${component.trim()}/${component.trim()}'`)
+                .join('\n')
+            : line.replace('reactstrap', '../../TODO')
         } else {
-          return line.replace('class Example', `class ${exampleName}`).replace('export default', '')
+          return line.replace('class Example', `class ${exampleName}`) //.replace('export default', '')
         }
       })
       .join('\n')
@@ -56,7 +42,22 @@ function ${exampleName}() {
   }
 }
 
-async function createExamples({ name }) {
+function copyExamples({ name }) {
+  if (schema[name].examples) {
+    schema[name].examples.forEach((example, index) => {
+      const exampleName = `Example${index}${example.fileName}`
+      let code = fs.readFileSync(path.join(reactstrapPath, `docs/lib/examples/${example.fileName}.js`)).toString()
+      code = prettierString(code)
+      code = parseCode({ name, exampleName, code })
+      code = prettierString(code)
+      const filePath = path.join(`${getFilePath({ name })}`, `examples/${exampleName}.js`)
+      fs.mkdirSync(filePath.replace(path.basename(filePath), ''), { recursive: true })
+      fs.writeFileSync(filePath, code)
+    })
+  }
+}
+
+function createStories({ name }) {
   try {
     let componentSchema = {}
     console.log('=======================================================')
@@ -88,9 +89,8 @@ storiesOf('${name}', module).add('${key}', Example${index}, {
 }
 
 Object.keys(schema)
-  // .filter(key => key === 'Button')
-  .forEach(key => {
-    createComponent({ name: key })
-    createSass({ name: key })
-    // createExamples({ name: key })
+  // .filter(key => key.toLowerCase().includes('pop'))
+  .forEach(name => {
+    copyExamples({ name })
+    // createStories({ name })
   })
