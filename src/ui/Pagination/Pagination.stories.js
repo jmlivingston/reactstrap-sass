@@ -1,9 +1,9 @@
 import { storiesOf } from '@storybook/react'
 import baseConfig from '../../../.storybook/baseConfig'
-import Example0Pagination from './examples/Example0Pagination'
-import Example1PaginationState from './examples/Example1PaginationState'
-import Example2PaginationSizingLarge from './examples/Example2PaginationSizingLarge'
-import Example3PaginationSizingSmall from './examples/Example3PaginationSizingSmall'
+import Pagination from './examples/Pagination'
+import PaginationState from './examples/PaginationState'
+import PaginationSizingLarge from './examples/PaginationSizingLarge'
+import PaginationSizingSmall from './examples/PaginationSizingSmall'
 
 const config = {
   ...baseConfig.options,
@@ -13,10 +13,10 @@ const config = {
   }
 }
 
-storiesOf('UI|Pagination', module).add('Disabled and active states', Example0Pagination, config)
+storiesOf('UI|Pagination', module).add('Disabled and active states', Pagination, config)
 
-storiesOf('UI|Pagination', module).add('Sizing', Example1PaginationState, config)
+storiesOf('UI|Pagination', module).add('Sizing', PaginationState, config)
 
-storiesOf('UI|Pagination', module).add('TODO: PaginationSizingLarge', Example2PaginationSizingLarge, config)
+storiesOf('UI|Pagination', module).add('TODO: PaginationSizingLarge', PaginationSizingLarge, config)
 
-storiesOf('UI|Pagination', module).add('TODO: PaginationSizingSmall', Example3PaginationSizingSmall, config)
+storiesOf('UI|Pagination', module).add('TODO: PaginationSizingSmall', PaginationSizingSmall, config)

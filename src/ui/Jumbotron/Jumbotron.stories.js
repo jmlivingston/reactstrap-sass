@@ -1,7 +1,7 @@
 import { storiesOf } from '@storybook/react'
 import baseConfig from '../../../.storybook/baseConfig'
-import Example0Jumbotron from './examples/Example0Jumbotron'
-import Example1JumbotronFluid from './examples/Example1JumbotronFluid'
+import Jumbotron from './examples/Jumbotron'
+import JumbotronFluid from './examples/JumbotronFluid'
 
 const config = {
   ...baseConfig.options,
@@ -11,6 +11,6 @@ const config = {
   }
 }
 
-storiesOf('UI|Jumbotron', module).add('Fluid Jumbotron', Example0Jumbotron, config)
+storiesOf('UI|Jumbotron', module).add('Fluid Jumbotron', Jumbotron, config)
 
-storiesOf('UI|Jumbotron', module).add('TODO: JumbotronFluid', Example1JumbotronFluid, config)
+storiesOf('UI|Jumbotron', module).add('TODO: JumbotronFluid', JumbotronFluid, config)

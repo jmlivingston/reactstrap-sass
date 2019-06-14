@@ -1,9 +1,9 @@
 import { storiesOf } from '@storybook/react'
 import React from 'react'
 import baseConfig from '../../../.storybook/baseConfig'
-import Example0Carousel from './examples/Example0Carousel'
-import Example1CarouselUncontrolled from './examples/Example1CarouselUncontrolled'
-import Example2CarouselCustomTag from './examples/Example2CarouselCustomTag'
+import Carousel from './examples/Carousel'
+import CarouselUncontrolled from './examples/CarouselUncontrolled'
+import CarouselCustomTag from './examples/CarouselCustomTag'
 
 const config = {
   ...baseConfig.options,
@@ -14,10 +14,10 @@ const config = {
 }
 
 // TODO: info broken due to hooks error
-storiesOf('UI|Carousel', module).add('Carousel Properties', () => <Example0Carousel />, config)
+storiesOf('UI|Carousel', module).add('Carousel Properties', () => <Carousel />, config)
 
 // TODO: info broken due to hooks error
-storiesOf('UI|Carousel', module).add('CarouselItem Properties', () => <Example1CarouselUncontrolled />, config)
+storiesOf('UI|Carousel', module).add('CarouselItem Properties', () => <CarouselUncontrolled />, config)
 
 // TODO: info broken due to hooks error
-storiesOf('UI|Carousel', module).add('CarouselControl Properties', () => <Example2CarouselCustomTag />, config)
+storiesOf('UI|Carousel', module).add('CarouselControl Properties', () => <CarouselCustomTag />, config)

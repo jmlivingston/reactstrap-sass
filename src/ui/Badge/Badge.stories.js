@@ -1,10 +1,10 @@
 import { storiesOf } from '@storybook/react'
 import baseConfig from '../../../.storybook/baseConfig'
-import Example0Badge from './examples/Example0Badge'
-import Example1BadgeButton from './examples/Example1BadgeButton'
-import Example2BadgePills from './examples/Example2BadgePills'
-import Example3BadgeVariations from './examples/Example3BadgeVariations'
-import Example4BadgeLinks from './examples/Example4BadgeLinks'
+import Badge from './examples/Badge'
+import BadgeButton from './examples/BadgeButton'
+import BadgePills from './examples/BadgePills'
+import BadgeVariations from './examples/BadgeVariations'
+import BadgeLinks from './examples/BadgeLinks'
 
 const config = {
   ...baseConfig.options,
@@ -14,12 +14,12 @@ const config = {
   }
 }
 
-storiesOf('UI|Badge', module).add('Contextual variations', Example0Badge, config)
+storiesOf('UI|Badge', module).add('Contextual variations', Badge, config)
 
-storiesOf('UI|Badge', module).add('Pills', Example1BadgeButton, config)
+storiesOf('UI|Badge', module).add('Pills', BadgeButton, config)
 
-storiesOf('UI|Badge', module).add('Links', Example2BadgePills, config)
+storiesOf('UI|Badge', module).add('Links', BadgePills, config)
 
-storiesOf('UI|Badge', module).add('TODO: BadgeVariations', Example3BadgeVariations, config)
+storiesOf('UI|Badge', module).add('TODO: BadgeVariations', BadgeVariations, config)
 
-storiesOf('UI|Badge', module).add('TODO: BadgeLinks', Example4BadgeLinks, config)
+storiesOf('UI|Badge', module).add('TODO: BadgeLinks', BadgeLinks, config)

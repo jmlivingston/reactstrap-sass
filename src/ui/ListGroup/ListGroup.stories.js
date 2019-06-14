@@ -1,12 +1,12 @@
 import { storiesOf } from '@storybook/react'
 import baseConfig from '../../../.storybook/baseConfig'
-import Example0ListGroup from './examples/Example0ListGroup'
-import Example1ListGroupBadge from './examples/Example1ListGroupBadge'
-import Example2ListGroupDisabledItems from './examples/Example2ListGroupDisabledItems'
-import Example3ListGroupAnchorsAndButtons from './examples/Example3ListGroupAnchorsAndButtons'
-import Example4ListGroupContextualClasses from './examples/Example4ListGroupContextualClasses'
-import Example5ListGroupCustomContent from './examples/Example5ListGroupCustomContent'
-import Example6ListGroupFlush from './examples/Example6ListGroupFlush'
+import ListGroup from './examples/ListGroup'
+import ListGroupBadge from './examples/ListGroupBadge'
+import ListGroupDisabledItems from './examples/ListGroupDisabledItems'
+import ListGroupAnchorsAndButtons from './examples/ListGroupAnchorsAndButtons'
+import ListGroupContextualClasses from './examples/ListGroupContextualClasses'
+import ListGroupCustomContent from './examples/ListGroupCustomContent'
+import ListGroupFlush from './examples/ListGroupFlush'
 
 const config = {
   ...baseConfig.options,
@@ -16,16 +16,16 @@ const config = {
   }
 }
 
-storiesOf('UI|ListGroup', module).add('TODO: ListGroup', Example0ListGroup, config)
+storiesOf('UI|ListGroup', module).add('TODO: ListGroup', ListGroup, config)
 
-storiesOf('UI|ListGroup', module).add('TODO: ListGroupBadge', Example1ListGroupBadge, config)
+storiesOf('UI|ListGroup', module).add('TODO: ListGroupBadge', ListGroupBadge, config)
 
-storiesOf('UI|ListGroup', module).add('TODO: ListGroupDisabledItems', Example2ListGroupDisabledItems, config)
+storiesOf('UI|ListGroup', module).add('TODO: ListGroupDisabledItems', ListGroupDisabledItems, config)
 
-storiesOf('UI|ListGroup', module).add('TODO: ListGroupAnchorsAndButtons', Example3ListGroupAnchorsAndButtons, config)
+storiesOf('UI|ListGroup', module).add('TODO: ListGroupAnchorsAndButtons', ListGroupAnchorsAndButtons, config)
 
-storiesOf('UI|ListGroup', module).add('TODO: ListGroupContextualClasses', Example4ListGroupContextualClasses, config)
+storiesOf('UI|ListGroup', module).add('TODO: ListGroupContextualClasses', ListGroupContextualClasses, config)
 
-storiesOf('UI|ListGroup', module).add('TODO: ListGroupCustomContent', Example5ListGroupCustomContent, config)
+storiesOf('UI|ListGroup', module).add('TODO: ListGroupCustomContent', ListGroupCustomContent, config)
 
-storiesOf('UI|ListGroup', module).add('TODO: ListGroupFlush', Example6ListGroupFlush, config)
+storiesOf('UI|ListGroup', module).add('TODO: ListGroupFlush', ListGroupFlush, config)

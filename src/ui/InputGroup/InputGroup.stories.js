@@ -1,11 +1,11 @@
 import { storiesOf } from '@storybook/react'
 import React from 'react'
 import baseConfig from '../../../.storybook/baseConfig'
-import Example0InputGroupOverview from './examples/Example0InputGroupOverview'
-import Example1InputGroupAddon from './examples/Example1InputGroupAddon'
-import Example2InputGroupSizing from './examples/Example2InputGroupSizing'
-import Example3InputGroupButton from './examples/Example3InputGroupButton'
-import Example4InputGroupButtonShorthand from './examples/Example4InputGroupButtonShorthand'
+import InputGroupOverview from './examples/InputGroupOverview'
+import InputGroupAddon from './examples/InputGroupAddon'
+import InputGroupSizing from './examples/InputGroupSizing'
+import InputGroupButton from './examples/InputGroupButton'
+import InputGroupButtonShorthand from './examples/InputGroupButtonShorthand'
 
 const config = {
   ...baseConfig.options,
@@ -15,13 +15,13 @@ const config = {
   }
 }
 
-storiesOf('UI|InputGroup', module).add('Addons', Example0InputGroupOverview, config)
+storiesOf('UI|InputGroup', module).add('Addons', InputGroupOverview, config)
 
-storiesOf('UI|InputGroup', module).add('Addon Sizing', Example1InputGroupAddon, config)
+storiesOf('UI|InputGroup', module).add('Addon Sizing', InputGroupAddon, config)
 
-storiesOf('UI|InputGroup', module).add('Buttons / Dropdowns', Example2InputGroupSizing, config)
+storiesOf('UI|InputGroup', module).add('Buttons / Dropdowns', InputGroupSizing, config)
 
 // TODO: info broken due to hooks error
-storiesOf('UI|InputGroup', module).add('Button Shorthand (DEPRECATED)', () => <Example3InputGroupButton />, config)
+storiesOf('UI|InputGroup', module).add('Button Shorthand (DEPRECATED)', () => <InputGroupButton />, config)
 
-storiesOf('UI|InputGroup', module).add('InputGroupButtonShorthand', Example4InputGroupButtonShorthand, config)
+storiesOf('UI|InputGroup', module).add('InputGroupButtonShorthand', InputGroupButtonShorthand, config)

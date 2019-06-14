@@ -1,10 +1,10 @@
 import { storiesOf } from '@storybook/react'
 import React from 'react'
 import baseConfig from '../../../.storybook/baseConfig'
-import Example0ButtonDropdownMulti from './examples/Example0ButtonDropdownMulti'
-import Example1ButtonDropdownMultiSplit from './examples/Example1ButtonDropdownMultiSplit'
-import Example2ButtonDropdown from './examples/Example2ButtonDropdown'
-import Example3ButtonDropdownUncontrolled from './examples/Example3ButtonDropdownUncontrolled'
+import ButtonDropdownMulti from './examples/ButtonDropdownMulti'
+import ButtonDropdownMultiSplit from './examples/ButtonDropdownMultiSplit'
+import ButtonDropdown from './examples/ButtonDropdown'
+import ButtonDropdownUncontrolled from './examples/ButtonDropdownUncontrolled'
 
 const config = {
   ...baseConfig.options,
@@ -15,12 +15,12 @@ const config = {
 }
 
 // TODO: info broken due to hooks error
-storiesOf('UI|ButtonDropdown', module).add('Single button dropdowns', () => <Example0ButtonDropdownMulti />, config)
+storiesOf('UI|ButtonDropdown', module).add('Single button dropdowns', () => <ButtonDropdownMulti />, config)
 
 // TODO: info broken due to hooks error
-storiesOf('UI|ButtonDropdown', module).add('Split button dropdowns', () => <Example1ButtonDropdownMultiSplit />, config)
+storiesOf('UI|ButtonDropdown', module).add('Split button dropdowns', () => <ButtonDropdownMultiSplit />, config)
 
 // TODO: info broken due to hooks error
-storiesOf('UI|ButtonDropdown', module).add('Sizing', () => <Example2ButtonDropdown />, config)
+storiesOf('UI|ButtonDropdown', module).add('Sizing', () => <ButtonDropdown />, config)
 
-storiesOf('UI|ButtonDropdown', module).add('Uncontrolled Dropdown', Example3ButtonDropdownUncontrolled, config)
+storiesOf('UI|ButtonDropdown', module).add('Uncontrolled Dropdown', ButtonDropdownUncontrolled, config)

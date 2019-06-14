@@ -1,9 +1,9 @@
 import { storiesOf } from '@storybook/react'
 import React from 'react'
 import baseConfig from '../../../.storybook/baseConfig'
-import Example0Collapse from './examples/Example0Collapse'
-import Example1CollapseUncontrolled from './examples/Example1CollapseUncontrolled'
-import Example2CollapseEvents from './examples/Example2CollapseEvents'
+import Collapse from './examples/Collapse'
+import CollapseUncontrolled from './examples/CollapseUncontrolled'
+import CollapseEvents from './examples/CollapseEvents'
 
 const config = {
   ...baseConfig.options,
@@ -14,9 +14,9 @@ const config = {
 }
 
 // TODO: info broken due to hooks error
-storiesOf('UI|Collapse', module).add('Collapse', () => <Example0Collapse />, config)
+storiesOf('UI|Collapse', module).add('Collapse', () => <Collapse />, config)
 
-storiesOf('UI|Collapse', module).add('Events', () => <Example1CollapseUncontrolled />, config)
+storiesOf('UI|Collapse', module).add('Events', () => <CollapseUncontrolled />, config)
 
 // TODO: info broken due to hooks error
-storiesOf('UI|Collapse', module).add('Uncontrolled Collapse', () => <Example2CollapseEvents />, config)
+storiesOf('UI|Collapse', module).add('Uncontrolled Collapse', () => <CollapseEvents />, config)

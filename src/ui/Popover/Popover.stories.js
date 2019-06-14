@@ -1,10 +1,10 @@
 import { storiesOf } from '@storybook/react'
 import React from 'react'
 import baseConfig from '../../../.storybook/baseConfig'
-import Example0Popover from './examples/Example0Popover'
-import Example1PopoverMulti from './examples/Example1PopoverMulti'
-import Example2PopoverFocus from './examples/Example2PopoverFocus'
-import Example3PopoverUncontrolled from './examples/Example3PopoverUncontrolled'
+import Popover from './examples/Popover'
+import PopoverMulti from './examples/PopoverMulti'
+import PopoverFocus from './examples/PopoverFocus'
+import PopoverUncontrolled from './examples/PopoverUncontrolled'
 
 const config = {
   ...baseConfig.options,
@@ -15,10 +15,10 @@ const config = {
 }
 
 // TODO: info broken due to hooks error
-storiesOf('UI|Popover', module).add('Popovers Trigger', () => <Example0Popover />, config)
+storiesOf('UI|Popover', module).add('Popovers Trigger', () => <Popover />, config)
 
-storiesOf('UI|Popover', module).add('Popovers Placements', Example1PopoverMulti, config)
+storiesOf('UI|Popover', module).add('Popovers Placements', PopoverMulti, config)
 
-storiesOf('UI|Popover', module).add('UncontrolledPopovers', Example2PopoverFocus, config)
+storiesOf('UI|Popover', module).add('UncontrolledPopovers', PopoverFocus, config)
 
-storiesOf('UI|Popover', module).add('TODO: PopoverUncontrolled', Example3PopoverUncontrolled, config)
+storiesOf('UI|Popover', module).add('TODO: PopoverUncontrolled', PopoverUncontrolled, config)

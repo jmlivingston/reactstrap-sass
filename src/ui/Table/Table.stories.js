@@ -1,13 +1,13 @@
 import { storiesOf } from '@storybook/react'
 import baseConfig from '../../../.storybook/baseConfig'
-import Example0Table from './examples/Example0Table'
-import Example1TableBordered from './examples/Example1TableBordered'
-import Example2TableBorderless from './examples/Example2TableBorderless'
-import Example3TableHover from './examples/Example3TableHover'
-import Example4TableDark from './examples/Example4TableDark'
-import Example5TableResponsive from './examples/Example5TableResponsive'
-import Example6TableSizing from './examples/Example6TableSizing'
-import Example7TableStriped from './examples/Example7TableStriped'
+import Table from './examples/Table'
+import TableBordered from './examples/TableBordered'
+import TableBorderless from './examples/TableBorderless'
+import TableHover from './examples/TableHover'
+import TableDark from './examples/TableDark'
+import TableResponsive from './examples/TableResponsive'
+import TableSizing from './examples/TableSizing'
+import TableStriped from './examples/TableStriped'
 
 const config = {
   ...baseConfig.options,
@@ -17,18 +17,18 @@ const config = {
   }
 }
 
-storiesOf('UI|Table', module).add('Dark table', Example0Table, config)
+storiesOf('UI|Table', module).add('Dark table', Table, config)
 
-storiesOf('UI|Table', module).add('Striped rows', Example1TableBordered, config)
+storiesOf('UI|Table', module).add('Striped rows', TableBordered, config)
 
-storiesOf('UI|Table', module).add('Bordered table', Example2TableBorderless, config)
+storiesOf('UI|Table', module).add('Bordered table', TableBorderless, config)
 
-storiesOf('UI|Table', module).add('Borderless table', Example3TableHover, config)
+storiesOf('UI|Table', module).add('Borderless table', TableHover, config)
 
-storiesOf('UI|Table', module).add('Hoverable rows', Example4TableDark, config)
+storiesOf('UI|Table', module).add('Hoverable rows', TableDark, config)
 
-storiesOf('UI|Table', module).add('Small table', Example5TableResponsive, config)
+storiesOf('UI|Table', module).add('Small table', TableResponsive, config)
 
-storiesOf('UI|Table', module).add('Responsive table', Example6TableSizing, config)
+storiesOf('UI|Table', module).add('Responsive table', TableSizing, config)
 
-storiesOf('UI|Table', module).add('TODO: TableStriped', Example7TableStriped, config)
+storiesOf('UI|Table', module).add('TODO: TableStriped', TableStriped, config)

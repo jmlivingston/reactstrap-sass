@@ -1,11 +1,11 @@
 import { storiesOf } from '@storybook/react'
 import React from 'react'
 import baseConfig from '../../../.storybook/baseConfig'
-import Example0Toast from './examples/Example0Toast'
-import Example1ToastHeaderIcon from './examples/Example1ToastHeaderIcon'
-import Example2ToastDismiss from './examples/Example2ToastDismiss'
-import Example3AlertUncontrolledDismiss from './examples/Example3AlertUncontrolledDismiss'
-import Example4AlertFadeless from './examples/Example4AlertFadeless'
+import Toast from './examples/Toast'
+import ToastHeaderIcon from './examples/ToastHeaderIcon'
+import ToastDismiss from './examples/ToastDismiss'
+import AlertUncontrolledDismiss from './examples/AlertUncontrolledDismiss'
+import AlertFadeless from './examples/AlertFadeless'
 
 const config = {
   ...baseConfig.options,
@@ -15,15 +15,15 @@ const config = {
   }
 }
 
-storiesOf('UI|Toast', module).add('Toast', Example0Toast, config)
+storiesOf('UI|Toast', module).add('Toast', Toast, config)
 
-storiesOf('UI|Toast', module).add('Header icons', Example1ToastHeaderIcon, config)
-
-// TODO: info broken due to hooks error
-storiesOf('UI|Toast', module).add('Dismissing', () => <Example2ToastDismiss />, config)
+storiesOf('UI|Toast', module).add('Header icons', ToastHeaderIcon, config)
 
 // TODO: info broken due to hooks error
-storiesOf('UI|Toast', module).add('TODO: AlertUncontrolledDismiss', () => <Example3AlertUncontrolledDismiss />, config)
+storiesOf('UI|Toast', module).add('Dismissing', () => <ToastDismiss />, config)
 
 // TODO: info broken due to hooks error
-storiesOf('UI|Toast', module).add('TODO: AlertFadeless', () => <Example4AlertFadeless />, config)
+storiesOf('UI|Toast', module).add('TODO: AlertUncontrolledDismiss', () => <AlertUncontrolledDismiss />, config)
+
+// TODO: info broken due to hooks error
+storiesOf('UI|Toast', module).add('TODO: AlertFadeless', () => <AlertFadeless />, config)

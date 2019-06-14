@@ -1,11 +1,11 @@
 import { storiesOf } from '@storybook/react'
 import React from 'react'
 import baseConfig from '../../../.storybook/baseConfig'
-import Example0Dropdown from './examples/Example0Dropdown'
-import Example1DropdownSizing from './examples/Example1DropdownSizing'
-import Example2CustomDropdown from './examples/Example2CustomDropdown'
-import Example3DropdownUncontrolled from './examples/Example3DropdownUncontrolled'
-import Example4DropdownSetActiveFromChild from './examples/Example4DropdownSetActiveFromChild'
+import Dropdown from './examples/Dropdown'
+import DropdownSizing from './examples/DropdownSizing'
+import CustomDropdown from './examples/CustomDropdown'
+import DropdownUncontrolled from './examples/DropdownUncontrolled'
+import DropdownSetActiveFromChild from './examples/DropdownSetActiveFromChild'
 
 const config = {
   ...baseConfig.options,
@@ -16,14 +16,14 @@ const config = {
 }
 
 // TODO: info broken due to hooks error
-storiesOf('UI|Dropdown', module).add('Alignment', () => <Example0Dropdown />, config)
+storiesOf('UI|Dropdown', module).add('Alignment', () => <Dropdown />, config)
 
 // TODO: info broken due to hooks error
-storiesOf('UI|Dropdown', module).add('Menu Headers', () => <Example1DropdownSizing />, config)
+storiesOf('UI|Dropdown', module).add('Menu Headers', () => <DropdownSizing />, config)
 
 // TODO: info broken due to hooks error
-storiesOf('UI|Dropdown', module).add('Menu Dividers', () => <Example2CustomDropdown />, config)
+storiesOf('UI|Dropdown', module).add('Menu Dividers', () => <CustomDropdown />, config)
 
-storiesOf('UI|Dropdown', module).add('Menu Items', Example3DropdownUncontrolled, config)
+storiesOf('UI|Dropdown', module).add('Menu Items', DropdownUncontrolled, config)
 
-storiesOf('UI|Dropdown', module).add('Disabled Menu Items', Example4DropdownSetActiveFromChild, config)
+storiesOf('UI|Dropdown', module).add('Disabled Menu Items', DropdownSetActiveFromChild, config)

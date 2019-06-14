@@ -2,17 +2,17 @@ import { storiesOf } from '@storybook/react'
 import baseConfig from '../../../.storybook/baseConfig'
 import packageJson from '../../../package.json'
 import React from 'react'
-import Example0Navbar from './examples/Example0Navbar'
-import Example1NavbarToggler from './examples/Example1NavbarToggler'
+import Navbar from './examples/Navbar'
+import NavbarToggler from './examples/NavbarToggler'
 
-storiesOf('UI|Navbar', module).add('NavbarToggler', Example0Navbar, {
+storiesOf('UI|Navbar', module).add('NavbarToggler', Navbar, {
   ...baseConfig.options,
   info: {
     ...baseConfig.options.info,
     text: baseConfig.options.info.textRender({ name: 'Navbar' })
   }
 })
-storiesOf('UI|Navbar', module).add('TODO: NavbarToggler', Example1NavbarToggler, {
+storiesOf('UI|Navbar', module).add('TODO: NavbarToggler', NavbarToggler, {
   ...baseConfig.options,
   info: {
     ...baseConfig.options.info,

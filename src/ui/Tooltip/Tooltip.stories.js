@@ -1,10 +1,10 @@
 import { storiesOf } from '@storybook/react'
 import React from 'react'
 import baseConfig from '../../../.storybook/baseConfig'
-import Example0Tooltip from './examples/Example0Tooltip'
-import Example1TooltipAutoHide from './examples/Example1TooltipAutoHide'
-import Example2TooltipMulti from './examples/Example2TooltipMulti'
-import Example3TooltipUncontrolled from './examples/Example3TooltipUncontrolled'
+import Tooltip from './examples/Tooltip'
+import TooltipAutoHide from './examples/TooltipAutoHide'
+import TooltipMulti from './examples/TooltipMulti'
+import TooltipUncontrolled from './examples/TooltipUncontrolled'
 
 const config = {
   ...baseConfig.options,
@@ -15,11 +15,11 @@ const config = {
 }
 
 // TODO: info broken due to hooks error
-storiesOf('UI|Tooltip', module).add('Tooltip Disable Autohide', () => <Example0Tooltip />, config)
+storiesOf('UI|Tooltip', module).add('Tooltip Disable Autohide', () => <Tooltip />, config)
 
 // TODO: info broken due to hooks error
-storiesOf('UI|Tooltip', module).add('Tooltips List', () => <Example1TooltipAutoHide />, config)
+storiesOf('UI|Tooltip', module).add('Tooltips List', () => <TooltipAutoHide />, config)
 
-storiesOf('UI|Tooltip', module).add('Uncontrolled Tooltip', Example2TooltipMulti, config)
+storiesOf('UI|Tooltip', module).add('Uncontrolled Tooltip', TooltipMulti, config)
 
-storiesOf('UI|Tooltip', module).add('TODO: TooltipUncontrolled', Example3TooltipUncontrolled, config)
+storiesOf('UI|Tooltip', module).add('TODO: TooltipUncontrolled', TooltipUncontrolled, config)

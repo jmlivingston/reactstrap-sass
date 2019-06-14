@@ -1,7 +1,7 @@
 import { storiesOf } from '@storybook/react'
 import baseConfig from '../../../.storybook/baseConfig'
-import Example0Breadcrumb from './examples/Example0Breadcrumb'
-import Example1BreadcrumbNoList from './examples/Example1BreadcrumbNoList'
+import Breadcrumb from './examples/Breadcrumb'
+import BreadcrumbNoList from './examples/BreadcrumbNoList'
 
 const config = {
   ...baseConfig.options,
@@ -11,6 +11,6 @@ const config = {
   }
 }
 
-storiesOf('UI|Breadcrumb', module).add('No list', Example0Breadcrumb, config)
+storiesOf('UI|Breadcrumb', module).add('No list', Breadcrumb, config)
 
-storiesOf('UI|Breadcrumb', module).add('BreadcrumbNoList', Example1BreadcrumbNoList, config)
+storiesOf('UI|Breadcrumb', module).add('BreadcrumbNoList', BreadcrumbNoList, config)

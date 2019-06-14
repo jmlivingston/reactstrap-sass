@@ -1,7 +1,7 @@
 import { storiesOf } from '@storybook/react'
 import baseConfig from '../../../.storybook/baseConfig'
-import Example0ButtonGroup from './examples/Example0ButtonGroup'
-import Example1ButtonToolbar from './examples/Example1ButtonToolbar'
+import ButtonGroup from './examples/ButtonGroup'
+import ButtonToolbar from './examples/ButtonToolbar'
 
 const config = {
   ...baseConfig.options,
@@ -11,6 +11,6 @@ const config = {
   }
 }
 
-storiesOf('UI|ButtonGroup', module).add('Button Toolbar', Example0ButtonGroup, config)
+storiesOf('UI|ButtonGroup', module).add('Button Toolbar', ButtonGroup, config)
 
-storiesOf('UI|ButtonGroup', module).add('Sizing', Example1ButtonToolbar, config)
+storiesOf('UI|ButtonGroup', module).add('Sizing', ButtonToolbar, config)

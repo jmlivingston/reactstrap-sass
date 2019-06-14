@@ -1,7 +1,7 @@
 import { storiesOf } from '@storybook/react'
 import React from 'react'
 import baseConfig from '../../../.storybook/baseConfig'
-import Example0Fade from './examples/Example0Fade'
+import Fade from './examples/Fade'
 
 const config = {
   ...baseConfig.options,
@@ -12,4 +12,4 @@ const config = {
 }
 
 // TODO: info broken due to hooks error
-storiesOf('UI|Fade', module).add('Fade', () => <Example0Fade />, config)
+storiesOf('UI|Fade', module).add('Fade', () => <Fade />, config)
