@@ -1,10 +1,12 @@
-import { storiesOf } from '@storybook/react';
-import { storyConfig, storyConfigHelpers } from '../../../.storybook/storyConfig';
-import Spinner from './examples/Spinner';
-import SpinnerGrower from './examples/SpinnerGrower';
+import { storiesOf } from '@storybook/react'
+import { storyConfig, storyConfigHelpers } from '../../../.storybook/storyConfig'
+import Spinner from './examples/Spinner'
+import SpinnerGrower from './examples/SpinnerGrower'
 
-const config = storyConfigHelpers.getConfig({ name: 'Spinner' })
+const name = 'Spinner'
+const category = `${storyConfig.componentPrefix}${name}`
+const config = storyConfigHelpers.getConfig({ name })
 
-storiesOf(`${storyConfig.componentPrefix}Spinner`, module).add('Spinner', Spinner, config)
+storiesOf(category, module).add('Spinner', Spinner, config)
 
-storiesOf(`${storyConfig.componentPrefix}Spinner`, module).add('Growing Spinner', SpinnerGrower, config)
+storiesOf(category, module).add('Growing Spinner', SpinnerGrower, config)

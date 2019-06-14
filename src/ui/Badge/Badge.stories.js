@@ -6,29 +6,31 @@ import BadgeLinks from './examples/BadgeLinks'
 import BadgePills from './examples/BadgePills'
 import BadgeVariations from './examples/BadgeVariations'
 
-const config = storyConfigHelpers.getConfig({ name: 'Badge' })
+const name = 'Badge'
+const category = `${storyConfig.componentPrefix}${name}`
+const config = storyConfigHelpers.getConfig({ name })
 
 const badgeConfig = storyConfigHelpers.getConfig({
-  name: 'Badge',
+  name,
   description: `<p>Scale to parent</p>`
 })
 
-storiesOf(`${storyConfig.componentPrefix}Badge`, module).add('Badges', Badge, badgeConfig)
+storiesOf(category, module).add('Badges', Badge, badgeConfig)
 
 const badgeButtonConfig = storyConfigHelpers.getConfig({
-  name: 'Badge',
+  name,
   description: `<p>Badges can be used as part of links or buttons to provide a counter.</p>`
 })
 
-storiesOf(`${storyConfig.componentPrefix}Badge`, module).add('Badge Buttons', BadgeButton, badgeButtonConfig)
+storiesOf(category, module).add('Badge Buttons', BadgeButton, badgeButtonConfig)
 
-storiesOf(`${storyConfig.componentPrefix}Badge`, module).add('Contextual Variations', BadgeVariations, config)
+storiesOf(category, module).add('Contextual Variations', BadgeVariations, config)
 
-storiesOf(`${storyConfig.componentPrefix}Badge`, module).add('Pills', BadgePills, config)
+storiesOf(category, module).add('Pills', BadgePills, config)
 
 const badgeLinksConfig = storyConfigHelpers.getConfig({
-  name: 'Badge',
+  name,
   description: `<p>Adding the <code>href</code> prop (without specifying a <code>tag</code> prop) will default the badge to a link.</p>`
 })
 
-storiesOf(`${storyConfig.componentPrefix}Badge`, module).add('Links', BadgeLinks, badgeLinksConfig)
+storiesOf(category, module).add('Links', BadgeLinks, badgeLinksConfig)

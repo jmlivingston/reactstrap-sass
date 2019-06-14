@@ -8,26 +8,27 @@ import ListGroupCustomContent from './examples/ListGroupCustomContent'
 import ListGroupDisabledItems from './examples/ListGroupDisabledItems'
 import ListGroupFlush from './examples/ListGroupFlush'
 
-const config = storyConfigHelpers.getConfig({ name: 'ListGroup' })
+const name = 'ListGroup'
+const category = `${storyConfig.componentPrefix}${name}`
+const config = storyConfigHelpers.getConfig({ name })
 
-storiesOf(`${storyConfig.componentPrefix}ListGroup`, module).add('ListGroup', ListGroup, config)
+storiesOf(category, module).add('ListGroup', ListGroup, config)
 
-storiesOf(`${storyConfig.componentPrefix}ListGroup`, module).add('Tags', ListGroupBadge, config)
+storiesOf(category, module).add('Tags', ListGroupBadge, config)
 
-storiesOf(`${storyConfig.componentPrefix}ListGroup`, module).add('Disabled items', ListGroupDisabledItems, config)
+storiesOf(category, module).add('Disabled items', ListGroupDisabledItems, config)
 
-storiesOf(`${storyConfig.componentPrefix}ListGroup`, module).add(
+storiesOf(category, module).add(
   'Anchors and buttons',
   ListGroupAnchorsAndButtons,
-  config
+  storyConfigHelpers.getConfig({
+    name,
+    description: `<p>Note: you need add action props to make these buttons fit the list.</p>`
+  })
 )
 
-storiesOf(`${storyConfig.componentPrefix}ListGroup`, module).add(
-  'Contextual classes',
-  ListGroupContextualClasses,
-  config
-)
+storiesOf(category, module).add('Contextual classes', ListGroupContextualClasses, config)
 
-storiesOf(`${storyConfig.componentPrefix}ListGroup`, module).add('Custom content', ListGroupCustomContent, config)
+storiesOf(category, module).add('Custom content', ListGroupCustomContent, config)
 
-storiesOf(`${storyConfig.componentPrefix}ListGroup`, module).add('Flush', ListGroupFlush, config)
+storiesOf(category, module).add('Flush', ListGroupFlush, config)

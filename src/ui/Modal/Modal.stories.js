@@ -12,58 +12,36 @@ import ModalFadeless from './examples/ModalFadeless'
 import ModalFocusAfterClose from './examples/ModalFocusAfterClose'
 import ModalNested from './examples/ModalNested'
 
-const config = storyConfigHelpers.getConfig({ name: 'Modal' })
+const name = 'Modal'
+const category = `${storyConfig.componentPrefix}${name}`
+const config = storyConfigHelpers.getConfig({ name })
 
 // info broken due to hooks error
-storiesOf(`${storyConfig.componentPrefix}Modal`, module).add('Modal', () => <Modal />, config)
+storiesOf(category, module).add('Modal', () => <Modal />, config)
 
 // info broken due to hooks error
-storiesOf(`${storyConfig.componentPrefix}Modal`, module).add('Backdrop', () => <ModalBackdrop />, config)
+storiesOf(category, module).add('Backdrop', () => <ModalBackdrop />, config)
 
 // info broken due to hooks error
-storiesOf(`${storyConfig.componentPrefix}Modal`, module).add('Nested Modals', () => <ModalNested />, config)
+storiesOf(category, module).add('Nested Modals', () => <ModalNested />, config)
 
 // info broken due to hooks error
-storiesOf(`${storyConfig.componentPrefix}Modal`, module).add(
-  'Modals with Custom Transition Timeouts',
-  () => <ModalCustomTimeout />,
-  config
-)
+storiesOf(category, module).add('Modals with Custom Transition Timeouts', () => <ModalCustomTimeout />, config)
 
 // info broken due to hooks error
-storiesOf(`${storyConfig.componentPrefix}Modal`, module).add(
-  'Modals without Fade Effect',
-  () => <ModalFadeless />,
-  config
-)
+storiesOf(category, module).add('Modals without Fade Effect', () => <ModalFadeless />, config)
 
 // info broken due to hooks error
-storiesOf(`${storyConfig.componentPrefix}Modal`, module).add(
-  'Modals with external button',
-  () => <ModalExternal />,
-  config
-)
+storiesOf(category, module).add('Modals with external button', () => <ModalExternal />, config)
 
 // info broken due to hooks error
-storiesOf(`${storyConfig.componentPrefix}Modal`, module).add(
-  'Modals with custom close button',
-  () => <ModalCustomCloseIcon />,
-  config
-)
+storiesOf(category, module).add('Modals with custom close button', () => <ModalCustomCloseIcon />, config)
 
 // info broken due to hooks error
-storiesOf(`${storyConfig.componentPrefix}Modal`, module).add(
-  'Modals with custom close icon',
-  () => <ModalCustomCloseButton />,
-  config
-)
+storiesOf(category, module).add('Modals with custom close icon', () => <ModalCustomCloseButton />, config)
 
 // info broken due to hooks error
-storiesOf(`${storyConfig.componentPrefix}Modal`, module).add('Destructuring', () => <ModalDestructuring />, config)
+storiesOf(category, module).add('Destructuring', () => <ModalDestructuring />, config)
 
 // info broken due to hooks error
-storiesOf(`${storyConfig.componentPrefix}Modal`, module).add(
-  'Focus after close',
-  () => <ModalFocusAfterClose />,
-  config
-)
+storiesOf(category, module).add('Focus after close', () => <ModalFocusAfterClose />, config)

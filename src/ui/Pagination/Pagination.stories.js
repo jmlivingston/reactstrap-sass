@@ -5,12 +5,14 @@ import PaginationSizingLarge from './examples/PaginationSizingLarge'
 import PaginationSizingSmall from './examples/PaginationSizingSmall'
 import PaginationState from './examples/PaginationState'
 
-const config = storyConfigHelpers.getConfig({ name: 'Pagination' })
+const name = 'Pagination'
+const category = `${storyConfig.componentPrefix}${name}`
+const config = storyConfigHelpers.getConfig({ name })
 
-storiesOf(`${storyConfig.componentPrefix}Pagination`, module).add('Pagination', Pagination, config)
+storiesOf(category, module).add('Pagination', Pagination, config)
 
-storiesOf(`${storyConfig.componentPrefix}Pagination`, module).add('Disabled and active states', PaginationState, config)
+storiesOf(category, module).add('Disabled and active states', PaginationState, config)
 
-storiesOf(`${storyConfig.componentPrefix}Pagination`, module).add('Sizing Large', PaginationSizingLarge, config)
+storiesOf(category, module).add('Sizing Large', PaginationSizingLarge, config)
 
-storiesOf(`${storyConfig.componentPrefix}Pagination`, module).add('Sizing Small', PaginationSizingSmall, config)
+storiesOf(category, module).add('Sizing Small', PaginationSizingSmall, config)

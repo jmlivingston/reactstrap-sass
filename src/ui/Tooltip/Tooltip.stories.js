@@ -6,18 +6,23 @@ import TooltipAutoHide from './examples/TooltipAutoHide'
 import TooltipMulti from './examples/TooltipMulti'
 import TooltipUncontrolled from './examples/TooltipUncontrolled'
 
-const config = storyConfigHelpers.getConfig({ name: 'Tooltip' })
+const name = 'Tooltip'
+const category = `${storyConfig.componentPrefix}${name}`
+const config = storyConfigHelpers.getConfig({ name })
 
 // TODO: info broken due to hooks error
-storiesOf(`${storyConfig.componentPrefix}Tooltip`, module).add('Tooltips', () => <Tooltip />, config)
+storiesOf(category, module).add('Tooltips', () => <Tooltip />, config)
 
 // TODO: info broken due to hooks error
-storiesOf(`${storyConfig.componentPrefix}Tooltip`, module).add(
-  'Tooltip Disable Autohide',
-  () => <TooltipAutoHide />,
-  config
+storiesOf(category, module).add('Tooltip Disable Autohide', () => <TooltipAutoHide />, config)
+
+storiesOf(category, module).add('Tooltips List', TooltipMulti, config)
+
+storiesOf(category, module).add(
+  'Uncontrolled Tooltip',
+  TooltipUncontrolled,
+  storyConfigHelpers.getConfig({
+    name,
+    description: `<p>For the most basic use-case an uncontrolled component can provide the functionality wanted without the need to manage/control the state of the component. <code>UncontrolledTooltip</code> does not require <code>isOpen</code> nor <code>toggle</code> props to work.</p>`
+  })
 )
-
-storiesOf(`${storyConfig.componentPrefix}Tooltip`, module).add('Tooltips List', TooltipMulti, config)
-
-storiesOf(`${storyConfig.componentPrefix}Tooltip`, module).add('Uncontrolled Tooltip', TooltipUncontrolled, config)

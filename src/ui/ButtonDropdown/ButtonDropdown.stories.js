@@ -6,27 +6,17 @@ import ButtonDropdownMulti from './examples/ButtonDropdownMulti'
 import ButtonDropdownMultiSplit from './examples/ButtonDropdownMultiSplit'
 import ButtonDropdownUncontrolled from './examples/ButtonDropdownUncontrolled'
 
-const config = storyConfigHelpers.getConfig({ name: 'ButtonDropdown' })
+const name = 'ButtonDropdown'
+const category = `${storyConfig.componentPrefix}${name}`
+const config = storyConfigHelpers.getConfig({ name })
 
 // TODO: info broken due to hooks error
-storiesOf(`${storyConfig.componentPrefix}ButtonDropdown`, module).add(
-  'Single button dropdowns',
-  () => <ButtonDropdownMulti />,
-  config
-)
+storiesOf(category, module).add('Single button dropdowns', () => <ButtonDropdownMulti />, config)
 
 // TODO: info broken due to hooks error
-storiesOf(`${storyConfig.componentPrefix}ButtonDropdown`, module).add(
-  'Split button dropdowns',
-  () => <ButtonDropdownMultiSplit />,
-  config
-)
+storiesOf(category, module).add('Split button dropdowns', () => <ButtonDropdownMultiSplit />, config)
 
 // TODO: info broken due to hooks error
-storiesOf(`${storyConfig.componentPrefix}ButtonDropdown`, module).add('Sizing', () => <ButtonDropdown />, config)
+storiesOf(category, module).add('Sizing', () => <ButtonDropdown />, config)
 
-storiesOf(`${storyConfig.componentPrefix}ButtonDropdown`, module).add(
-  'Uncontrolled Dropdown',
-  ButtonDropdownUncontrolled,
-  config
-)
+storiesOf(category, module).add('Uncontrolled Dropdown', ButtonDropdownUncontrolled, config)

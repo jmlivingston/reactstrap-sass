@@ -3,8 +3,10 @@ import { storyConfig, storyConfigHelpers } from '../../../.storybook/storyConfig
 import Jumbotron from './examples/Jumbotron'
 import JumbotronFluid from './examples/JumbotronFluid'
 
-const config = storyConfigHelpers.getConfig({ name: 'Jumbotron' })
+const name = 'Jumbotron'
+const category = `${storyConfig.componentPrefix}${name}`
+const config = storyConfigHelpers.getConfig({ name })
 
-storiesOf(`${storyConfig.componentPrefix}Jumbotron`, module).add('Jumbotron', Jumbotron, config)
+storiesOf(category, module).add('Jumbotron', Jumbotron, config)
 
-storiesOf(`${storyConfig.componentPrefix}Jumbotron`, module).add('Fluid Jumbotron', JumbotronFluid, config)
+storiesOf(category, module).add('Fluid Jumbotron', JumbotronFluid, config)

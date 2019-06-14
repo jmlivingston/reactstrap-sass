@@ -12,26 +12,28 @@ import InputSizing from './examples/InputSizing'
 import InputType from './examples/InputType'
 import LabelHidden from './examples/LabelHidden'
 
-const config = storyConfigHelpers.getConfig({ name: 'Form' })
+const name = 'Form'
+const category = `${storyConfig.componentPrefix}${name}`
+const config = storyConfigHelpers.getConfig({ name })
 
-storiesOf(`${storyConfig.componentPrefix}Form`, module).add('Form', Form, config)
+storiesOf(category, module).add('Form', Form, config)
 
-storiesOf(`${storyConfig.componentPrefix}Form`, module).add('Form Grid', FormGrid, config)
+storiesOf(category, module).add('Form Grid', FormGrid, config)
 
-storiesOf(`${storyConfig.componentPrefix}Form`, module).add('Form Grid with Form Row', FormGridFormRow, config)
+storiesOf(category, module).add('Form Grid with Form Row', FormGridFormRow, config)
 
-storiesOf(`${storyConfig.componentPrefix}Form`, module).add('Inline Form', FormInline, config)
+storiesOf(category, module).add('Inline Form', FormInline, config)
 
-storiesOf(`${storyConfig.componentPrefix}Form`, module).add('Form Validation', FormFeedback, config)
+storiesOf(category, module).add('Form Validation', FormFeedback, config)
 
-storiesOf(`${storyConfig.componentPrefix}Form`, module).add('Input Types', InputType, config)
+storiesOf(category, module).add('Input Types', InputType, config)
 
-storiesOf(`${storyConfig.componentPrefix}Form`, module).add('Inline checkboxes', InlineCheckboxes, config)
+storiesOf(category, module).add('Inline checkboxes', InlineCheckboxes, config)
 
-storiesOf(`${storyConfig.componentPrefix}Form`, module).add('Input Sizing', InputSizing, config)
+storiesOf(category, module).add('Input Sizing', InputSizing, config)
 
-storiesOf(`${storyConfig.componentPrefix}Form`, module).add('Input Grid Sizing', InputGridSizing, config)
+storiesOf(category, module).add('Input Grid Sizing', InputGridSizing, config)
 
-storiesOf(`${storyConfig.componentPrefix}Form`, module).add('Hidden Labels', LabelHidden, config)
+storiesOf(category, module).add('Hidden Labels', LabelHidden, config)
 
-storiesOf(`${storyConfig.componentPrefix}Form`, module).add('Custom Inputs', CustomControls, config)
+storiesOf(category, module).add('Custom Inputs', CustomControls, config)

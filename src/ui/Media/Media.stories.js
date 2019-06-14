@@ -5,12 +5,14 @@ import MediaAlignment from './examples/MediaAlignment'
 import MediaList from './examples/MediaList'
 import MediaNested from './examples/MediaNested'
 
-const config = storyConfigHelpers.getConfig({ name: 'Media' })
+const name = 'Media'
+const category = `${storyConfig.componentPrefix}${name}`
+const config = storyConfigHelpers.getConfig({ name })
 
-storiesOf(`${storyConfig.componentPrefix}Media`, module).add('Media object', Media, config)
+storiesOf(category, module).add('Media object', Media, config)
 
-storiesOf(`${storyConfig.componentPrefix}Media`, module).add('Nesting', MediaNested, config)
+storiesOf(category, module).add('Nesting', MediaNested, config)
 
-storiesOf(`${storyConfig.componentPrefix}Media`, module).add('Alignment', MediaAlignment, config)
+storiesOf(category, module).add('Alignment', MediaAlignment, config)
 
-storiesOf(`${storyConfig.componentPrefix}Media`, module).add('Media list', MediaList, config)
+storiesOf(category, module).add('Media list', MediaList, config)

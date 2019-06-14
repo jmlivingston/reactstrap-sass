@@ -6,14 +6,16 @@ import Navs from './examples/Navs'
 import NavTabs from './examples/NavTabs'
 import NavVertical from './examples/NavVertical'
 
-const config = storyConfigHelpers.getConfig({ name: 'Nav' })
+const name = 'Nav'
+const category = `${storyConfig.componentPrefix}${name}`
+const config = storyConfigHelpers.getConfig({ name })
 
-storiesOf(`${storyConfig.componentPrefix}Nav`, module).add('Nav', Navs, config)
+storiesOf(category, module).add('Nav', Navs, config)
 
-storiesOf(`${storyConfig.componentPrefix}Nav`, module).add('Vertical', NavVertical, config)
+storiesOf(category, module).add('Vertical', NavVertical, config)
 
 // TODO: info broken due to hooks error
-storiesOf(`${storyConfig.componentPrefix}Nav`, module).add('Tabs', () => <NavTabs />, config)
+storiesOf(category, module).add('Tabs', () => <NavTabs />, config)
 
 // TODO: info broken due to hooks error
-storiesOf(`${storyConfig.componentPrefix}Nav`, module).add('Pills', () => <NavPills />, config)
+storiesOf(category, module).add('Pills', () => <NavPills />, config)

@@ -8,18 +8,27 @@ import ProgressMax from './examples/ProgressMax'
 import ProgressMulti from './examples/ProgressMulti'
 import ProgressStriped from './examples/ProgressStriped'
 
-const config = storyConfigHelpers.getConfig({ name: 'Progress' })
+const name = 'Progress'
+const category = `${storyConfig.componentPrefix}${name}`
+const config = storyConfigHelpers.getConfig({ name })
 
-storiesOf(`${storyConfig.componentPrefix}Progress`, module).add('Progress', Progress, config)
+storiesOf(category, module).add('Progress', Progress, config)
 
-storiesOf(`${storyConfig.componentPrefix}Progress`, module).add('Color Variants', ProgressColor, config)
+storiesOf(category, module).add('Color Variants', ProgressColor, config)
 
-storiesOf(`${storyConfig.componentPrefix}Progress`, module).add('Labels', ProgressLabels, config)
+storiesOf(category, module).add('Labels', ProgressLabels, config)
 
-storiesOf(`${storyConfig.componentPrefix}Progress`, module).add('Striped', ProgressAnimated, config)
+storiesOf(category, module).add('Striped', ProgressStriped, config)
 
-storiesOf(`${storyConfig.componentPrefix}Progress`, module).add('Animated', ProgressStriped, config)
+storiesOf(category, module).add(
+  'Animated',
+  ProgressAnimated,
+  storyConfigHelpers.getConfig({
+    name,
+    description: `<p>The <code>animated</code> prop also adds the <code>striped</code> prop; there is no need to pass both.</p>`
+  })
+)
 
-storiesOf(`${storyConfig.componentPrefix}Progress`, module).add('Multiple bars / Stacked', ProgressMulti, config)
+storiesOf(category, module).add('Multiple bars / Stacked', ProgressMulti, config)
 
-storiesOf(`${storyConfig.componentPrefix}Progress`, module).add('Max value', ProgressMax, config)
+storiesOf(category, module).add('Max value', ProgressMax, config)

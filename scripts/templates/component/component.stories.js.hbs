@@ -3,7 +3,8 @@ import React from 'react'
 import { storyConfig, storyConfigHelpers } from '../../../.storybook/storyConfig'
 import {{ pascalCase name }} from './{{ pascalCase name }}'
 
-const config = storyConfigHelpers.getConfig({ name: '{{ pascalCase name }}' })
+const name = '{{ pascalCase name }}'
+const config = storyConfigHelpers.getConfig({ name })
 
 function {{ pascalCase name }}Demo() {
   return <{{ pascalCase name }} text="TODO: {{ pascalCase name }}" />

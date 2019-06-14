@@ -9,18 +9,20 @@ import AlertLink from './examples/AlertLink'
 import AlertUncontrolledDismiss from './examples/AlertUncontrolledDismiss'
 import AlertUncontrolledFadeless from './examples/AlertUncontrolledFadeless'
 
-const config = storyConfigHelpers.getConfig({ name: 'Alert' })
+const name = 'Alert'
+const category = `${storyConfig.componentPrefix}${name}`
+const config = storyConfigHelpers.getConfig({ name })
 
-storiesOf(`${storyConfig.componentPrefix}Alert`, module).add('Alerts', Alert, config)
+storiesOf(category, module).add('Alerts', Alert, config)
 
-storiesOf(`${storyConfig.componentPrefix}Alert`, module).add('Link color', AlertLink, config)
+storiesOf(category, module).add('Link color', AlertLink, config)
 
-storiesOf(`${storyConfig.componentPrefix}Alert`, module).add('Additional content', AlertContent, config)
+storiesOf(category, module).add('Additional content', AlertContent, config)
 
 // TODO: info broken due to hooks error
-storiesOf(`${storyConfig.componentPrefix}Alert`, module).add('Dismissing', () => <AlertDismiss />, config)
+storiesOf(category, module).add('Dismissing', () => <AlertDismiss />, config)
 
-storiesOf(`${storyConfig.componentPrefix}Alert`, module).add(
+storiesOf(category, module).add(
   'Uncontrolled [disable] Alerts',
   AlertUncontrolledDismiss,
   storyConfigHelpers.getConfig({
@@ -30,15 +32,11 @@ storiesOf(`${storyConfig.componentPrefix}Alert`, module).add(
 )
 
 const fadeConfig = storyConfigHelpers.getConfig({
-  name: 'Alert',
+  name,
   description: `<p>Fade can be disabled using <code>fade=false</code>.</p>`
 })
 
 // TODO: info broken due to hooks error
-storiesOf(`${storyConfig.componentPrefix}Alert`, module).add('Alerts without fade', () => <AlertFadeless />, fadeConfig)
+storiesOf(category, module).add('Alerts without fade', () => <AlertFadeless />, fadeConfig)
 
-storiesOf(`${storyConfig.componentPrefix}Alert`, module).add(
-  'Alerts without fade (uncontrolled)',
-  AlertUncontrolledFadeless,
-  fadeConfig
-)
+storiesOf(category, module).add('Alerts without fade (uncontrolled)', AlertUncontrolledFadeless, fadeConfig)
