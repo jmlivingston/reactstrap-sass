@@ -1,0 +1,45 @@
+import { storiesOf } from '@storybook/react'
+import baseConfig from '../../../.storybook/baseConfig'
+import packageJson from '../../../package.json'
+import React from 'react'
+import Example0InputGroupOverview from './examples/Example0InputGroupOverview'
+import Example1InputGroupAddon from './examples/Example1InputGroupAddon'
+import Example2InputGroupSizing from './examples/Example2InputGroupSizing'
+import Example3InputGroupButton from './examples/Example3InputGroupButton'
+import Example4InputGroupButtonShorthand from './examples/Example4InputGroupButtonShorthand'
+
+storiesOf('InputGroup', module).add('Addons', Example0InputGroupOverview, {
+  ...baseConfig.options,
+  info: {
+    ...baseConfig.options.info,
+    text: baseConfig.options.info.textRender({ name: 'InputGroup' })
+  }
+})
+storiesOf('InputGroup', module).add('Addon Sizing', Example1InputGroupAddon, {
+  ...baseConfig.options,
+  info: {
+    ...baseConfig.options.info,
+    text: baseConfig.options.info.textRender({ name: 'InputGroup' })
+  }
+})
+storiesOf('InputGroup', module).add('Buttons / Dropdowns', Example2InputGroupSizing, {
+  ...baseConfig.options,
+  info: {
+    ...baseConfig.options.info,
+    text: baseConfig.options.info.textRender({ name: 'InputGroup' })
+  }
+})
+storiesOf('InputGroup', module).add('Button Shorthand (DEPRECATED)', Example3InputGroupButton, {
+  ...baseConfig.options,
+  info: {
+    ...baseConfig.options.info,
+    text: baseConfig.options.info.textRender({ name: 'InputGroup' })
+  }
+})
+storiesOf('InputGroup', module).add('TODO: InputGroupButtonShorthand', Example4InputGroupButtonShorthand, {
+  ...baseConfig.options,
+  info: {
+    ...baseConfig.options.info,
+    text: baseConfig.options.info.textRender({ name: 'InputGroup' })
+  }
+})

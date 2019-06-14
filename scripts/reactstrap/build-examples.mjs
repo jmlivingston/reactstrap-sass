@@ -58,39 +58,37 @@ function copyExamples({ name }) {
 }
 
 function createStories({ name }) {
-  try {
-    let componentSchema = {}
-    console.log('=======================================================')
-    console.log(componentSchema)
-    console.log('=======================================================')
-
-    Object.keys(componentSchema).map((key, index) => {
-      const filePath = path.join(`${getFilePath({ name })}Example${index}.stories.js`)
-      const code = `import { storiesOf } from '@storybook/react'
+  if (schema[name].examples) {
+    const filePath = path.join(`${getFilePath({ name })}/${name}.stories.xjs`)
+    let code = `import { storiesOf } from '@storybook/react'
 import baseConfig from '../../../.storybook/baseConfig'
 import packageJson from '../../../package.json'
-${componentSchema[key].code.includes('import React') ? '' : "import React from 'react'"}
-${parseCode({ code: componentSchema[key].code, exampleName: `Example${index}`, name })}
+import React from 'react'
+${schema[name].examples
+  .map(
+    (example, index) => `import Example${index}${example.fileName} from './examples/Example${index}${example.fileName}'`
+  )
+  .join('\n')}
 
-storiesOf('${name}', module).add('${key}', Example${index}, {
+${schema[name].examples
+  .map(
+    (example, index) => `storiesOf('${name}', module).add('${example.title}', Example${index}${example.fileName}, {
   ...baseConfig.options,
   info: {
     ...baseConfig.options.info,
     text: baseConfig.options.info.textRender({ name: '${name}' })
   }
-})
+})`
+  )
+  .join('\n')}
       `
-      fs.mkdirSync(filePath.replace(path.basename(filePath), ''), { recursive: true })
-      fs.writeFileSync(filePath, code + '\r\n')
-    })
-  } catch (err) {
-    console.log(err)
+    fs.mkdirSync(filePath.replace(path.basename(filePath), ''), { recursive: true })
+    code = prettierString(code)
+    fs.writeFileSync(filePath, code)
   }
 }
 
-Object.keys(schema)
-  // .filter(key => key.toLowerCase().includes('pop'))
-  .forEach(name => {
-    copyExamples({ name })
-    // createStories({ name })
-  })
+Object.keys(schema).forEach(name => {
+  copyExamples({ name })
+  createStories({ name })
+})

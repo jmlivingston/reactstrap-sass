@@ -1,0 +1,37 @@
+import { storiesOf } from '@storybook/react'
+import baseConfig from '../../../.storybook/baseConfig'
+import packageJson from '../../../package.json'
+import React from 'react'
+import Example0Button from './examples/Example0Button'
+import Example1ButtonOutline from './examples/Example1ButtonOutline'
+import Example2ButtonStateful from './examples/Example2ButtonStateful'
+import Example3ButtonCloseIcon from './examples/Example3ButtonCloseIcon'
+
+storiesOf('Button', module).add('Outline Buttons', Example0Button, {
+  ...baseConfig.options,
+  info: {
+    ...baseConfig.options.info,
+    text: baseConfig.options.info.textRender({ name: 'Button' })
+  }
+})
+storiesOf('Button', module).add('Sizes', Example1ButtonOutline, {
+  ...baseConfig.options,
+  info: {
+    ...baseConfig.options.info,
+    text: baseConfig.options.info.textRender({ name: 'Button' })
+  }
+})
+storiesOf('Button', module).add('Active State', Example2ButtonStateful, {
+  ...baseConfig.options,
+  info: {
+    ...baseConfig.options.info,
+    text: baseConfig.options.info.textRender({ name: 'Button' })
+  }
+})
+storiesOf('Button', module).add('Disabled State', Example3ButtonCloseIcon, {
+  ...baseConfig.options,
+  info: {
+    ...baseConfig.options.info,
+    text: baseConfig.options.info.textRender({ name: 'Button' })
+  }
+})

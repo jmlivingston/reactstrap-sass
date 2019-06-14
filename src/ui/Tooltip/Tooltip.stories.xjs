@@ -1,0 +1,37 @@
+import { storiesOf } from '@storybook/react'
+import baseConfig from '../../../.storybook/baseConfig'
+import packageJson from '../../../package.json'
+import React from 'react'
+import Example0Tooltip from './examples/Example0Tooltip'
+import Example1TooltipAutoHide from './examples/Example1TooltipAutoHide'
+import Example2TooltipMulti from './examples/Example2TooltipMulti'
+import Example3TooltipUncontrolled from './examples/Example3TooltipUncontrolled'
+
+storiesOf('Tooltip', module).add('Tooltip Disable Autohide', Example0Tooltip, {
+  ...baseConfig.options,
+  info: {
+    ...baseConfig.options.info,
+    text: baseConfig.options.info.textRender({ name: 'Tooltip' })
+  }
+})
+storiesOf('Tooltip', module).add('Tooltips List', Example1TooltipAutoHide, {
+  ...baseConfig.options,
+  info: {
+    ...baseConfig.options.info,
+    text: baseConfig.options.info.textRender({ name: 'Tooltip' })
+  }
+})
+storiesOf('Tooltip', module).add('Uncontrolled Tooltip', Example2TooltipMulti, {
+  ...baseConfig.options,
+  info: {
+    ...baseConfig.options.info,
+    text: baseConfig.options.info.textRender({ name: 'Tooltip' })
+  }
+})
+storiesOf('Tooltip', module).add('TODO: TooltipUncontrolled', Example3TooltipUncontrolled, {
+  ...baseConfig.options,
+  info: {
+    ...baseConfig.options.info,
+    text: baseConfig.options.info.textRender({ name: 'Tooltip' })
+  }
+})

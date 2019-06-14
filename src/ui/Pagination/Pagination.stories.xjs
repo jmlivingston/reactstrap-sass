@@ -1,0 +1,37 @@
+import { storiesOf } from '@storybook/react'
+import baseConfig from '../../../.storybook/baseConfig'
+import packageJson from '../../../package.json'
+import React from 'react'
+import Example0Pagination from './examples/Example0Pagination'
+import Example1PaginationState from './examples/Example1PaginationState'
+import Example2PaginationSizingLarge from './examples/Example2PaginationSizingLarge'
+import Example3PaginationSizingSmall from './examples/Example3PaginationSizingSmall'
+
+storiesOf('Pagination', module).add('Disabled and active states', Example0Pagination, {
+  ...baseConfig.options,
+  info: {
+    ...baseConfig.options.info,
+    text: baseConfig.options.info.textRender({ name: 'Pagination' })
+  }
+})
+storiesOf('Pagination', module).add('Sizing', Example1PaginationState, {
+  ...baseConfig.options,
+  info: {
+    ...baseConfig.options.info,
+    text: baseConfig.options.info.textRender({ name: 'Pagination' })
+  }
+})
+storiesOf('Pagination', module).add('TODO: PaginationSizingLarge', Example2PaginationSizingLarge, {
+  ...baseConfig.options,
+  info: {
+    ...baseConfig.options.info,
+    text: baseConfig.options.info.textRender({ name: 'Pagination' })
+  }
+})
+storiesOf('Pagination', module).add('TODO: PaginationSizingSmall', Example3PaginationSizingSmall, {
+  ...baseConfig.options,
+  info: {
+    ...baseConfig.options.info,
+    text: baseConfig.options.info.textRender({ name: 'Pagination' })
+  }
+})

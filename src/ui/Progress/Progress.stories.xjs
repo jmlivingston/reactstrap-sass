@@ -1,0 +1,61 @@
+import { storiesOf } from '@storybook/react'
+import baseConfig from '../../../.storybook/baseConfig'
+import packageJson from '../../../package.json'
+import React from 'react'
+import Example0Progress from './examples/Example0Progress'
+import Example1ProgressColor from './examples/Example1ProgressColor'
+import Example2ProgressLabels from './examples/Example2ProgressLabels'
+import Example3ProgressAnimated from './examples/Example3ProgressAnimated'
+import Example4ProgressStriped from './examples/Example4ProgressStriped'
+import Example5ProgressMulti from './examples/Example5ProgressMulti'
+import Example6ProgressMax from './examples/Example6ProgressMax'
+
+storiesOf('Progress', module).add('Color Variants', Example0Progress, {
+  ...baseConfig.options,
+  info: {
+    ...baseConfig.options.info,
+    text: baseConfig.options.info.textRender({ name: 'Progress' })
+  }
+})
+storiesOf('Progress', module).add('Labels', Example1ProgressColor, {
+  ...baseConfig.options,
+  info: {
+    ...baseConfig.options.info,
+    text: baseConfig.options.info.textRender({ name: 'Progress' })
+  }
+})
+storiesOf('Progress', module).add('Striped', Example2ProgressLabels, {
+  ...baseConfig.options,
+  info: {
+    ...baseConfig.options.info,
+    text: baseConfig.options.info.textRender({ name: 'Progress' })
+  }
+})
+storiesOf('Progress', module).add('Animated', Example3ProgressAnimated, {
+  ...baseConfig.options,
+  info: {
+    ...baseConfig.options.info,
+    text: baseConfig.options.info.textRender({ name: 'Progress' })
+  }
+})
+storiesOf('Progress', module).add('Multiple bars / Stacked', Example4ProgressStriped, {
+  ...baseConfig.options,
+  info: {
+    ...baseConfig.options.info,
+    text: baseConfig.options.info.textRender({ name: 'Progress' })
+  }
+})
+storiesOf('Progress', module).add('Max value', Example5ProgressMulti, {
+  ...baseConfig.options,
+  info: {
+    ...baseConfig.options.info,
+    text: baseConfig.options.info.textRender({ name: 'Progress' })
+  }
+})
+storiesOf('Progress', module).add('TODO: ProgressMax', Example6ProgressMax, {
+  ...baseConfig.options,
+  info: {
+    ...baseConfig.options.info,
+    text: baseConfig.options.info.textRender({ name: 'Progress' })
+  }
+})

@@ -1,0 +1,37 @@
+import { storiesOf } from '@storybook/react'
+import baseConfig from '../../../.storybook/baseConfig'
+import packageJson from '../../../package.json'
+import React from 'react'
+import Example0Navs from './examples/Example0Navs'
+import Example1NavVertical from './examples/Example1NavVertical'
+import Example2NavTabs from './examples/Example2NavTabs'
+import Example3NavPills from './examples/Example3NavPills'
+
+storiesOf('Nav', module).add('Vertical', Example0Navs, {
+  ...baseConfig.options,
+  info: {
+    ...baseConfig.options.info,
+    text: baseConfig.options.info.textRender({ name: 'Nav' })
+  }
+})
+storiesOf('Nav', module).add('Tabs', Example1NavVertical, {
+  ...baseConfig.options,
+  info: {
+    ...baseConfig.options.info,
+    text: baseConfig.options.info.textRender({ name: 'Nav' })
+  }
+})
+storiesOf('Nav', module).add('Pills', Example2NavTabs, {
+  ...baseConfig.options,
+  info: {
+    ...baseConfig.options.info,
+    text: baseConfig.options.info.textRender({ name: 'Nav' })
+  }
+})
+storiesOf('Nav', module).add('TODO: NavPills', Example3NavPills, {
+  ...baseConfig.options,
+  info: {
+    ...baseConfig.options.info,
+    text: baseConfig.options.info.textRender({ name: 'Nav' })
+  }
+})

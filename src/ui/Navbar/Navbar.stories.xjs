@@ -1,0 +1,21 @@
+import { storiesOf } from '@storybook/react'
+import baseConfig from '../../../.storybook/baseConfig'
+import packageJson from '../../../package.json'
+import React from 'react'
+import Example0Navbar from './examples/Example0Navbar'
+import Example1NavbarToggler from './examples/Example1NavbarToggler'
+
+storiesOf('Navbar', module).add('NavbarToggler', Example0Navbar, {
+  ...baseConfig.options,
+  info: {
+    ...baseConfig.options.info,
+    text: baseConfig.options.info.textRender({ name: 'Navbar' })
+  }
+})
+storiesOf('Navbar', module).add('TODO: NavbarToggler', Example1NavbarToggler, {
+  ...baseConfig.options,
+  info: {
+    ...baseConfig.options.info,
+    text: baseConfig.options.info.textRender({ name: 'Navbar' })
+  }
+})

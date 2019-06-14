@@ -1,0 +1,69 @@
+import { storiesOf } from '@storybook/react'
+import baseConfig from '../../../.storybook/baseConfig'
+import packageJson from '../../../package.json'
+import React from 'react'
+import Example0Table from './examples/Example0Table'
+import Example1TableBordered from './examples/Example1TableBordered'
+import Example2TableBorderless from './examples/Example2TableBorderless'
+import Example3TableHover from './examples/Example3TableHover'
+import Example4TableDark from './examples/Example4TableDark'
+import Example5TableResponsive from './examples/Example5TableResponsive'
+import Example6TableSizing from './examples/Example6TableSizing'
+import Example7TableStriped from './examples/Example7TableStriped'
+
+storiesOf('Table', module).add('Dark table', Example0Table, {
+  ...baseConfig.options,
+  info: {
+    ...baseConfig.options.info,
+    text: baseConfig.options.info.textRender({ name: 'Table' })
+  }
+})
+storiesOf('Table', module).add('Striped rows', Example1TableBordered, {
+  ...baseConfig.options,
+  info: {
+    ...baseConfig.options.info,
+    text: baseConfig.options.info.textRender({ name: 'Table' })
+  }
+})
+storiesOf('Table', module).add('Bordered table', Example2TableBorderless, {
+  ...baseConfig.options,
+  info: {
+    ...baseConfig.options.info,
+    text: baseConfig.options.info.textRender({ name: 'Table' })
+  }
+})
+storiesOf('Table', module).add('Borderless table', Example3TableHover, {
+  ...baseConfig.options,
+  info: {
+    ...baseConfig.options.info,
+    text: baseConfig.options.info.textRender({ name: 'Table' })
+  }
+})
+storiesOf('Table', module).add('Hoverable rows', Example4TableDark, {
+  ...baseConfig.options,
+  info: {
+    ...baseConfig.options.info,
+    text: baseConfig.options.info.textRender({ name: 'Table' })
+  }
+})
+storiesOf('Table', module).add('Small table', Example5TableResponsive, {
+  ...baseConfig.options,
+  info: {
+    ...baseConfig.options.info,
+    text: baseConfig.options.info.textRender({ name: 'Table' })
+  }
+})
+storiesOf('Table', module).add('Responsive table', Example6TableSizing, {
+  ...baseConfig.options,
+  info: {
+    ...baseConfig.options.info,
+    text: baseConfig.options.info.textRender({ name: 'Table' })
+  }
+})
+storiesOf('Table', module).add('TODO: TableStriped', Example7TableStriped, {
+  ...baseConfig.options,
+  info: {
+    ...baseConfig.options.info,
+    text: baseConfig.options.info.textRender({ name: 'Table' })
+  }
+})
