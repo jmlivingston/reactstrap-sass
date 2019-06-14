@@ -5,6 +5,6 @@ import SpinnerGrower from './examples/SpinnerGrower'
 
 const config = baseConfigHelpers.getConfig({ name: 'Spinner' })
 
-storiesOf('UI|Spinner', module).add('Spinner', Spinner, config)
+storiesOf('UI | Spinner', module).add('Spinner', Spinner, config)
 
-storiesOf('UI|Spinner', module).add('Growing Spinner', SpinnerGrower, config)
+storiesOf('UI | Spinner', module).add('Growing Spinner', SpinnerGrower, config)

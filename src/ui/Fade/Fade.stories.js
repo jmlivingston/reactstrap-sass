@@ -6,4 +6,4 @@ import Fade from './examples/Fade'
 const config = baseConfigHelpers.getConfig({ name: 'Fade' })
 
 // TODO: info broken due to hooks error
-storiesOf('UI|Fade', module).add('Fade', () => <Fade />, config)
+storiesOf('UI | Fade', module).add('Fade', () => <Fade />, config)

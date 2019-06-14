@@ -8,10 +8,10 @@ import CarouselUncontrolled from './examples/CarouselUncontrolled'
 const config = baseConfigHelpers.getConfig({ name: 'Carousel' })
 
 // TODO: info broken due to hooks error
-storiesOf('UI|Carousel', module).add('Carousel Properties', () => <Carousel />, config)
+storiesOf('UI | Carousel', module).add('Carousel Properties', () => <Carousel />, config)
 
 // TODO: info broken due to hooks error
-storiesOf('UI|Carousel', module).add('CarouselItem Properties', () => <CarouselUncontrolled />, config)
+storiesOf('UI | Carousel', module).add('CarouselItem Properties', () => <CarouselUncontrolled />, config)
 
 // TODO: info broken due to hooks error
-storiesOf('UI|Carousel', module).add('CarouselControl Properties', () => <CarouselCustomTag />, config)
+storiesOf('UI | Carousel', module).add('CarouselControl Properties', () => <CarouselCustomTag />, config)

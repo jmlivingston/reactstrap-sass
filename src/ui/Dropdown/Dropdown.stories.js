@@ -10,14 +10,14 @@ import DropdownUncontrolled from './examples/DropdownUncontrolled'
 const config = baseConfigHelpers.getConfig({ name: 'Dropdown' })
 
 // TODO: info broken due to hooks error
-storiesOf('UI|Dropdown', module).add('Alignment', () => <Dropdown />, config)
+storiesOf('UI | Dropdown', module).add('Alignment', () => <Dropdown />, config)
 
 // TODO: info broken due to hooks error
-storiesOf('UI|Dropdown', module).add('Menu Headers', () => <DropdownSizing />, config)
+storiesOf('UI | Dropdown', module).add('Menu Headers', () => <DropdownSizing />, config)
 
 // TODO: info broken due to hooks error
-storiesOf('UI|Dropdown', module).add('Menu Dividers', () => <CustomDropdown />, config)
+storiesOf('UI | Dropdown', module).add('Menu Dividers', () => <CustomDropdown />, config)
 
-storiesOf('UI|Dropdown', module).add('Menu Items', DropdownUncontrolled, config)
+storiesOf('UI | Dropdown', module).add('Menu Items', DropdownUncontrolled, config)
 
-storiesOf('UI|Dropdown', module).add('Disabled Menu Items', DropdownSetActiveFromChild, config)
+storiesOf('UI | Dropdown', module).add('Disabled Menu Items', DropdownSetActiveFromChild, config)

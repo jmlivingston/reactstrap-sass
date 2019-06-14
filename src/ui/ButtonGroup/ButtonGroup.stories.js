@@ -5,6 +5,6 @@ import ButtonToolbar from './examples/ButtonToolbar'
 
 const config = baseConfigHelpers.getConfig({ name: 'ButtonGroup' })
 
-storiesOf('UI|ButtonGroup', module).add('Button Toolbar', ButtonGroup, config)
+storiesOf('UI | ButtonGroup', module).add('Button Toolbar', ButtonGroup, config)
 
-storiesOf('UI|ButtonGroup', module).add('Sizing', ButtonToolbar, config)
+storiesOf('UI | ButtonGroup', module).add('Sizing', ButtonToolbar, config)

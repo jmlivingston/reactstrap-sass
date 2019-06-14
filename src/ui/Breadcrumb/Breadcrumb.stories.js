@@ -5,11 +5,11 @@ import BreadcrumbNoList from './examples/BreadcrumbNoList'
 
 const config = baseConfigHelpers.getConfig({ name: 'Breadcrumb' })
 
-storiesOf('UI|Breadcrumb', module).add('Breadcrumbs', Breadcrumb, config)
+storiesOf('UI | Breadcrumb', module).add('Breadcrumbs', Breadcrumb, config)
 
 const breadcrumbNoListConfig = baseConfigHelpers.getConfig({
   name: 'Breadcrumb',
   description: '<p>Breadcrumbs can work without the usage of list markup.</p>'
 })
 
-storiesOf('UI|Breadcrumb', module).add('No list', BreadcrumbNoList, breadcrumbNoListConfig)
+storiesOf('UI | Breadcrumb', module).add('No list', BreadcrumbNoList, breadcrumbNoListConfig)

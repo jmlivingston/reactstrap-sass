@@ -11,18 +11,18 @@ import TableStriped from './examples/TableStriped'
 
 const config = baseConfigHelpers.getConfig({ name: 'Table' })
 
-storiesOf('UI|Table', module).add('Table', Table, config)
+storiesOf('UI | Table', module).add('Table', Table, config)
 
-storiesOf('UI|Table', module).add('Dark table', TableDark, config)
+storiesOf('UI | Table', module).add('Dark table', TableDark, config)
 
-storiesOf('UI|Table', module).add('Striped rows', TableStriped, config)
+storiesOf('UI | Table', module).add('Striped rows', TableStriped, config)
 
-storiesOf('UI|Table', module).add('Bordered table', TableBordered, config)
+storiesOf('UI | Table', module).add('Bordered table', TableBordered, config)
 
-storiesOf('UI|Table', module).add('Borderless table', TableBorderless, config)
+storiesOf('UI | Table', module).add('Borderless table', TableBorderless, config)
 
-storiesOf('UI|Table', module).add('Hoverable rows', TableHover, config)
+storiesOf('UI | Table', module).add('Hoverable rows', TableHover, config)
 
-storiesOf('UI|Table', module).add('Small table', TableSizing, config)
+storiesOf('UI | Table', module).add('Small table', TableSizing, config)
 
-storiesOf('UI|Table', module).add('Responsive table', TableResponsive, config)
+storiesOf('UI | Table', module).add('Responsive table', TableResponsive, config)

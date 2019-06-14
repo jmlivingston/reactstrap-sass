@@ -11,16 +11,16 @@ import AlertUncontrolledFadeless from './examples/AlertUncontrolledFadeless'
 
 const config = baseConfigHelpers.getConfig({ name: 'Alert' })
 
-storiesOf('UI|Alert', module).add('Alerts', Alert, config)
+storiesOf('UI | Alert', module).add('Alerts', Alert, config)
 
-storiesOf('UI|Alert', module).add('Link color', AlertLink, config)
+storiesOf('UI | Alert', module).add('Link color', AlertLink, config)
 
-storiesOf('UI|Alert', module).add('Additional content', AlertContent, config)
+storiesOf('UI | Alert', module).add('Additional content', AlertContent, config)
 
 // TODO: info broken due to hooks error
-storiesOf('UI|Alert', module).add('Dismissing', () => <AlertDismiss />, config)
+storiesOf('UI | Alert', module).add('Dismissing', () => <AlertDismiss />, config)
 
-storiesOf('UI|Alert', module).add(
+storiesOf('UI | Alert', module).add(
   'Uncontrolled [disable] Alerts',
   AlertUncontrolledDismiss,
   baseConfigHelpers.getConfig({
@@ -35,6 +35,6 @@ const fadeConfig = baseConfigHelpers.getConfig({
 })
 
 // TODO: info broken due to hooks error
-storiesOf('UI|Alert', module).add('Alerts without fade', () => <AlertFadeless />, fadeConfig)
+storiesOf('UI | Alert', module).add('Alerts without fade', () => <AlertFadeless />, fadeConfig)
 
-storiesOf('UI|Alert', module).add('Alerts without fade (uncontrolled)', AlertUncontrolledFadeless, fadeConfig)
+storiesOf('UI | Alert', module).add('Alerts without fade (uncontrolled)', AlertUncontrolledFadeless, fadeConfig)

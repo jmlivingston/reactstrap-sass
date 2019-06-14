@@ -15,31 +15,31 @@ import ModalNested from './examples/ModalNested'
 const config = baseConfigHelpers.getConfig({ name: 'Modal' })
 
 // info broken due to hooks error
-storiesOf('UI|Modal', module).add('Modal', () => <Modal />, config)
+storiesOf('UI | Modal', module).add('Modal', () => <Modal />, config)
 
 // info broken due to hooks error
-storiesOf('UI|Modal', module).add('Backdrop', () => <ModalBackdrop />, config)
+storiesOf('UI | Modal', module).add('Backdrop', () => <ModalBackdrop />, config)
 
 // info broken due to hooks error
-storiesOf('UI|Modal', module).add('Nested Modals', () => <ModalNested />, config)
+storiesOf('UI | Modal', module).add('Nested Modals', () => <ModalNested />, config)
 
 // info broken due to hooks error
-storiesOf('UI|Modal', module).add('Modals with Custom Transition Timeouts', () => <ModalCustomTimeout />, config)
+storiesOf('UI | Modal', module).add('Modals with Custom Transition Timeouts', () => <ModalCustomTimeout />, config)
 
 // info broken due to hooks error
-storiesOf('UI|Modal', module).add('Modals without Fade Effect', () => <ModalFadeless />, config)
+storiesOf('UI | Modal', module).add('Modals without Fade Effect', () => <ModalFadeless />, config)
 
 // info broken due to hooks error
-storiesOf('UI|Modal', module).add('Modals with external button', () => <ModalExternal />, config)
+storiesOf('UI | Modal', module).add('Modals with external button', () => <ModalExternal />, config)
 
 // info broken due to hooks error
-storiesOf('UI|Modal', module).add('Modals with custom close button', () => <ModalCustomCloseIcon />, config)
+storiesOf('UI | Modal', module).add('Modals with custom close button', () => <ModalCustomCloseIcon />, config)
 
 // info broken due to hooks error
-storiesOf('UI|Modal', module).add('Modals with custom close icon', () => <ModalCustomCloseButton />, config)
+storiesOf('UI | Modal', module).add('Modals with custom close icon', () => <ModalCustomCloseButton />, config)
 
 // info broken due to hooks error
-storiesOf('UI|Modal', module).add('Destructuring', () => <ModalDestructuring />, config)
+storiesOf('UI | Modal', module).add('Destructuring', () => <ModalDestructuring />, config)
 
 // info broken due to hooks error
-storiesOf('UI|Modal', module).add('Focus after close', () => <ModalFocusAfterClose />, config)
+storiesOf('UI | Modal', module).add('Focus after close', () => <ModalFocusAfterClose />, config)

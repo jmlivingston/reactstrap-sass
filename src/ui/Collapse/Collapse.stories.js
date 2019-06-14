@@ -8,9 +8,9 @@ import CollapseUncontrolled from './examples/CollapseUncontrolled'
 const config = baseConfigHelpers.getConfig({ name: 'Collapse' })
 
 // TODO: info broken due to hooks error
-storiesOf('UI|Collapse', module).add('Collapse', () => <Collapse />, config)
+storiesOf('UI | Collapse', module).add('Collapse', () => <Collapse />, config)
 
-storiesOf('UI|Collapse', module).add('Events', () => <CollapseUncontrolled />, config)
+storiesOf('UI | Collapse', module).add('Events', () => <CollapseUncontrolled />, config)
 
 // TODO: info broken due to hooks error
-storiesOf('UI|Collapse', module).add('Uncontrolled Collapse', () => <CollapseEvents />, config)
+storiesOf('UI | Collapse', module).add('Uncontrolled Collapse', () => <CollapseEvents />, config)
