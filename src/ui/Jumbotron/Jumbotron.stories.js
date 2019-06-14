@@ -5,6 +5,6 @@ import JumbotronFluid from './examples/JumbotronFluid'
 
 const config = baseConfigHelpers.getConfig({ name: 'Jumbotron' })
 
-storiesOf('UI|Jumbotron', module).add('Fluid Jumbotron', Jumbotron, config)
+storiesOf('UI|Jumbotron', module).add('Jumbotron', Jumbotron, config)
 
-storiesOf('UI|Jumbotron', module).add('TODO: JumbotronFluid', JumbotronFluid, config)
+storiesOf('UI|Jumbotron', module).add('Fluid Jumbotron', JumbotronFluid, config)

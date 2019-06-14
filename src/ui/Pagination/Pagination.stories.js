@@ -7,10 +7,10 @@ import PaginationState from './examples/PaginationState'
 
 const config = baseConfigHelpers.getConfig({ name: 'Pagination' })
 
-storiesOf('UI|Pagination', module).add('Disabled and active states', Pagination, config)
+storiesOf('UI|Pagination', module).add('Pagination', Pagination, config)
 
-storiesOf('UI|Pagination', module).add('Sizing', PaginationState, config)
+storiesOf('UI|Pagination', module).add('Disabled and active states', PaginationState, config)
 
-storiesOf('UI|Pagination', module).add('TODO: PaginationSizingLarge', PaginationSizingLarge, config)
+storiesOf('UI|Pagination', module).add('Sizing Large', PaginationSizingLarge, config)
 
-storiesOf('UI|Pagination', module).add('TODO: PaginationSizingSmall', PaginationSizingSmall, config)
+storiesOf('UI|Pagination', module).add('Sizing Small', PaginationSizingSmall, config)

@@ -14,32 +14,32 @@ import ModalNested from './examples/ModalNested'
 
 const config = baseConfigHelpers.getConfig({ name: 'Modal' })
 
-// TODO: info broken due to hooks error
-storiesOf('UI|Modal', module).add('TODO: Modal', () => <Modal />, config)
+// info broken due to hooks error
+storiesOf('UI|Modal', module).add('Modal', () => <Modal />, config)
 
-// TODO: info broken due to hooks error
-storiesOf('UI|Modal', module).add('TODO: ModalBackdrop', () => <ModalBackdrop />, config)
+// info broken due to hooks error
+storiesOf('UI|Modal', module).add('Backdrop', () => <ModalBackdrop />, config)
 
-// TODO: info broken due to hooks error
-storiesOf('UI|Modal', module).add('TODO: ModalNested', () => <ModalNested />, config)
+// info broken due to hooks error
+storiesOf('UI|Modal', module).add('Nested Modals', () => <ModalNested />, config)
 
-// TODO: info broken due to hooks error
-storiesOf('UI|Modal', module).add('TODO: ModalCustomTimeout', () => <ModalCustomTimeout />, config)
+// info broken due to hooks error
+storiesOf('UI|Modal', module).add('Modals with Custom Transition Timeouts', () => <ModalCustomTimeout />, config)
 
-// TODO: info broken due to hooks error
-storiesOf('UI|Modal', module).add('TODO: ModalFadeless', () => <ModalFadeless />, config)
+// info broken due to hooks error
+storiesOf('UI|Modal', module).add('Modals without Fade Effect', () => <ModalFadeless />, config)
 
-// TODO: info broken due to hooks error
-storiesOf('UI|Modal', module).add('TODO: ModalExternal', () => <ModalExternal />, config)
+// info broken due to hooks error
+storiesOf('UI|Modal', module).add('Modals with external button', () => <ModalExternal />, config)
 
-// TODO: info broken due to hooks error
-storiesOf('UI|Modal', module).add('TODO: ModalCustomCloseIcon', () => <ModalCustomCloseIcon />, config)
+// info broken due to hooks error
+storiesOf('UI|Modal', module).add('Modals with custom close button', () => <ModalCustomCloseIcon />, config)
 
-// TODO: info broken due to hooks error
-storiesOf('UI|Modal', module).add('TODO: ModalCustomCloseButton', () => <ModalCustomCloseButton />, config)
+// info broken due to hooks error
+storiesOf('UI|Modal', module).add('Modals with custom close icon', () => <ModalCustomCloseButton />, config)
 
-// TODO: info broken due to hooks error
-storiesOf('UI|Modal', module).add('TODO: ModalDestructuring', () => <ModalDestructuring />, config)
+// info broken due to hooks error
+storiesOf('UI|Modal', module).add('Destructuring', () => <ModalDestructuring />, config)
 
-// TODO: info broken due to hooks error
-storiesOf('UI|Modal', module).add('TODO: ModalFocusAfterClose', () => <ModalFocusAfterClose />, config)
+// info broken due to hooks error
+storiesOf('UI|Modal', module).add('Focus after close', () => <ModalFocusAfterClose />, config)

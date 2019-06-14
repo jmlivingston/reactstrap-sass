@@ -9,13 +9,13 @@ import InputGroupSizing from './examples/InputGroupSizing'
 
 const config = baseConfigHelpers.getConfig({ name: 'InputGroup' })
 
-storiesOf('UI|InputGroup', module).add('Addons', InputGroupOverview, config)
+storiesOf('UI|InputGroup', module).add('Input Group', InputGroupOverview, config)
 
-storiesOf('UI|InputGroup', module).add('Addon Sizing', InputGroupAddon, config)
+storiesOf('UI|InputGroup', module).add('Addons', InputGroupAddon, config)
 
-storiesOf('UI|InputGroup', module).add('Buttons / Dropdowns', InputGroupSizing, config)
+storiesOf('UI|InputGroup', module).add('Addon Sizing', InputGroupSizing, config)
 
 // TODO: info broken due to hooks error
-storiesOf('UI|InputGroup', module).add('Button Shorthand (DEPRECATED)', () => <InputGroupButton />, config)
+storiesOf('UI|InputGroup', module).add('Buttons / Dropdowns', () => <InputGroupButton />, config)
 
-storiesOf('UI|InputGroup', module).add('InputGroupButtonShorthand', InputGroupButtonShorthand, config)
+storiesOf('UI|InputGroup', module).add('Button Shorthand (DEPRECATED', InputGroupButtonShorthand, config)
