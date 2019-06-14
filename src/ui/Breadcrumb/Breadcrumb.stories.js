@@ -1,15 +1,15 @@
 import { storiesOf } from '@storybook/react'
-import { baseConfigHelpers } from '../../../.storybook/baseConfig'
+import { storyConfig, storyConfigHelpers } from '../../../.storybook/storyConfig'
 import Breadcrumb from './examples/Breadcrumb'
 import BreadcrumbNoList from './examples/BreadcrumbNoList'
 
-const config = baseConfigHelpers.getConfig({ name: 'Breadcrumb' })
+const config = storyConfigHelpers.getConfig({ name: 'Breadcrumb' })
 
-storiesOf('UI | Breadcrumb', module).add('Breadcrumbs', Breadcrumb, config)
+storiesOf(`${storyConfig.componentPrefix}Breadcrumb`, module).add('Breadcrumbs', Breadcrumb, config)
 
-const breadcrumbNoListConfig = baseConfigHelpers.getConfig({
+const breadcrumbNoListConfig = storyConfigHelpers.getConfig({
   name: 'Breadcrumb',
   description: '<p>Breadcrumbs can work without the usage of list markup.</p>'
 })
 
-storiesOf('UI | Breadcrumb', module).add('No list', BreadcrumbNoList, breadcrumbNoListConfig)
+storiesOf(`${storyConfig.componentPrefix}Breadcrumb`, module).add('No list', BreadcrumbNoList, breadcrumbNoListConfig)

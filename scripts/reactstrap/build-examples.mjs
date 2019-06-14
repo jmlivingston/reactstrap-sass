@@ -61,7 +61,7 @@ function createStories({ name }) {
   if (schema[name].examples) {
     const filePath = path.join(`${getFilePath({ name })}/${name}.stories.xjs`)
     let code = `import { storiesOf } from '@storybook/react'
-import baseConfig from '../../../.storybook/baseConfig'
+import storyConfig from '../../../.storybook/storyConfig'
 import packageJson from '../../../package.json'
 import React from 'react'
 ${schema[name].examples
@@ -73,10 +73,10 @@ ${schema[name].examples
 ${schema[name].examples
   .map(
     (example, index) => `storiesOf('${name}', module).add('${example.title}', Example${index}${example.fileName}, {
-  ...baseConfig.options,
+  ...storyConfig.options,
   info: {
-    ...baseConfig.options.info,
-    text: baseConfig.options.info.textRender({ name: '${name}' })
+    ...storyConfig.options.info,
+    text: storyConfig.options.info.textRender({ name: '${name}' })
   }
 })`
   )

@@ -2,11 +2,11 @@ import { withA11y } from '@storybook/addon-a11y'
 import { withInfo } from '@storybook/addon-info'
 import { addDecorator, addParameters, configure } from '@storybook/react'
 import '../src/ui/BaseStyle/BaseStyle.scss'
-import { baseConfig } from './baseConfig'
+import { storyConfig } from './storyConfig'
 
 addDecorator(withInfo)
 addDecorator(withA11y)
-addParameters(baseConfig.options)
+addParameters(storyConfig.options)
 
 require('../src/documentation/documentation.stories')
 

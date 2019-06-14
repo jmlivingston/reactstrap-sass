@@ -1,9 +1,9 @@
 import { storiesOf } from '@storybook/react'
 import React from 'react'
-import { baseConfigHelpers } from '../../../.storybook/baseConfig'
+import { storyConfig, storyConfigHelpers } from '../../../.storybook/storyConfig'
 import Fade from './examples/Fade'
 
-const config = baseConfigHelpers.getConfig({ name: 'Fade' })
+const config = storyConfigHelpers.getConfig({ name: 'Fade' })
 
 // TODO: info broken due to hooks error
-storiesOf('UI | Fade', module).add('Fade', () => <Fade />, config)
+storiesOf(`${storyConfig.componentPrefix}Fade`, module).add('Fade', () => <Fade />, config)

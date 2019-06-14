@@ -1,6 +1,7 @@
 import packageJson from '../package.json'
 
-const baseConfig = {
+const storyConfig = {
+  componentPrefix: 'Components | ',
   options: {
     options: {
       isToolshown: true,
@@ -20,14 +21,14 @@ const baseConfig = {
   }
 }
 
-const baseConfigHelpers = {
+const storyConfigHelpers = {
   getConfig: ({ name, description }) => ({
-    ...baseConfig,
+    ...storyConfig,
     info: {
-      ...baseConfig.info,
-      text: baseConfig.options.info.textRender({ name, description })
+      ...storyConfig.info,
+      text: storyConfig.options.info.textRender({ name, description })
     }
   })
 }
 
-export { baseConfig, baseConfigHelpers }
+export { storyConfig, storyConfigHelpers }

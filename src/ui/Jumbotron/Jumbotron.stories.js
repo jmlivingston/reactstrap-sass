@@ -1,10 +1,10 @@
 import { storiesOf } from '@storybook/react'
-import { baseConfigHelpers } from '../../../.storybook/baseConfig'
+import { storyConfig, storyConfigHelpers } from '../../../.storybook/storyConfig'
 import Jumbotron from './examples/Jumbotron'
 import JumbotronFluid from './examples/JumbotronFluid'
 
-const config = baseConfigHelpers.getConfig({ name: 'Jumbotron' })
+const config = storyConfigHelpers.getConfig({ name: 'Jumbotron' })
 
-storiesOf('UI | Jumbotron', module).add('Jumbotron', Jumbotron, config)
+storiesOf(`${storyConfig.componentPrefix}Jumbotron`, module).add('Jumbotron', Jumbotron, config)
 
-storiesOf('UI | Jumbotron', module).add('Fluid Jumbotron', JumbotronFluid, config)
+storiesOf(`${storyConfig.componentPrefix}Jumbotron`, module).add('Fluid Jumbotron', JumbotronFluid, config)

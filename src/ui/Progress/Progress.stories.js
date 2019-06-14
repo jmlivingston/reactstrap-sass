@@ -1,5 +1,5 @@
 import { storiesOf } from '@storybook/react'
-import { baseConfigHelpers } from '../../../.storybook/baseConfig'
+import { storyConfig, storyConfigHelpers } from '../../../.storybook/storyConfig'
 import Progress from './examples/Progress'
 import ProgressAnimated from './examples/ProgressAnimated'
 import ProgressColor from './examples/ProgressColor'
@@ -8,18 +8,18 @@ import ProgressMax from './examples/ProgressMax'
 import ProgressMulti from './examples/ProgressMulti'
 import ProgressStriped from './examples/ProgressStriped'
 
-const config = baseConfigHelpers.getConfig({ name: 'Progress' })
+const config = storyConfigHelpers.getConfig({ name: 'Progress' })
 
-storiesOf('UI | Progress', module).add('Progress', Progress, config)
+storiesOf(`${storyConfig.componentPrefix}Progress`, module).add('Progress', Progress, config)
 
-storiesOf('UI | Progress', module).add('Color Variants', ProgressColor, config)
+storiesOf(`${storyConfig.componentPrefix}Progress`, module).add('Color Variants', ProgressColor, config)
 
-storiesOf('UI | Progress', module).add('Labels', ProgressLabels, config)
+storiesOf(`${storyConfig.componentPrefix}Progress`, module).add('Labels', ProgressLabels, config)
 
-storiesOf('UI | Progress', module).add('Striped', ProgressAnimated, config)
+storiesOf(`${storyConfig.componentPrefix}Progress`, module).add('Striped', ProgressAnimated, config)
 
-storiesOf('UI | Progress', module).add('Animated', ProgressStriped, config)
+storiesOf(`${storyConfig.componentPrefix}Progress`, module).add('Animated', ProgressStriped, config)
 
-storiesOf('UI | Progress', module).add('Multiple bars / Stacked', ProgressMulti, config)
+storiesOf(`${storyConfig.componentPrefix}Progress`, module).add('Multiple bars / Stacked', ProgressMulti, config)
 
-storiesOf('UI | Progress', module).add('Max value', ProgressMax, config)
+storiesOf(`${storyConfig.componentPrefix}Progress`, module).add('Max value', ProgressMax, config)
