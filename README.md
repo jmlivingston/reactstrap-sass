@@ -1,6 +1,30 @@
 # reactstrap-sass
 
-Use reactstrap with per component SASS instead of the entire Bootstrap CSS.
+Use reactstrap with per component SASS instead of the entire Bootstrap CSS. Clone, tweak .scss files, and publish.
+
+## TODO
+
+### High
+
+- Ensure all examples are copied over, Reacstrap has some examples inline in docs/lib/Components/{Component}Page.js
+- ButtonDropDownPage missing some info
+- Add SASS switcher functionality. Start with Bootstwatch
+- Add Layout examples
+- Add links to Reactstrap and Bootstrap
+- Ensure interal components like TabContext aren't showing up
+- Change images to data uris
+- Address TODOs like: // TODO: info broken due to hooks error
+- Test against existing documentation
+
+### Medium
+
+- Add properties details?
+- Clean up schema scripts and plop templates
+
+### Low
+
+- Change ui path to components?
+- Hide deprecated?
 
 ---
 

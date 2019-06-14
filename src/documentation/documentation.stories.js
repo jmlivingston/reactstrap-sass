@@ -13,6 +13,7 @@ storiesOf('Documentation | Welcome', module).add('Read Me', () => <div />, {
   },
   info: {
     ...storyConfig.options.info,
+    header: false,
     text: marked(readMe), // HACK: Until this bug is fixed: https://github.com/storybookjs/storybook/issues/6981
     inline: true,
     disable: false,
