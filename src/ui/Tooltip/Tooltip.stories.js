@@ -1,18 +1,12 @@
 import { storiesOf } from '@storybook/react'
 import React from 'react'
-import baseConfig from '../../../.storybook/baseConfig'
+import { baseConfigHelpers } from '../../../.storybook/baseConfig'
 import Tooltip from './examples/Tooltip'
 import TooltipAutoHide from './examples/TooltipAutoHide'
 import TooltipMulti from './examples/TooltipMulti'
 import TooltipUncontrolled from './examples/TooltipUncontrolled'
 
-const config = {
-  ...baseConfig.options,
-  info: {
-    ...baseConfig.options.info,
-    text: baseConfig.options.info.textRender({ name: 'Tooltip' })
-  }
-}
+const config = baseConfigHelpers.getConfig({ name: 'Tooltip' })
 
 // TODO: info broken due to hooks error
 storiesOf('UI|Tooltip', module).add('Tooltip Disable Autohide', () => <Tooltip />, config)

@@ -1,8 +1,8 @@
 import { withA11y } from '@storybook/addon-a11y'
 import { withInfo } from '@storybook/addon-info'
 import { addDecorator, addParameters, configure } from '@storybook/react'
-import baseConfig from './baseConfig'
 import '../src/ui/BaseStyle/BaseStyle.scss'
+import { baseConfig } from './baseConfig'
 
 addDecorator(withInfo)
 addDecorator(withA11y)

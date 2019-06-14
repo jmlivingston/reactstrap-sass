@@ -1,18 +1,12 @@
 import { storiesOf } from '@storybook/react'
 import React from 'react'
-import baseConfig from '../../../.storybook/baseConfig'
-import Navs from './examples/Navs'
-import NavVertical from './examples/NavVertical'
-import NavTabs from './examples/NavTabs'
+import { baseConfigHelpers } from '../../../.storybook/baseConfig'
 import NavPills from './examples/NavPills'
+import Navs from './examples/Navs'
+import NavTabs from './examples/NavTabs'
+import NavVertical from './examples/NavVertical'
 
-const config = {
-  ...baseConfig.options,
-  info: {
-    ...baseConfig.options.info,
-    text: baseConfig.options.info.textRender({ name: 'Nav' })
-  }
-}
+const config = baseConfigHelpers.getConfig({ name: 'Nav' })
 
 storiesOf('UI|Nav', module).add('Vertical', Navs, config)
 

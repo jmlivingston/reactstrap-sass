@@ -1,25 +1,34 @@
 import { storiesOf } from '@storybook/react'
-import baseConfig from '../../../.storybook/baseConfig'
+import { baseConfigHelpers } from '../../../.storybook/baseConfig'
 import Badge from './examples/Badge'
 import BadgeButton from './examples/BadgeButton'
+import BadgeLinks from './examples/BadgeLinks'
 import BadgePills from './examples/BadgePills'
 import BadgeVariations from './examples/BadgeVariations'
-import BadgeLinks from './examples/BadgeLinks'
 
-const config = {
-  ...baseConfig.options,
-  info: {
-    ...baseConfig.options.info,
-    text: baseConfig.options.info.textRender({ name: 'Badge' })
-  }
-}
+const config = baseConfigHelpers.getConfig({ name: 'Badge' })
 
-storiesOf('UI|Badge', module).add('Contextual variations', Badge, config)
+const badgeConfig = baseConfigHelpers.getConfig({
+  name: 'Badge',
+  description: `<p>Scale to parent</p>`
+})
 
-storiesOf('UI|Badge', module).add('Pills', BadgeButton, config)
+storiesOf('UI|Badge', module).add('Badges', Badge, badgeConfig)
 
-storiesOf('UI|Badge', module).add('Links', BadgePills, config)
+const badgeButtonConfig = baseConfigHelpers.getConfig({
+  name: 'Badge',
+  description: `<p>Badges can be used as part of links or buttons to provide a counter.</p>`
+})
 
-storiesOf('UI|Badge', module).add('TODO: BadgeVariations', BadgeVariations, config)
+storiesOf('UI|Badge', module).add('Badge Buttons', BadgeButton, badgeButtonConfig)
 
-storiesOf('UI|Badge', module).add('TODO: BadgeLinks', BadgeLinks, config)
+storiesOf('UI|Badge', module).add('Contextual Variations', BadgeVariations, config)
+
+storiesOf('UI|Badge', module).add('Pills', BadgePills, config)
+
+const badgeLinksConfig = baseConfigHelpers.getConfig({
+  name: 'Badge',
+  description: `<p>Adding the <code>href</code> prop (without specifying a <code>tag</code> prop) will default the badge to a link.</p>`
+})
+
+storiesOf('UI|Badge', module).add('Links', BadgeLinks, badgeLinksConfig)

@@ -1,7 +1,7 @@
 import { storiesOf } from '@storybook/react'
 import marked from 'marked'
 import React from 'react'
-import baseConfig from '../../.storybook/baseConfig'
+import { baseConfig } from '../../.storybook/baseConfig'
 import readMe from '../../README.md'
 
 storiesOf('Documentation|Welcome', module).add('Read Me', () => <div />, {

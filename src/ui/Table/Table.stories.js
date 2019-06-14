@@ -1,21 +1,15 @@
 import { storiesOf } from '@storybook/react'
-import baseConfig from '../../../.storybook/baseConfig'
+import { baseConfigHelpers } from '../../../.storybook/baseConfig'
 import Table from './examples/Table'
 import TableBordered from './examples/TableBordered'
 import TableBorderless from './examples/TableBorderless'
-import TableHover from './examples/TableHover'
 import TableDark from './examples/TableDark'
+import TableHover from './examples/TableHover'
 import TableResponsive from './examples/TableResponsive'
 import TableSizing from './examples/TableSizing'
 import TableStriped from './examples/TableStriped'
 
-const config = {
-  ...baseConfig.options,
-  info: {
-    ...baseConfig.options.info,
-    text: baseConfig.options.info.textRender({ name: 'Table' })
-  }
-}
+const config = baseConfigHelpers.getConfig({ name: 'Table' })
 
 storiesOf('UI|Table', module).add('Dark table', Table, config)
 

@@ -1,17 +1,12 @@
 import { storiesOf } from '@storybook/react'
-import baseConfig from '../../../.storybook/baseConfig'
+import { baseConfigHelpers } from '../../../.storybook/baseConfig'
 import Media from './examples/Media'
-import MediaNested from './examples/MediaNested'
 import MediaAlignment from './examples/MediaAlignment'
 import MediaList from './examples/MediaList'
+import MediaNested from './examples/MediaNested'
 
-const config = {
-  ...baseConfig.options,
-  info: {
-    ...baseConfig.options.info,
-    text: baseConfig.options.info.textRender({ name: 'Media' })
-  }
-}
+const config = baseConfigHelpers.getConfig({ name: 'Media' })
+
 storiesOf('UI|Media', module).add('TODO: Media', Media, config)
 
 storiesOf('UI|Media', module).add('TODO: MediaNested', MediaNested, config)

@@ -1,19 +1,13 @@
 import { storiesOf } from '@storybook/react'
 import React from 'react'
-import baseConfig from '../../../.storybook/baseConfig'
-import Dropdown from './examples/Dropdown'
-import DropdownSizing from './examples/DropdownSizing'
+import { baseConfigHelpers } from '../../../.storybook/baseConfig'
 import CustomDropdown from './examples/CustomDropdown'
-import DropdownUncontrolled from './examples/DropdownUncontrolled'
+import Dropdown from './examples/Dropdown'
 import DropdownSetActiveFromChild from './examples/DropdownSetActiveFromChild'
+import DropdownSizing from './examples/DropdownSizing'
+import DropdownUncontrolled from './examples/DropdownUncontrolled'
 
-const config = {
-  ...baseConfig.options,
-  info: {
-    ...baseConfig.options.info,
-    text: baseConfig.options.info.textRender({ name: 'Dropdown' })
-  }
-}
+const config = baseConfigHelpers.getConfig({ name: 'Dropdown' })
 
 // TODO: info broken due to hooks error
 storiesOf('UI|Dropdown', module).add('Alignment', () => <Dropdown />, config)

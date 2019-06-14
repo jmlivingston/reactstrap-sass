@@ -1,17 +1,11 @@
 import { storiesOf } from '@storybook/react'
 import React from 'react'
-import baseConfig from '../../../.storybook/baseConfig'
+import { baseConfigHelpers } from '../../../.storybook/baseConfig'
 import Collapse from './examples/Collapse'
-import CollapseUncontrolled from './examples/CollapseUncontrolled'
 import CollapseEvents from './examples/CollapseEvents'
+import CollapseUncontrolled from './examples/CollapseUncontrolled'
 
-const config = {
-  ...baseConfig.options,
-  info: {
-    ...baseConfig.options.info,
-    text: baseConfig.options.info.textRender({ name: 'Collapse' })
-  }
-}
+const config = baseConfigHelpers.getConfig({ name: 'Collapse' })
 
 // TODO: info broken due to hooks error
 storiesOf('UI|Collapse', module).add('Collapse', () => <Collapse />, config)

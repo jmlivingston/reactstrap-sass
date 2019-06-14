@@ -1,20 +1,14 @@
 import { storiesOf } from '@storybook/react'
-import baseConfig from '../../../.storybook/baseConfig'
+import { baseConfigHelpers } from '../../../.storybook/baseConfig'
 import ListGroup from './examples/ListGroup'
-import ListGroupBadge from './examples/ListGroupBadge'
-import ListGroupDisabledItems from './examples/ListGroupDisabledItems'
 import ListGroupAnchorsAndButtons from './examples/ListGroupAnchorsAndButtons'
+import ListGroupBadge from './examples/ListGroupBadge'
 import ListGroupContextualClasses from './examples/ListGroupContextualClasses'
 import ListGroupCustomContent from './examples/ListGroupCustomContent'
+import ListGroupDisabledItems from './examples/ListGroupDisabledItems'
 import ListGroupFlush from './examples/ListGroupFlush'
 
-const config = {
-  ...baseConfig.options,
-  info: {
-    ...baseConfig.options.info,
-    text: baseConfig.options.info.textRender({ name: 'ListGroup' })
-  }
-}
+const config = baseConfigHelpers.getConfig({ name: 'ListGroup' })
 
 storiesOf('UI|ListGroup', module).add('TODO: ListGroup', ListGroup, config)
 

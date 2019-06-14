@@ -1,18 +1,12 @@
 import { storiesOf } from '@storybook/react'
 import React from 'react'
-import baseConfig from '../../../.storybook/baseConfig'
+import { baseConfigHelpers } from '../../../.storybook/baseConfig'
 import Button from './examples/Button'
+import ButtonCloseIcon from './examples/ButtonCloseIcon'
 import ButtonOutline from './examples/ButtonOutline'
 import ButtonStateful from './examples/ButtonStateful'
-import ButtonCloseIcon from './examples/ButtonCloseIcon'
 
-const config = {
-  ...baseConfig.options,
-  info: {
-    ...baseConfig.options.info,
-    text: baseConfig.options.info.textRender({ name: 'Button' })
-  }
-}
+const config = baseConfigHelpers.getConfig({ name: 'Button' })
 
 storiesOf('UI|Button', module).add('Outline Buttons', Button, config)
 

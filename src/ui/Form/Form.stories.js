@@ -1,24 +1,18 @@
 import { storiesOf } from '@storybook/react'
-import baseConfig from '../../../.storybook/baseConfig'
-import Form from './examples/Form'
+import { baseConfigHelpers } from '../../../.storybook/baseConfig'
 import CustomControls from './examples/CustomControls'
+import Form from './examples/Form'
+import FormFeedback from './examples/FormFeedback'
 import FormGrid from './examples/FormGrid'
 import FormGridFormRow from './examples/FormGridFormRow'
 import FormInline from './examples/FormInline'
-import FormFeedback from './examples/FormFeedback'
-import InputType from './examples/InputType'
 import InlineCheckboxes from './examples/InlineCheckboxes'
-import InputSizing from './examples/InputSizing'
 import InputGridSizing from './examples/InputGridSizing'
+import InputSizing from './examples/InputSizing'
+import InputType from './examples/InputType'
 import LabelHidden from './examples/LabelHidden'
 
-const config = {
-  ...baseConfig.options,
-  info: {
-    ...baseConfig.options.info,
-    text: baseConfig.options.info.textRender({ name: 'Form' })
-  }
-}
+const config = baseConfigHelpers.getConfig({ name: 'Form' })
 
 storiesOf('UI|Form', module).add('Form', Form, config)
 

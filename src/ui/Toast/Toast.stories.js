@@ -1,19 +1,13 @@
 import { storiesOf } from '@storybook/react'
 import React from 'react'
-import baseConfig from '../../../.storybook/baseConfig'
-import Toast from './examples/Toast'
-import ToastHeaderIcon from './examples/ToastHeaderIcon'
-import ToastDismiss from './examples/ToastDismiss'
-import AlertUncontrolledDismiss from './examples/AlertUncontrolledDismiss'
+import { baseConfigHelpers } from '../../../.storybook/baseConfig'
 import AlertFadeless from './examples/AlertFadeless'
+import AlertUncontrolledDismiss from './examples/AlertUncontrolledDismiss'
+import Toast from './examples/Toast'
+import ToastDismiss from './examples/ToastDismiss'
+import ToastHeaderIcon from './examples/ToastHeaderIcon'
 
-const config = {
-  ...baseConfig.options,
-  info: {
-    ...baseConfig.options.info,
-    text: baseConfig.options.info.textRender({ name: 'Toast' })
-  }
-}
+const config = baseConfigHelpers.getConfig({ name: 'Toast' })
 
 storiesOf('UI|Toast', module).add('Toast', Toast, config)
 

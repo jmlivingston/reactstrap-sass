@@ -1,17 +1,11 @@
 import { storiesOf } from '@storybook/react'
-import baseConfig from '../../../.storybook/baseConfig'
+import { baseConfigHelpers } from '../../../.storybook/baseConfig'
 import Pagination from './examples/Pagination'
-import PaginationState from './examples/PaginationState'
 import PaginationSizingLarge from './examples/PaginationSizingLarge'
 import PaginationSizingSmall from './examples/PaginationSizingSmall'
+import PaginationState from './examples/PaginationState'
 
-const config = {
-  ...baseConfig.options,
-  info: {
-    ...baseConfig.options.info,
-    text: baseConfig.options.info.textRender({ name: 'Pagination' })
-  }
-}
+const config = baseConfigHelpers.getConfig({ name: 'Pagination' })
 
 storiesOf('UI|Pagination', module).add('Disabled and active states', Pagination, config)
 

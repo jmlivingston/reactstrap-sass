@@ -1,25 +1,19 @@
 import { storiesOf } from '@storybook/react'
-import baseConfig from '../../../.storybook/baseConfig'
+import { baseConfigHelpers } from '../../../.storybook/baseConfig'
 import Card from './examples/Card'
-import CardDecks from './examples/CardDecks'
+import CardAlignment from './examples/CardAlignment'
+import CardBackgrounds from './examples/CardBackgrounds'
 import CardColumns from './examples/CardColumns'
 import CardContentTypes from './examples/CardContentTypes'
-import CardSizing from './examples/CardSizing'
-import CardAlignment from './examples/CardAlignment'
+import CardDecks from './examples/CardDecks'
+import CardGroups from './examples/CardGroups'
 import CardHeaderFooter from './examples/CardHeaderFooter'
 import CardImageCaps from './examples/CardImageCaps'
 import CardImageOverlay from './examples/CardImageOverlay'
-import CardBackgrounds from './examples/CardBackgrounds'
 import CardOutline from './examples/CardOutline'
-import CardGroups from './examples/CardGroups'
+import CardSizing from './examples/CardSizing'
 
-const config = {
-  ...baseConfig.options,
-  info: {
-    ...baseConfig.options.info,
-    text: baseConfig.options.info.textRender({ name: 'Card' })
-  }
-}
+const config = baseConfigHelpers.getConfig({ name: 'Alert' })
 
 storiesOf('UI|Card', module).add('Content Types', Card, config)
 

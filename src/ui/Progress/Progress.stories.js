@@ -1,20 +1,14 @@
 import { storiesOf } from '@storybook/react'
-import baseConfig from '../../../.storybook/baseConfig'
+import { baseConfigHelpers } from '../../../.storybook/baseConfig'
 import Progress from './examples/Progress'
+import ProgressAnimated from './examples/ProgressAnimated'
 import ProgressColor from './examples/ProgressColor'
 import ProgressLabels from './examples/ProgressLabels'
-import ProgressAnimated from './examples/ProgressAnimated'
-import ProgressStriped from './examples/ProgressStriped'
-import ProgressMulti from './examples/ProgressMulti'
 import ProgressMax from './examples/ProgressMax'
+import ProgressMulti from './examples/ProgressMulti'
+import ProgressStriped from './examples/ProgressStriped'
 
-const config = {
-  ...baseConfig.options,
-  info: {
-    ...baseConfig.options.info,
-    text: baseConfig.options.info.textRender({ name: 'Progress' })
-  }
-}
+const config = baseConfigHelpers.getConfig({ name: 'Progress' })
 
 storiesOf('UI|Progress', module).add('Color Variants', Progress, config)
 

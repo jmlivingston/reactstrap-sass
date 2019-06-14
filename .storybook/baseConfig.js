@@ -4,18 +4,30 @@ const baseConfig = {
   options: {
     options: {
       isToolshown: true,
-      showPanel: true,
+      showPanel: false, // TODO: change back to true
       theme: {
         brandTitle: packageJson.name
       }
     },
     info: {
       disable: process.env.STORYBOOK_DEBUG === 'true',
-      header: false,
+      header: true,
       inline: true,
-      textRender: ({ name }) => `import ${name} from 'reactstrap-sass/cjs/ui/${name}'`
+      headerRender: ({ name }) => name.replace('UI|', ''),
+      textRender: ({ name, description }) =>
+        `<h4>import ${name} from 'reactstrap-sass/cjs/ui/${name}'</h4>${description || ''}`
     }
   }
 }
 
-export default baseConfig
+const baseConfigHelpers = {
+  getConfig: ({ name, description }) => ({
+    ...baseConfig,
+    info: {
+      ...baseConfig.info,
+      text: baseConfig.options.info.textRender({ name, description })
+    }
+  })
+}
+
+export { baseConfig, baseConfigHelpers }

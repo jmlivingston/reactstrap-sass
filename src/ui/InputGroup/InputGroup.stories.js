@@ -1,19 +1,13 @@
 import { storiesOf } from '@storybook/react'
 import React from 'react'
-import baseConfig from '../../../.storybook/baseConfig'
-import InputGroupOverview from './examples/InputGroupOverview'
+import { baseConfigHelpers } from '../../../.storybook/baseConfig'
 import InputGroupAddon from './examples/InputGroupAddon'
-import InputGroupSizing from './examples/InputGroupSizing'
 import InputGroupButton from './examples/InputGroupButton'
 import InputGroupButtonShorthand from './examples/InputGroupButtonShorthand'
+import InputGroupOverview from './examples/InputGroupOverview'
+import InputGroupSizing from './examples/InputGroupSizing'
 
-const config = {
-  ...baseConfig.options,
-  info: {
-    ...baseConfig.options.info,
-    text: baseConfig.options.info.textRender({ name: 'InputGroup' })
-  }
-}
+const config = baseConfigHelpers.getConfig({ name: 'InputGroup' })
 
 storiesOf('UI|InputGroup', module).add('Addons', InputGroupOverview, config)
 
