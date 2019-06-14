@@ -1,3 +1,4 @@
 import ButtonDropdown from 'reactstrap/es/ButtonDropdown'
-import './ButtonDropdown.scss'
+import '../Button/Button.scss'
+import '../Dropdown/Dropdown.scss'
 export default ButtonDropdown

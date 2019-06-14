@@ -1,5 +1,5 @@
 import React, { useState } from 'react'
-import Alert from '../../../src/Alert'
+import Alert from '../../Alert/Alert'
 
 const Example = () => {
   const [isOpen, setIsOpen] = useState(false)

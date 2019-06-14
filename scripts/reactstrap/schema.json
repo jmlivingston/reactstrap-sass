@@ -1,11 +1,6 @@
 {
   "Alert": {
-    "sassPaths": [
-      "_functions",
-      "_mixins",
-      "_variables",
-      "_alert"
-    ],
+    "sassPaths": ["_functions", "_mixins", "_variables", "_alert"],
     "validated": false,
     "pageFileName": "AlertsPage",
     "examples": [
@@ -42,12 +37,7 @@
     ]
   },
   "Badge": {
-    "sassPaths": [
-      "_functions",
-      "_mixins",
-      "_variables",
-      "_badge"
-    ],
+    "sassPaths": ["_functions", "_mixins", "_variables", "_badge"],
     "validated": false,
     "pageFileName": "BadgePage",
     "examples": [
@@ -79,12 +69,7 @@
     ]
   },
   "Breadcrumb": {
-    "sassPaths": [
-      "_functions",
-      "_mixins",
-      "_variables",
-      "_breadcrumb"
-    ],
+    "sassPaths": ["_functions", "_mixins", "_variables", "_breadcrumb"],
     "validated": false,
     "pageFileName": "BreadcrumbsPage",
     "examples": [
@@ -95,27 +80,17 @@
       },
       {
         "fileName": "BreadcrumbNoList",
-        "title": "TODO: BreadcrumbNoList",
+        "title": "BreadcrumbNoList",
         "description": ""
       }
     ]
   },
   "BreadcrumbItem": {
-    "sassPaths": [
-      "_functions",
-      "_mixins",
-      "_variables",
-      "_breadcrumbitem"
-    ],
+    "sassPaths": ["_functions", "_mixins", "_variables", "_breadcrumbitem"],
     "validated": false
   },
   "Button": {
-    "sassPaths": [
-      "_functions",
-      "_mixins",
-      "_variables",
-      "_button"
-    ],
+    "sassPaths": ["_functions", "_mixins", "_variables", "_button"],
     "validated": false,
     "pageFileName": "ButtonsPage",
     "examples": [
@@ -142,12 +117,7 @@
     ]
   },
   "ButtonDropdown": {
-    "sassPaths": [
-      "_functions",
-      "_mixins",
-      "_variables",
-      "_buttondropdown"
-    ],
+    "sassPaths": ["_functions", "_mixins", "_variables", "_buttondropdown"],
     "validated": false,
     "pageFileName": "ButtonDropdownPage",
     "examples": [
@@ -174,12 +144,7 @@
     ]
   },
   "ButtonGroup": {
-    "sassPaths": [
-      "_functions",
-      "_mixins",
-      "_variables",
-      "_buttongroup"
-    ],
+    "sassPaths": ["_functions", "_mixins", "_variables", "_buttongroup"],
     "validated": false,
     "pageFileName": "ButtonGroupPage",
     "examples": [
@@ -196,21 +161,11 @@
     ]
   },
   "ButtonToolbar": {
-    "sassPaths": [
-      "_functions",
-      "_mixins",
-      "_variables",
-      "_buttontoolbar"
-    ],
+    "sassPaths": ["_functions", "_mixins", "_variables", "_buttontoolbar"],
     "validated": false
   },
   "Card": {
-    "sassPaths": [
-      "_functions",
-      "_mixins",
-      "_variables",
-      "_card"
-    ],
+    "sassPaths": ["_functions", "_mixins", "_variables", "_card"],
     "validated": false,
     "pageFileName": "CardPage",
     "examples": [
@@ -277,120 +232,55 @@
     ]
   },
   "CardBody": {
-    "sassPaths": [
-      "_functions",
-      "_mixins",
-      "_variables",
-      "_cardbody"
-    ],
+    "sassPaths": ["_functions", "_mixins", "_variables", "_cardbody"],
     "validated": false
   },
   "CardColumns": {
-    "sassPaths": [
-      "_functions",
-      "_mixins",
-      "_variables",
-      "_cardcolumns"
-    ],
+    "sassPaths": ["_functions", "_mixins", "_variables", "_cardcolumns"],
     "validated": false
   },
   "CardDeck": {
-    "sassPaths": [
-      "_functions",
-      "_mixins",
-      "_variables",
-      "_carddeck"
-    ],
+    "sassPaths": ["_functions", "_mixins", "_variables", "_carddeck"],
     "validated": false
   },
   "CardFooter": {
-    "sassPaths": [
-      "_functions",
-      "_mixins",
-      "_variables",
-      "_cardfooter"
-    ],
+    "sassPaths": ["_functions", "_mixins", "_variables", "_cardfooter"],
     "validated": false
   },
   "CardGroup": {
-    "sassPaths": [
-      "_functions",
-      "_mixins",
-      "_variables",
-      "_cardgroup"
-    ],
+    "sassPaths": ["_functions", "_mixins", "_variables", "_cardgroup"],
     "validated": false
   },
   "CardHeader": {
-    "sassPaths": [
-      "_functions",
-      "_mixins",
-      "_variables",
-      "_cardheader"
-    ],
+    "sassPaths": ["_functions", "_mixins", "_variables", "_cardheader"],
     "validated": false
   },
   "CardImg": {
-    "sassPaths": [
-      "_functions",
-      "_mixins",
-      "_variables",
-      "_cardimg"
-    ],
+    "sassPaths": ["_functions", "_mixins", "_variables", "_cardimg"],
     "validated": false
   },
   "CardImgOverlay": {
-    "sassPaths": [
-      "_functions",
-      "_mixins",
-      "_variables",
-      "_cardimgoverlay"
-    ],
+    "sassPaths": ["_functions", "_mixins", "_variables", "_cardimgoverlay"],
     "validated": false
   },
   "CardLink": {
-    "sassPaths": [
-      "_functions",
-      "_mixins",
-      "_variables",
-      "_cardlink"
-    ],
+    "sassPaths": ["_functions", "_mixins", "_variables", "_cardlink"],
     "validated": false
   },
   "CardSubtitle": {
-    "sassPaths": [
-      "_functions",
-      "_mixins",
-      "_variables",
-      "_cardsubtitle"
-    ],
+    "sassPaths": ["_functions", "_mixins", "_variables", "_cardsubtitle"],
     "validated": false
   },
   "CardText": {
-    "sassPaths": [
-      "_functions",
-      "_mixins",
-      "_variables",
-      "_cardtext"
-    ],
+    "sassPaths": ["_functions", "_mixins", "_variables", "_cardtext"],
     "validated": false
   },
   "CardTitle": {
-    "sassPaths": [
-      "_functions",
-      "_mixins",
-      "_variables",
-      "_cardtitle"
-    ],
+    "sassPaths": ["_functions", "_mixins", "_variables", "_cardtitle"],
     "validated": false
   },
   "Carousel": {
-    "sassPaths": [
-      "_functions",
-      "_mixins",
-      "_variables",
-      "_carousel"
-    ],
+    "sassPaths": ["_functions", "_mixins", "_variables", "_carousel"],
     "validated": false,
     "pageFileName": "CarouselPage",
     "examples": [
@@ -412,57 +302,27 @@
     ]
   },
   "CarouselCaption": {
-    "sassPaths": [
-      "_functions",
-      "_mixins",
-      "_variables",
-      "_carouselcaption"
-    ],
+    "sassPaths": ["_functions", "_mixins", "_variables", "_carouselcaption"],
     "validated": false
   },
   "CarouselControl": {
-    "sassPaths": [
-      "_functions",
-      "_mixins",
-      "_variables",
-      "_carouselcontrol"
-    ],
+    "sassPaths": ["_functions", "_mixins", "_variables", "_carouselcontrol"],
     "validated": false
   },
   "CarouselIndicators": {
-    "sassPaths": [
-      "_functions",
-      "_mixins",
-      "_variables",
-      "_carouselindicators"
-    ],
+    "sassPaths": ["_functions", "_mixins", "_variables", "_carouselindicators"],
     "validated": false
   },
   "CarouselItem": {
-    "sassPaths": [
-      "_functions",
-      "_mixins",
-      "_variables",
-      "_carouselitem"
-    ],
+    "sassPaths": ["_functions", "_mixins", "_variables", "_carouselitem"],
     "validated": false
   },
   "Col": {
-    "sassPaths": [
-      "_functions",
-      "_mixins",
-      "_variables",
-      "_col"
-    ],
+    "sassPaths": ["_functions", "_mixins", "_variables", "_col"],
     "validated": false
   },
   "Collapse": {
-    "sassPaths": [
-      "_functions",
-      "_mixins",
-      "_variables",
-      "_collapse"
-    ],
+    "sassPaths": ["_functions", "_mixins", "_variables", "_collapse"],
     "validated": false,
     "pageFileName": "CollapsePage",
     "examples": [
@@ -484,30 +344,15 @@
     ]
   },
   "Container": {
-    "sassPaths": [
-      "_functions",
-      "_mixins",
-      "_variables",
-      "_container"
-    ],
+    "sassPaths": ["_functions", "_mixins", "_variables", "_container"],
     "validated": false
   },
   "CustomInput": {
-    "sassPaths": [
-      "_functions",
-      "_mixins",
-      "_variables",
-      "_custominput"
-    ],
+    "sassPaths": ["_functions", "_mixins", "_variables", "_custominput"],
     "validated": false
   },
   "Dropdown": {
-    "sassPaths": [
-      "_functions",
-      "_mixins",
-      "_variables",
-      "_dropdown"
-    ],
+    "sassPaths": ["_functions", "_mixins", "_variables", "_dropdown"],
     "validated": false,
     "pageFileName": "DropdownsPage",
     "examples": [
@@ -539,48 +384,23 @@
     ]
   },
   "DropdownContext": {
-    "sassPaths": [
-      "_functions",
-      "_mixins",
-      "_variables",
-      "_dropdowncontext"
-    ],
+    "sassPaths": ["_functions", "_mixins", "_variables", "_dropdowncontext"],
     "validated": false
   },
   "DropdownItem": {
-    "sassPaths": [
-      "_functions",
-      "_mixins",
-      "_variables",
-      "_dropdownitem"
-    ],
+    "sassPaths": ["_functions", "_mixins", "_variables", "_dropdownitem"],
     "validated": false
   },
   "DropdownMenu": {
-    "sassPaths": [
-      "_functions",
-      "_mixins",
-      "_variables",
-      "_dropdownmenu"
-    ],
+    "sassPaths": ["_functions", "_mixins", "_variables", "_dropdownmenu"],
     "validated": false
   },
   "DropdownToggle": {
-    "sassPaths": [
-      "_functions",
-      "_mixins",
-      "_variables",
-      "_dropdowntoggle"
-    ],
+    "sassPaths": ["_functions", "_mixins", "_variables", "_dropdowntoggle"],
     "validated": false
   },
   "Fade": {
-    "sassPaths": [
-      "_functions",
-      "_mixins",
-      "_variables",
-      "_fade"
-    ],
+    "sassPaths": ["_functions", "_mixins", "_variables", "_fade"],
     "validated": false,
     "pageFileName": "FadePage",
     "examples": [
@@ -592,12 +412,7 @@
     ]
   },
   "Form": {
-    "sassPaths": [
-      "_functions",
-      "_mixins",
-      "_variables",
-      "_form"
-    ],
+    "sassPaths": ["_functions", "_mixins", "_variables", "_form"],
     "validated": false,
     "pageFileName": "FormPage",
     "examples": [
@@ -659,48 +474,23 @@
     ]
   },
   "FormFeedback": {
-    "sassPaths": [
-      "_functions",
-      "_mixins",
-      "_variables",
-      "_formfeedback"
-    ],
+    "sassPaths": ["_functions", "_mixins", "_variables", "_formfeedback"],
     "validated": false
   },
   "FormGroup": {
-    "sassPaths": [
-      "_functions",
-      "_mixins",
-      "_variables",
-      "_formgroup"
-    ],
+    "sassPaths": ["_functions", "_mixins", "_variables", "_formgroup"],
     "validated": false
   },
   "FormText": {
-    "sassPaths": [
-      "_functions",
-      "_mixins",
-      "_variables",
-      "_formtext"
-    ],
+    "sassPaths": ["_functions", "_mixins", "_variables", "_formtext"],
     "validated": false
   },
   "Input": {
-    "sassPaths": [
-      "_functions",
-      "_mixins",
-      "_variables",
-      "_input"
-    ],
+    "sassPaths": ["_functions", "_mixins", "_variables", "_input"],
     "validated": false
   },
   "InputGroup": {
-    "sassPaths": [
-      "_functions",
-      "_mixins",
-      "_variables",
-      "_inputgroup"
-    ],
+    "sassPaths": ["_functions", "_mixins", "_variables", "_inputgroup"],
     "validated": false,
     "pageFileName": "InputGroupPage",
     "examples": [
@@ -732,39 +522,19 @@
     ]
   },
   "InputGroupAddon": {
-    "sassPaths": [
-      "_functions",
-      "_mixins",
-      "_variables",
-      "_inputgroupaddon"
-    ],
+    "sassPaths": ["_functions", "_mixins", "_variables", "_inputgroupaddon"],
     "validated": false
   },
   "InputGroupButtonDropdown": {
-    "sassPaths": [
-      "_functions",
-      "_mixins",
-      "_variables",
-      "_inputgroupbuttondropdown"
-    ],
+    "sassPaths": ["_functions", "_mixins", "_variables", "_inputgroupbuttondropdown"],
     "validated": false
   },
   "InputGroupText": {
-    "sassPaths": [
-      "_functions",
-      "_mixins",
-      "_variables",
-      "_inputgrouptext"
-    ],
+    "sassPaths": ["_functions", "_mixins", "_variables", "_inputgrouptext"],
     "validated": false
   },
   "Jumbotron": {
-    "sassPaths": [
-      "_functions",
-      "_mixins",
-      "_variables",
-      "_jumbotron"
-    ],
+    "sassPaths": ["_functions", "_mixins", "_variables", "_jumbotron"],
     "validated": false,
     "pageFileName": "JumbotronPage",
     "examples": [
@@ -781,21 +551,11 @@
     ]
   },
   "Label": {
-    "sassPaths": [
-      "_functions",
-      "_mixins",
-      "_variables",
-      "_label"
-    ],
+    "sassPaths": ["_functions", "_mixins", "_variables", "_label"],
     "validated": false
   },
   "ListGroup": {
-    "sassPaths": [
-      "_functions",
-      "_mixins",
-      "_variables",
-      "_listgroup"
-    ],
+    "sassPaths": ["_functions", "_mixins", "_variables", "_listgroup"],
     "validated": false,
     "pageFileName": "ListGroupPage",
     "examples": [
@@ -837,39 +597,19 @@
     ]
   },
   "ListGroupItem": {
-    "sassPaths": [
-      "_functions",
-      "_mixins",
-      "_variables",
-      "_listgroupitem"
-    ],
+    "sassPaths": ["_functions", "_mixins", "_variables", "_listgroupitem"],
     "validated": false
   },
   "ListGroupItemHeading": {
-    "sassPaths": [
-      "_functions",
-      "_mixins",
-      "_variables",
-      "_listgroupitemheading"
-    ],
+    "sassPaths": ["_functions", "_mixins", "_variables", "_listgroupitemheading"],
     "validated": false
   },
   "ListGroupItemText": {
-    "sassPaths": [
-      "_functions",
-      "_mixins",
-      "_variables",
-      "_listgroupitemtext"
-    ],
+    "sassPaths": ["_functions", "_mixins", "_variables", "_listgroupitemtext"],
     "validated": false
   },
   "Media": {
-    "sassPaths": [
-      "_functions",
-      "_mixins",
-      "_variables",
-      "_media"
-    ],
+    "sassPaths": ["_functions", "_mixins", "_variables", "_media"],
     "validated": false,
     "pageFileName": "MediaPage",
     "examples": [
@@ -896,12 +636,7 @@
     ]
   },
   "Modal": {
-    "sassPaths": [
-      "_functions",
-      "_mixins",
-      "_variables",
-      "_modal"
-    ],
+    "sassPaths": ["_functions", "_mixins", "_variables", "_modal"],
     "validated": false,
     "pageFileName": "ModalsPage",
     "examples": [
@@ -958,39 +693,19 @@
     ]
   },
   "ModalBody": {
-    "sassPaths": [
-      "_functions",
-      "_mixins",
-      "_variables",
-      "_modalbody"
-    ],
+    "sassPaths": ["_functions", "_mixins", "_variables", "_modalbody"],
     "validated": false
   },
   "ModalFooter": {
-    "sassPaths": [
-      "_functions",
-      "_mixins",
-      "_variables",
-      "_modalfooter"
-    ],
+    "sassPaths": ["_functions", "_mixins", "_variables", "_modalfooter"],
     "validated": false
   },
   "ModalHeader": {
-    "sassPaths": [
-      "_functions",
-      "_mixins",
-      "_variables",
-      "_modalheader"
-    ],
+    "sassPaths": ["_functions", "_mixins", "_variables", "_modalheader"],
     "validated": false
   },
   "Nav": {
-    "sassPaths": [
-      "_functions",
-      "_mixins",
-      "_variables",
-      "_nav"
-    ],
+    "sassPaths": ["_functions", "_mixins", "_variables", "_nav"],
     "validated": false,
     "pageFileName": "NavsPage",
     "examples": [
@@ -1017,30 +732,15 @@
     ]
   },
   "NavItem": {
-    "sassPaths": [
-      "_functions",
-      "_mixins",
-      "_variables",
-      "_navitem"
-    ],
+    "sassPaths": ["_functions", "_mixins", "_variables", "_navitem"],
     "validated": false
   },
   "NavLink": {
-    "sassPaths": [
-      "_functions",
-      "_mixins",
-      "_variables",
-      "_navlink"
-    ],
+    "sassPaths": ["_functions", "_mixins", "_variables", "_navlink"],
     "validated": false
   },
   "Navbar": {
-    "sassPaths": [
-      "_functions",
-      "_mixins",
-      "_variables",
-      "_navbar"
-    ],
+    "sassPaths": ["_functions", "_mixins", "_variables", "_navbar"],
     "validated": false,
     "pageFileName": "NavbarPage",
     "examples": [
@@ -1057,30 +757,15 @@
     ]
   },
   "NavbarBrand": {
-    "sassPaths": [
-      "_functions",
-      "_mixins",
-      "_variables",
-      "_navbarbrand"
-    ],
+    "sassPaths": ["_functions", "_mixins", "_variables", "_navbarbrand"],
     "validated": false
   },
   "NavbarToggler": {
-    "sassPaths": [
-      "_functions",
-      "_mixins",
-      "_variables",
-      "_navbartoggler"
-    ],
+    "sassPaths": ["_functions", "_mixins", "_variables", "_navbartoggler"],
     "validated": false
   },
   "Pagination": {
-    "sassPaths": [
-      "_functions",
-      "_mixins",
-      "_variables",
-      "_pagination"
-    ],
+    "sassPaths": ["_functions", "_mixins", "_variables", "_pagination"],
     "validated": false,
     "pageFileName": "PaginationPage",
     "examples": [
@@ -1107,30 +792,15 @@
     ]
   },
   "PaginationItem": {
-    "sassPaths": [
-      "_functions",
-      "_mixins",
-      "_variables",
-      "_paginationitem"
-    ],
+    "sassPaths": ["_functions", "_mixins", "_variables", "_paginationitem"],
     "validated": false
   },
   "PaginationLink": {
-    "sassPaths": [
-      "_functions",
-      "_mixins",
-      "_variables",
-      "_paginationlink"
-    ],
+    "sassPaths": ["_functions", "_mixins", "_variables", "_paginationlink"],
     "validated": false
   },
   "Popover": {
-    "sassPaths": [
-      "_functions",
-      "_mixins",
-      "_variables",
-      "_popover"
-    ],
+    "sassPaths": ["_functions", "_mixins", "_variables", "_popover"],
     "validated": false,
     "pageFileName": "PopoversPage",
     "examples": [
@@ -1157,57 +827,27 @@
     ]
   },
   "PopoverBody": {
-    "sassPaths": [
-      "_functions",
-      "_mixins",
-      "_variables",
-      "_popoverbody"
-    ],
+    "sassPaths": ["_functions", "_mixins", "_variables", "_popoverbody"],
     "validated": false
   },
   "PopoverHeader": {
-    "sassPaths": [
-      "_functions",
-      "_mixins",
-      "_variables",
-      "_popoverheader"
-    ],
+    "sassPaths": ["_functions", "_mixins", "_variables", "_popoverheader"],
     "validated": false
   },
   "PopperContent": {
-    "sassPaths": [
-      "_functions",
-      "_mixins",
-      "_variables",
-      "_poppercontent"
-    ],
+    "sassPaths": ["_functions", "_mixins", "_variables", "_poppercontent"],
     "validated": false
   },
   "PopperTargetHelper": {
-    "sassPaths": [
-      "_functions",
-      "_mixins",
-      "_variables",
-      "_poppertargethelper"
-    ],
+    "sassPaths": ["_functions", "_mixins", "_variables", "_poppertargethelper"],
     "validated": false
   },
   "Portal": {
-    "sassPaths": [
-      "_functions",
-      "_mixins",
-      "_variables",
-      "_portal"
-    ],
+    "sassPaths": ["_functions", "_mixins", "_variables", "_portal"],
     "validated": false
   },
   "Progress": {
-    "sassPaths": [
-      "_functions",
-      "_mixins",
-      "_variables",
-      "_progress"
-    ],
+    "sassPaths": ["_functions", "_mixins", "_variables", "_progress"],
     "validated": false,
     "pageFileName": "ProgressPage",
     "examples": [
@@ -1249,21 +889,11 @@
     ]
   },
   "Row": {
-    "sassPaths": [
-      "_functions",
-      "_mixins",
-      "_variables",
-      "_row"
-    ],
+    "sassPaths": ["_functions", "_mixins", "_variables", "_row"],
     "validated": false
   },
   "Spinner": {
-    "sassPaths": [
-      "_functions",
-      "_mixins",
-      "_variables",
-      "_spinner"
-    ],
+    "sassPaths": ["_functions", "_mixins", "_variables", "_spinner"],
     "validated": false,
     "pageFileName": "SpinnersPage",
     "examples": [
@@ -1280,39 +910,19 @@
     ]
   },
   "TabContent": {
-    "sassPaths": [
-      "_functions",
-      "_mixins",
-      "_variables",
-      "_tabcontent"
-    ],
+    "sassPaths": ["_functions", "_mixins", "_variables", "_tabcontent"],
     "validated": false
   },
   "TabContext": {
-    "sassPaths": [
-      "_functions",
-      "_mixins",
-      "_variables",
-      "_tabcontext"
-    ],
+    "sassPaths": ["_functions", "_mixins", "_variables", "_tabcontext"],
     "validated": false
   },
   "TabPane": {
-    "sassPaths": [
-      "_functions",
-      "_mixins",
-      "_variables",
-      "_tabpane"
-    ],
+    "sassPaths": ["_functions", "_mixins", "_variables", "_tabpane"],
     "validated": false
   },
   "Table": {
-    "sassPaths": [
-      "_functions",
-      "_mixins",
-      "_variables",
-      "_table"
-    ],
+    "sassPaths": ["_functions", "_mixins", "_variables", "_table"],
     "validated": false,
     "pageFileName": "TablesPage",
     "examples": [
@@ -1359,12 +969,7 @@
     ]
   },
   "Toast": {
-    "sassPaths": [
-      "_functions",
-      "_mixins",
-      "_variables",
-      "_toast"
-    ],
+    "sassPaths": ["_functions", "_mixins", "_variables", "_toast"],
     "validated": false,
     "pageFileName": "ToastsPage",
     "examples": [
@@ -1396,30 +1001,15 @@
     ]
   },
   "ToastBody": {
-    "sassPaths": [
-      "_functions",
-      "_mixins",
-      "_variables",
-      "_toastbody"
-    ],
+    "sassPaths": ["_functions", "_mixins", "_variables", "_toastbody"],
     "validated": false
   },
   "ToastHeader": {
-    "sassPaths": [
-      "_functions",
-      "_mixins",
-      "_variables",
-      "_toastheader"
-    ],
+    "sassPaths": ["_functions", "_mixins", "_variables", "_toastheader"],
     "validated": false
   },
   "Tooltip": {
-    "sassPaths": [
-      "_functions",
-      "_mixins",
-      "_variables",
-      "_tooltip"
-    ],
+    "sassPaths": ["_functions", "_mixins", "_variables", "_tooltip"],
     "validated": false,
     "pageFileName": "TooltipsPage",
     "examples": [
@@ -1446,75 +1036,35 @@
     ]
   },
   "TooltipPopoverWrapper": {
-    "sassPaths": [
-      "_functions",
-      "_mixins",
-      "_variables",
-      "_tooltippopoverwrapper"
-    ],
+    "sassPaths": ["_functions", "_mixins", "_variables", "_tooltippopoverwrapper"],
     "validated": false
   },
   "UncontrolledAlert": {
-    "sassPaths": [
-      "_functions",
-      "_mixins",
-      "_variables",
-      "_uncontrolledalert"
-    ],
+    "sassPaths": ["_functions", "_mixins", "_variables", "_uncontrolledalert"],
     "validated": false
   },
   "UncontrolledButtonDropdown": {
-    "sassPaths": [
-      "_functions",
-      "_mixins",
-      "_variables",
-      "_uncontrolledbuttondropdown"
-    ],
+    "sassPaths": ["_functions", "_mixins", "_variables", "_uncontrolledbuttondropdown"],
     "validated": false
   },
   "UncontrolledCarousel": {
-    "sassPaths": [
-      "_functions",
-      "_mixins",
-      "_variables",
-      "_uncontrolledcarousel"
-    ],
+    "sassPaths": ["_functions", "_mixins", "_variables", "_uncontrolledcarousel"],
     "validated": false
   },
   "UncontrolledCollapse": {
-    "sassPaths": [
-      "_functions",
-      "_mixins",
-      "_variables",
-      "_uncontrolledcollapse"
-    ],
+    "sassPaths": ["_functions", "_mixins", "_variables", "_uncontrolledcollapse"],
     "validated": false
   },
   "UncontrolledDropdown": {
-    "sassPaths": [
-      "_functions",
-      "_mixins",
-      "_variables",
-      "_uncontrolleddropdown"
-    ],
+    "sassPaths": ["_functions", "_mixins", "_variables", "_uncontrolleddropdown"],
     "validated": false
   },
   "UncontrolledPopover": {
-    "sassPaths": [
-      "_functions",
-      "_mixins",
-      "_variables",
-      "_uncontrolledpopover"
-    ],
+    "sassPaths": ["_functions", "_mixins", "_variables", "_uncontrolledpopover"],
     "validated": false
   },
   "UncontrolledTooltip": {
-    "sassPaths": [
-      "_functions",
-      "_mixins",
-      "_variables",
-      "_uncontrolledtooltip"
-    ],
+    "sassPaths": ["_functions", "_mixins", "_variables", "_uncontrolledtooltip"],
     "validated": false
   }
 }

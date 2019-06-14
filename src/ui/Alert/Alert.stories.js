@@ -9,7 +9,7 @@ import Example4AlertUncontrolledDismiss from './examples/Example4AlertUncontroll
 import Example5AlertFadeless from './examples/Example5AlertFadeless'
 import Example6AlertUncontrolledFadeless from './examples/Example6AlertUncontrolledFadeless'
 
-const alertConfig = {
+const config = {
   ...baseConfig.options,
   info: {
     ...baseConfig.options.info,
@@ -17,24 +17,18 @@ const alertConfig = {
   }
 }
 
-storiesOf('Alert', module).add('Alert', Example0Alert, alertConfig)
+storiesOf('UI|Alert', module).add('Alert', Example0Alert, config)
 
-storiesOf('Alert', module).add('Link color', Example1AlertLink, alertConfig)
+storiesOf('UI|Alert', module).add('Link color', Example1AlertLink, config)
 
-storiesOf('Alert', module).add('Additional content', Example2AlertContent, alertConfig)
-
-// TODO: info broken due to hooks error
-storiesOf('Alert', module).add('Dismissing', () => <Example3AlertDismiss />, alertConfig)
-
-storiesOf('Alert', module).add('Uncontrolled [disable] Alerts', Example4AlertUncontrolledDismiss, alertConfig)
+storiesOf('UI|Alert', module).add('Additional content', Example2AlertContent, config)
 
 // TODO: info broken due to hooks error
-storiesOf('Alert', module).add('Alerts without fade', () => <Example5AlertFadeless />, alertConfig)
+storiesOf('UI|Alert', module).add('Dismissing', () => <Example3AlertDismiss />, config)
 
-storiesOf('Alert', module).add('Alerts without fade (uncontrolled)', Example6AlertUncontrolledFadeless, {
-  ...baseConfig.options,
-  info: {
-    ...baseConfig.options.info,
-    text: baseConfig.options.info.textRender({ name: 'UncontrolledAlert' })
-  }
-})
+storiesOf('UI|Alert', module).add('Uncontrolled [disable] Alerts', Example4AlertUncontrolledDismiss, config)
+
+// TODO: info broken due to hooks error
+storiesOf('UI|Alert', module).add('Alerts without fade', () => <Example5AlertFadeless />, config)
+
+storiesOf('UI|Alert', module).add('Alerts without fade (uncontrolled)', Example6AlertUncontrolledFadeless, config)
